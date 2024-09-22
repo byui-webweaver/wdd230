@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:grid; 
+    padding: 20px;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    font-family: 'Montserrat',sans-serif;  
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #55828B;
+    grid-column: 1 / 4;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px; 
+    padding: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: 'Gowun Batang', serif; 
+    color: white;
+    margin-top: 10px;
+    font-size: 3rem; 
+
+}
+
+nav {
+    background: #87BBA2; 
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+nav ul {
+    list-style: none; 
+    justify-content: center; 
+}
+
+nav li {
+    padding: 5px;
+    margin: 0 15px; 
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    text-decoration: underline; 
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 800px;
+    margin: 0 auto; /*center the main element*/
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 8px; 
+    grid-column: 1 / 4;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card {
+    background-color: #f9f9f9; 
+    margin-bottom: 15px;
+    margin-top: 15px; 
+    border-radius: 5px; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
+    padding: 20px;
+}
+main ul {
+    list-style: none;
+    padding: 20px;
+    text-align: left;
+
+}
+main a {
+    text-decoration: none;
+    padding: 10px;
+}
+main li {
+    padding: 2px;
+}
+main p {
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    color: #55828B;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    text-align: center; 
+}
+
+h3 {
+    background-color: #55828B;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center; 
+    margin-top: 20px;
+    padding: 15px 0;
+    background: #55828B; 
+    color: white;
+    grid-column: 1 / 4;
+}
+
+footer p {
+    margin-bottom: 5px; /* Space between footer lines */
+}
