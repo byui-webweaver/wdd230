@@ -1,0 +1,14 @@
+/*Media query for viewport width of 500px or larger */
+@media screen and (min-width: 500px) {
+    header {
+        background-color: black; /*change header to black */
+        color: white; /*change text color to white*/
+    }
+    main {
+        display: grid; /*use grid for css layout*/
+        grid-template-columns: 1fr 1fr; /*Two columns*/
+        grid-column: 1 / 2;
+        
+    }
+    
+    }
