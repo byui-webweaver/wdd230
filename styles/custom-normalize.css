@@ -1,0 +1,41 @@
+/*! custom-normalize.css */
+/* Body styles */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; /* Default font family */
+    background-color: #f9f9f9; /* Light background color for good contrast*/
+    color: #333; /* Darker text for contrast */
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+    font-family: 'Gowun Batang', serif; /* Font family for headings */
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Main section styling */
+main {
+    padding: 20px; /* Add some padding around the main content */
+    max-width: 800px; /* Max width for better readability */
+    margin: auto; /* Center the main content */
+}
+
+/* Footer styling */
+footer {
+    text-align: center; 
+    background-color: #efefef; /* Light footer background */
+}
+
+
