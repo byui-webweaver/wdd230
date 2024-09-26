@@ -5,9 +5,9 @@
     /* Navigation Styles */
     nav ul {
         display: flex; /* Use Flexbox for navigation */
-        flex-direction: row; /* Arrange in a row for larger views */
+        flex-direction: row; /* Arrange in a row */
         justify-content: center; /* Center navigation items */
-        padding: 0; 
+        padding: 0; /*override padding*/
     }
 
     nav li {
@@ -21,13 +21,12 @@
         gap: 20px; /* Space between columns */
     }
 
-    /* Ensure the card sections reflect the two-column layout */
     .card {
-        padding: 20px; /* Ensure there is padding inside the cards */
+        padding: 20px; /* Ensure there is padding inside the cards for 2 columns*/
     }
-
-    /* Customize h2 to span the entire width */
+ 
     h2 {
         grid-column: 1 / 3; /* Span across both columns */
     }
+
 }
