@@ -13,22 +13,30 @@ body {
     font-family: 'Montserrat',sans-serif;  
 }
 
+/*Default styles for smaller screens */
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    display: flex; /*use flexbox for layout*/
+    flex-direction: column; /*stacks vertically*/
+    align-items: center; /*centers horizontally*/
+    text-align: center; /*center the text*/
+    margin-bottom: 20px; /*space below header*/
+    grid-column: 1 / 4; /*span across all columns */
     background-color: #55828B;
-    grid-column: 1 / 4;
-    padding: 20px 0;
-    color: white;
-    text-align: center;
+    padding: 20px 0; /*for spacing */
+    color: white; /*text color */
 }
 
 header img {
-    max-width: 150px; 
-    padding: 20px;
-    margin-right: 20px;
+    max-width: 150px; /* makes image responsive */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-family: 'Gowan Batang', serif;
+    color: white;
+    margin-top: 10px;
+    font-size: 3rem;
 }
 
 h1 {
