@@ -66,6 +66,11 @@ nav li {
     margin: 0 15px; 
 }
 
+nav ul li span {
+    margin: 0 5px;  /* Adjusts space between links */
+}
+
+
 nav a {
     color: black; 
     text-decoration: none; 
@@ -96,16 +101,29 @@ main {
     box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
     padding: 20px;
 }
+
 main ul {
     list-style: none;
-    padding: 20px;
+    padding-top: 10px;
     text-align: left;
 
 }
+
+main ul li {
+    padding: 5px 0; /*vertical spacing between items*/
+}
+
+main ul li span {
+    margin: 0 3px; /*adjust space between separator*/
+}
+
 main a {
     text-decoration: none;
-    padding: 10px;
+    padding: 0px;
+    margin-right: 5px;
+
 }
+
 main li {
     padding: 2px;
 }
