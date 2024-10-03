@@ -1,0 +1,25 @@
+/* Media Query for mobile version */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        display: none; /* hide menu by default on mobile */
+        align-items: center;
+        background-color: #87BBA2;
+        position: absolute;
+        width: 100%; /* Full width for mobile */
+        top: 60px; /*position below nav bar* */
+    }
+
+    .navigation {
+        background-color: #55828B;
+    }
+
+    nav ul.show {
+        display: flex; /* Shows the menu when toggled */
+    }
+
+    #hamburger {
+        display: block; /*Show the hamburger button on mobile */
+
+    }
+}
