@@ -22,4 +22,8 @@
         display: block; /*Show the hamburger button on mobile */
 
     }
+
+    nav.active {
+        display: flex;
+    }
 }

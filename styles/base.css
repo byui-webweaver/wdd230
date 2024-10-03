@@ -115,9 +115,9 @@ nav a:hover {
     background-color: ;
 }
 
-#hamburger::before {
+/*#hamburger::before {
     content: "≡";
-}
+}*/
 
 #hamburger.open::before {
     content: "❎";

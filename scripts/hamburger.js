@@ -2,6 +2,7 @@ const hamButton = document.querySelector('#hamburger');
 const navigationMenu = document.querySelector('.navigation ul'); //Select the 'ul' directly
 
 hamButton.addEventListener('click', () => {
-    navigation.classList.toggle('open'); //shows the menu list
-    hamButton.classList.toggle('open');
+    navigationMenu.classList.toggle('active'); 
+    hamButton.textContent = navigationMenu.classList.contains('active') ? 'X' : '☰'; // Change icon between 'X' and '☰'
+
 });
