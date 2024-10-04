@@ -148,6 +148,11 @@ main p {
     padding: 10px;
 }
 
+.pseudo::before {
+    content: "🌡️";
+    margin-right: 5px;
+}
+
 h2 {
     color: #55828B;
     margin-bottom: 10px;
@@ -163,6 +168,20 @@ h3 {
     padding: 20px;
     text-align: center;
 }
+
+.map-container {
+    width: 100%; /* Full width */
+    margin: 20px 0; /* Some space above and below the map */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.map-container iframe {
+    width: 100%; /* Make the iframe width 100% of its container */
+    height: 450px; /* Set a specific height */
+    border: 0; /* Remove border */
+}
+
 
 footer {
     text-align: center; 
