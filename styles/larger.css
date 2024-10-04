@@ -1,18 +1,36 @@
 /* larger.css */
 
 /* Media query to apply styles for larger screens */
-@media (min-width: 601px) {
+@media (min-width: 900px) {
     /* Navigation Styles */
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        
+    }
     nav ul {
         display: flex; /* Use Flexbox for navigation */
         flex-direction: row; /* Arrange in a row */
         justify-content: center; /* Center navigation items */
+        align-items: center;
         padding: 0; /*override padding*/
+        margin: 0;
+    }
+    .navigation {
+        justify-content: center;
+        align-items: center;
     }
 
     nav li {
         margin: 0 15px; /* Horizontal space between items */
     }
+
+    #hamburger {
+        display: none; /* Hide hamburger on larger screens */
+    }
+   
 
     /* Header Styles */
     header {
@@ -25,8 +43,7 @@
         padding: 20px;
         color: white;
         grid-column: 1 / 4;
-        margin-bottom: 20px;
-    
+        margin-bottom: 20px;  
       
     }
     
@@ -40,7 +57,6 @@
         font-family: 'Gowun Batang', serif;
         color: white;
         margin: 0; /* get rid of default margin */
-       
         font-size: 3rem; 
     }
 
@@ -49,6 +65,7 @@
         display: grid; /* Use grid layout for main content */
         grid-template-columns: 1fr 1fr; /* Two equal columns */
         gap: 20px; /* Space between columns */
+        justify-items: center;
     }
 
     .card {

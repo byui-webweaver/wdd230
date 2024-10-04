@@ -1,8 +1,12 @@
-const hamButton = document.querySelector('#hamburger');
-const navigationMenu = document.querySelector('.navigation ul'); //Select the 'ul' directly
+// scripts/hamburger.js
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.querySelector('nav ul'); // Select the <ul> element of the nav
 
-hamButton.addEventListener('click', () => {
-    navigationMenu.classList.toggle('active'); 
-    hamButton.textContent = navigationMenu.classList.contains('active') ? 'X' : '☰'; // Change icon between 'X' and '☰'
-
+    hamburger.addEventListener('click', function () {
+        nav.classList.toggle('show'); // Toggle the display of the navigation
+        const isExpanded = nav.classList.contains('show');
+        hamburger.setAttribute('aria-expanded', isExpanded); // Update aria-expanded attribute
+        hamburger.classList.toggle('open'); // Toggle the open class for changing icon
+    });
 });
