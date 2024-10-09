@@ -114,37 +114,6 @@ footer p {
     text-align: center;
 }
 
- /*Medium screens for 2 columns*/
- @media (min-width: 700px) {
-    main {
-        grid-template-columns: repeat(2, 1fr); /*Two Columns*/
-    }
-    /*last card occupies the entire row*/
-    .card:last-child {
-        grid-column: 1 / -1; /*last card to span all columns*/
-    }
-    /*Last card image to use the full width*/
-    .card:last-child img {
-        width: 100%; /* Takes full width of the card */
-        height: auto; /* Keeps the ratio */
-        object-fit: cover; /*Ensures the image covers the area*/
-    }
 
-
-}
-
- /*Large screens for 3 columns*/
- @media (min-width: 900px) {
-    main {
-        grid-template-columns: repeat(3, 1fr); /*Three Columns*/
-    }
-    /*resets the last card for large screens*/
-    .card:last-child {
-        grid-column: auto; /*keeps it normal */
-    }
-
-    .card:last-child img {
-        width: auto; /* Resets to normal */
-    }
- }    
+    
 
