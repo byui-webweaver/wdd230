@@ -1,5 +1,5 @@
 /* Media Query for mobile version */
-@media (max-width: 500px) {
+@media (max-width: 899px) {
 
     header {
         flex-direction: column;
@@ -33,7 +33,7 @@
     }
 
     #hamburger {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         border: 0;
         background: none;
         color: white;
