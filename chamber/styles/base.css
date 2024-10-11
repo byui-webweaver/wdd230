@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    
+    margin: 0 auto;
     max-width: 1200px;
     background-color: #1d4a4d;
     color: #f4f4f4;
@@ -23,9 +23,7 @@ header {
 }
 
 .header-left {
-    display: flex;
-    
-    
+    display: flex;     
 }
 
 #logo {
@@ -39,6 +37,7 @@ header h1 {
     font-weight: 450;
     font-size: 2.5em;
     padding-left: 10px;
+    
 }
 
 nav {
@@ -50,8 +49,7 @@ nav {
 
 nav a{
     color:#f4f4f4;
-    padding-right: 20px; 
-    padding-left: 10px;
+    padding: 0 15px;
     text-decoration: none;
     font-family: 'Source Sans 3', sans-serif;
     font-size: 1.2em;
