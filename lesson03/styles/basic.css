@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #647f6e;
+    background-color: #1D4a4D;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -27,7 +27,7 @@ section {
 }
 
 h2 {
-    background-color: #e2c7b6;
+    background-color: #EDDFCC;
     padding: 20px;
     border-bottom: 2px solid #647f6e;
     padding-bottom: 10px;
@@ -38,11 +38,11 @@ h2 {
 }
 
 #green {
-    color:#647f6e;
+    color:#1D4a4D;
 }
 
 #tan {
-    color: #e2c7b6;
+    color: #EDDFCC;
 }
 
 #poppins {
@@ -63,6 +63,6 @@ footer {
     margin-top: 20px;
     padding: 20px;
     font-size: 14px;
-    background-color: #647f6e;
+    background-color: #1D4a4D;
     color: white;
 }
