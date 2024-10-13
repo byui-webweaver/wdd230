@@ -8,6 +8,8 @@
     <meta name="author" content="Julie Eakins">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet"> 
@@ -18,80 +20,86 @@
     <meta property="og.url" content="https://byui-webweaver.github.io/wdd230/"/>
 </head>
 <body>
-    <header>
-        <div class="header-left">
-            <img id="logo" src="images/ALPINE.png" alt="Alpine Chamber of Commerce logo">
-            <h1>Alpine Chamber Of Commerce</h1>
-        </div>
-        <nav>
-            <div>
-                <nav>
-                    <a href="">Home</a>
-                    <a href="">Discover</a>
-                    <a href="">Directory</a>
-                    <a href="">Join</a>
-                </nav>
+    <div id="content">
+        <header>
+            <div class="header-left">
+                <img id="logo" src="images/ALPINE.png" alt="Alpine Chamber of Commerce logo">
+                <h1>Alpine Chamber Of Commerce</h1>
             </div>
-        </nav>
-    </header>
+            <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false"></button>
+            <nav class="navigation"> 
+                <ul class="menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Discover</a></li>
+                    <li><a href="">Directory</a></li>
+                    <li><a href="">Join</a></li> 
+                </ul>      
+            </nav>
+        </header>
 
-    <div>
-        <div>
-            <img src="images/Alpine-city.jpg" alt="Scenic view of Alpine">
-        </div>   
-        <section>
-            <h1>Welcome</h1>
-        </section>
-    </div>
-
-<main>
-   
-    <div>
-        <img src="images/working-together.jpg" alt="Chamber of Commerce Meeting">
-        <div>
-            <h1>Community Resources</h1>
-            <p>Content here</p>
-            <button>Join Here</button>
-                
+        
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/Alpine-city.jpg" alt="Scenic view of Alpine">
+            </div>
+        
+            <section id= "hero-msg">
+                <h1 class="home-title">Welcome</h1>
+            </section>
         </div>
-    </div>
 
-    <section>
-        <h2>Upcoming Events</h2>
-        <h1>Event 1</h1>
-        <h1>Event 2</h1>
-        <button>See More Events</button>
-    </section>
-
-    <section>
-        <h2>Weather</h2>
-        <p>Cloudy</p>
-        <p>Temperature</p>
-        <p>Air Quality</p>
-    </section>
-
-    <div>
-        <div>
-            <h1>Business Spotlight</h1>
-            <p>Content here</p>
-        </div>
-        <img src="images/balance-yoga.jpg" alt="Balance Yoga Building">
-
-    </div>
-</main>
-
-<footer>
-    <p>&copy; <span id="currentYear"></span>
-        <span>Alpine Chamber of Commerce |</span>
-        <span>Julie Eakins |<br></span>
-        <span>WDD230 Project |</span>
-    </p>
-    <p id="lastModified"></p>
-</footer>
-
-<script src="scripts/getdates.js"></script>
+    <main class="home-grid">
     
+        <div class="resources">
+            <img class="resource-img" src="images/working-together.jpg" alt="Chamber of Commerce Meeting">
+            <div class="resource-msg">
+                <h1>Community Resources</h1>
+                <p>Content here</p>
+                <div class="button-box">
+                <a class="join-now" href="">Join Here</a>
+                </div>   
+            </div>
+        </div>
 
+        <div class="middle">
+            <section class="events">
+                <h1>Upcoming Events</h1>
+                <h2>Event 1</h2>
+                <h2>Event 2</h2>
+                <button>See More Events</button>
+            </section>
+
+            <section class="weather">
+                <h2>Weather</h2>
+                <p>Cloudy</p>
+                <p>Temperature</p>
+                <p>Air Quality</p>
+            </section>
+        </div>
+
+        <div>
+            <div class="business-msg">
+                <h1>Business Spotlight</h1>
+                <p>Content here</p>
+            </div>
+            <img class="business-img" src="images/balance-yoga.jpg" alt="Balance Yoga Building">
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span>
+            <span>Alpine Chamber of Commerce |</span>
+            <span>Julie Eakins |<br></span>
+            <span>WDD230 Project |</span>
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    
+    </div>
 </body>
 
 </html>

@@ -9,52 +9,223 @@ body {
     background-color: #f4f4f4;
 }
 
+
+/* Default Styling for Small Screen */
+
 header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    margin: 0 auto;
-    max-width: 1200px;
+    align-items: center;
     background-color: #1d4a4d;
     color: #f4f4f4;
-    padding: 10px;
+    padding: 10px 20px;
     position: relative;
-
 }
 
 .header-left {
-    display: flex;     
+    display: flex; 
+    align-items: center;  
+    margin-right: 10px;  
 }
 
 #logo {
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     margin: 10px;
+
 }
 
 header h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 450;
-    font-size: 2.5em;
-    padding-left: 10px;
+    padding-left: 5px;
+    font-size: 1rem;
+    padding-right: 20px;
     
 }
 
-nav {
-   display: flex;
-   justify-content: space-around;
-   align-self: flex-end;
-   margin-top: auto;
+/* Navigation Styles */
+.navigation {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background: none;
+    padding: 0;
 }
 
-nav a{
+nav ul {
+    list-style-type: none;
+    flex-direction: column;
+    display: none; /* hide menu by default on mobile */
+    align-items: flex-start;
+    background-color: #1d4a4d;
+    position: absolute;
+    width: 100%; /* Full width for mobile */
+    top: calc(100% = 10px); /*position below nav bar* */
+    z-index: 1000;
+    right: 100px;  
+    
+}
+
+
+nav a {
+    display: block; 
     color:#f4f4f4;
-    padding: 0 15px;
+    background-color: #1d4a4d;
+    padding: 15px 20px;
     text-decoration: none;
     font-family: 'Source Sans 3', sans-serif;
     font-size: 1.2em;
+    text-align: center;
 }
 
 nav a:hover {
     color:#EDDFCC;
+}
+
+/* Hamburger Styling */
+#hamburger {
+    font-size: 2.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+    display: block;
+    margin-top: auto;
+    
+}
+
+#hamburger::before {
+    content: "≡";
+}
+
+#hamburger.open::before {
+    content: "✕";
+}
+
+
+nav ul.show {
+    display: flex;
+    
+
+}
+ nav ul li {
+    width: 120px;
+ }
+
+ /*Hero image not on smaller screen */
+ #hero {
+    display: none;
+ }
+
+ /* Main styling */
+ /* Community Resources Section */
+ .resource-img {
+    width: 100%;
+
+ }
+
+.resource-msg, .business-msg {
+    background: #EDDFCC;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 5px;
+
+    position: relative;
+    text-align: center;
+    
+ }
+
+ .resource-msg h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #1d4a4d;
+
+ }
+
+ .resource-msg p {
+    font-family: 'Source Sans 3', sans-serif;
+    padding: 20px;
+    margin-bottom: 30px;
+    padding-top: 0;
+ }
+
+ .button-box {
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+ }
+
+ .join-now {
+    background-color: #1d4a4d;
+    opacity: .8;
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ /* Events and Weather Sections */
+ .events, .weather {
+    text-align: center;
+    margin-bottom: 10px;
+ }
+
+ .middle h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+ }
+ .middle h2 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+ }
+
+ /* Business Highlight */
+ .business-msg {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+ }
+
+.business-msg h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #1d4a4d;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.business-msg p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    color: #1d4a4d;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.business-img {
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+}
+ 
+/* Footer Styles */
+footer {
+    text-align: center; 
+    margin-top: 20px;
+    padding: 15px 0;
+    background: #1d4a4d; 
+    color: #f4f4f4;
+    grid-column: 1 / 4;
+}
+
+footer p {
+    margin-bottom: 5px; /* Space between footer lines */
 }
