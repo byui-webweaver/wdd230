@@ -72,31 +72,37 @@
         color: #1d414d;
         
     }
+/* Community Resources Styling */
+    .resources {
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: flex-start;
+        max-width: 900px;
+        margin:  40px auto;
+
+    }
 
     .resource-img {
-        width: 60%;
-        margin-top: 80px;
-        position: relative;
+        width: 100%;
+        max-width: 600px;
+        margin-top: 0;
         border-radius: 5%;
-    }
-     
-    .resource-msg {
-        display: inline-block;
-        position: absolute;
-        margin-top: 165px;
-        margin-left: -60px;
-        background: #EDDFCC;
-        color: #1d414d;
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-bottom: 80px;
-        padding-top: 5px;
-        width: 500px;
-        height: 250px;
-        border-radius: 8%;
-        
+        display: block;
     }
 
+    .resource-msg {
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        opacity: 0.9;
+        padding: 20px;
+        width: auto;
+        z-index: 1;
+        text-align: left;
+    }
+     
     .resource-msg h1{
         font-size: 2em;
         margin-bottom: 0px;
@@ -104,31 +110,69 @@
         margin-bottom: 10px;
 
     }
+    .resource-msg p {
+        text-align: left;
+    }
 
-    .business-img {
+    .button-box {
+        text-align: left;
+    }
+
+    /* Styling for Events and Weather */
+    .middle {
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        margin: 20px;
+        margin-bottom: 40px;
+    }
+
+    .line {
+        height: 100%; 
+        width: 2px;
+        display: block;
+    }
+
+/* Business Highlight Styling */
+    .business-highlight {
         position: relative;
-        width: 60%;
-        margin-left: 510px;
-        z-index: -1;
-        border-radius: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 20px auto;
+        max-width: 1600px;
+    
     }
 
     .business-msg {
-        display: inline-block;
+        flex-direction: row;
+        flex-wrap: wrap;
         position: absolute;
-        margin-top: 65px;
-        margin-left: -60px;
+        top: 30%;
+        left: 20%;
+        transform: translate(-50%, -20%);
         background: #EDDFCC;
+        opacity: .9;
         color: #1d414d;
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-bottom: 80px;
-        padding-top: 5px;
-        width: 500px;
-        height: 250px;
-        border-radius: 8%;
-
+        padding: 20px;
+        z-index: 1;
+        text-align: left;
+        width: auto;
+        height: 300px;
+        
     }
+
+
+    .business-img {
+        width: 100%;
+        max-width: 700px;
+        margin-top: 0;
+        border-radius: 5%;
+        display: block;
+        margin-left: 100px;
+       
+    }
+
+
 
     
 
