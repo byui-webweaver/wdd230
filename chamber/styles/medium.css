@@ -1,5 +1,5 @@
 /* Media query for medium screens */
-@ media (max-width: 470px) {
+@media (max-width: 470px) {
     #logo {
         width: 100px;
         height: 100px;
