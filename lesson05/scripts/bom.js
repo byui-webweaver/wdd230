@@ -5,7 +5,7 @@ const list = document.querySelector('#list')
 button.addEventListener('click', function() {
     if (input.value != '') {
 
-        const li = document.createElement('li'); //Create a new li item
+        const li = document.createElement('li');  //Create a new li item
         const deleteButton = document.createElement('button'); //Create a delete button
         li.textContent = input.value; //Populate the li elements
         deleteButton.textContent = '✖️'; //Populate the button textContent with a x
