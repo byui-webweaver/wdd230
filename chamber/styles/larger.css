@@ -11,6 +11,12 @@
         margin: 10px;
     }
 
+    .toggle-container {
+        margin-left: 370px;
+        margin-bottom: 40px;
+    }
+    
+
     /*Navigation Styling for larger screen */
     nav ul{
         list-style-type: none;
