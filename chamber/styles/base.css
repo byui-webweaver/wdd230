@@ -120,6 +120,7 @@ nav a:hover {
  }
 
  /*Hero image not on smaller screen */
+
  #hero {
     display: none;
  }
@@ -163,8 +164,7 @@ nav a:hover {
  .resource-msg p {
     font-family: 'Source Sans 3', sans-serif;
     color: #1d4a4d;
-    padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-top: 0;
     
  }
@@ -200,6 +200,14 @@ nav a:hover {
     text-align: center;
     margin-bottom: 10px;
     color: #1d4a4d;
+ }
+
+ .events h2 {
+    margin-top: 20px;
+ }
+
+ .events p {
+    padding-bottom: 5px;
  }
 
  .middle h1 {
@@ -249,6 +257,8 @@ nav a:hover {
     align-items: center;
     margin-top: 20px;
     
+
+    
 }
 
  
@@ -259,6 +269,17 @@ nav a:hover {
     color: #1d4a4d;
     padding-left: 25px;
     padding-right: 25px;
+    color: #1d4a4d;
+}
+
+.business-msg h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 450;
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 0;
+    font-size: 1em;
+    color: #1d4a4d;
 }
 
 .business-msg p {
@@ -267,6 +288,7 @@ nav a:hover {
     color: #1d4a4d;
     padding-left: 25px;
     padding-right: 25px;
+    color: #1d4a4d;
 }
 
 .business-img {
@@ -275,8 +297,17 @@ nav a:hover {
     display: block;
     margin-top: 5px;
 }
+
+#bus-address  {
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    
+}
+
 .business-msg {
     margin-bottom: 30px;
+    
 }
  
 /* Footer Styles */
@@ -300,3 +331,15 @@ footer p {
     margin-bottom: 5px; /* Space between footer lines */
 }
 
+.left-footer {
+    margin-bottom: 10px;
+}
+
+.footer-middle h3 {
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.footer-middle p {
+    padding-bottom: 10px;
+}

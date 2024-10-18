@@ -1,8 +1,10 @@
 /* Media query for medium screens */
-@media (max-width: 470px) {
+@media (min-width: 600px) and (max-width: 849px) {
     #logo {
         width: 100px;
         height: 100px;
     }
+
+  
 
 }
