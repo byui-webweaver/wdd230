@@ -230,6 +230,13 @@ nav a:hover {
 
  }
 
+ .resource-msg h2 {
+    font-family: 'Poppinw', sans-serif;
+    font-weight: 400;
+    color: #1d4a4d;
+    padding: 5px;
+ }
+
  .resource-msg p {
     font-family: 'Source Sans 3', sans-serif;
     color: #1d4a4d;
