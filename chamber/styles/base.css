@@ -393,7 +393,7 @@ footer {
 }
 
 footer h3 {
-    font-weight: 100px;
+    font-weight: 300;
 }
 
 footer p {
@@ -412,3 +412,21 @@ footer p {
 .footer-middle p {
     padding-bottom: 10px;
 }
+
+ /* Dark Mode for Main Section */
+
+body.dark-mode {
+    background-color: #1d1d1d;
+    color: #f4f4f4;
+}
+
+body.dark-mode .events,
+body.dark-mode .weather {
+    color:#f4f4f4
+
+}
+
+body.dark-mode .line {
+    background-color: #f4f4f4;
+}
+

@@ -1,8 +1,13 @@
+const toggle = document.querySelector('.switch input');
+const body = document.body;
 
-<script>
-    const toggleSwitch = document.getElementById('darkModeToggle');
+// Check if dark mode preference is stored
+if (localStorage.getItem('dark-mode') === 'true') {
+    body.classList.add('dark-mode');
+    toggle.checked = true;
+}
 
-    toggleSwitch.addEventListener('change', () => {
-        document.body.classList.toggle('dark-mode', toggleSwitch.checked);
-    });
-</script>
+toggle.addEventListener('change', () => {
+    body.classList.toggle('dark-mode');
+    localStorage.setItem('dark-mode', body.classList.contains('dark-mode'));
+});
