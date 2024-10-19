@@ -59,8 +59,8 @@ header h1 {
 .switch {
     position: relative;
     display: inline-block;
-    width: 50px;
-    height: 24px;
+    width: 35px;
+    height: 20px;
     margin: 0;
 
   }
@@ -86,8 +86,8 @@ header h1 {
   .slider:before {
     position: absolute;
     content: "";
-    height: 16px;
-    width: 16px;
+    height: 13px;
+    width: 14px;
     left: 4px;
     bottom: 4px;
     background-color: white;
@@ -104,9 +104,9 @@ header h1 {
   }
   
   input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+    -webkit-transform: translateX(14px);
+    -ms-transform: translateX(14px);
+    transform: translateX(14px);
   }
   
 /* Navigation Styles */
