@@ -66,12 +66,20 @@
     }
 
     .hero-temple {
+        
         margin-bottom: 40px;
     }
 
     picture img {
         width: auto;
     }
+
+    .hero-label {
+      
+        font-size: 2em;
+        padding: 10px;
+    }
+
     .content {
         display: grid; /* Use grid layout for main content */
         grid-template-columns: 1fr 1fr; /* Two equal columns */

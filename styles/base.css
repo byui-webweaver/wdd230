@@ -103,9 +103,11 @@ main {
 }
 
 .hero-temple {
+    position: relative;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 picture {
@@ -118,6 +120,20 @@ picture {
 picture img {
     width: 100%;
     height: auto;
+}
+
+.hero-label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: radial-gradient(#fff,#55828B);
+    opacity: .9;
+    padding: 0px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    font-size: .8em;
 }
 
 
