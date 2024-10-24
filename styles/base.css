@@ -98,9 +98,34 @@ nav a:hover {
  
 /* Main page content */
 main {
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-temple {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+picture {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+ .content {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto; /*center the main element*/
     padding: 20px; 
     background-color: white; 
@@ -116,6 +141,9 @@ main {
     border-radius: 5px; 
     box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
     padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
 
 main ul {

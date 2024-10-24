@@ -22,7 +22,7 @@
 </head>
 <body>
     <header>
-        <img src="images/MyPhoto.JPEG" alt="My Profile Image">
+        <img src="images/MyPhoto.webp" alt="My Profile Image">
         <h1>Julie Eakins</h1>
         <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false"></button>
     
@@ -40,8 +40,22 @@
             <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/36?lang=eng&id=3#p3" target="_blank">Scriptures</a></li>
         </ul>
     </nav>
+
+   
     <main>
+        <div class="hero-temple">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+
+                <img src="images/hero-large.webp" alt="Portrait View of San Diego Temple" width="960" height="600">
+            </picture>
+        </div> 
+
+    <div class="content"> 
+
         <h2>WDD 230: Web Frontend Development</h2>
+
+        
         <section class="card">
             <h3>Learning Activities</h3>
             <ul>
@@ -78,6 +92,8 @@
             <p class="pseudo">Weather: [Placeholder for weather]</p>
             <p>Visits: [Placeholder for number of visits]</p>
         </section>
+</div>
+    
 
     </main>
         <div class="map-container">
