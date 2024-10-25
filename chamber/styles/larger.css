@@ -67,16 +67,16 @@
 
     #hero-msg {
         background: #EDDFCC;
+        width: auto;
         opacity: .8;
         text-align: center;
         grid-column: 1 / 4;
         grid-row: 2 / 3;
         margin: auto;
-        padding: 30px;
-        margin-top: -120px;
+        margin-top: -140px;
         color: #f4f4f4;
         border-radius: 3%;
-        
+   
     }
 
     .home-title {
