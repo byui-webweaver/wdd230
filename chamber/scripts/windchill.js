@@ -1,3 +1,4 @@
+//Windchill calculations for weather 
 function calculateWindChill() {
     // Extract temperature and wind speed values from the HTML
     const temperature = parseFloat(document.getElementById('temperature').textContent);
