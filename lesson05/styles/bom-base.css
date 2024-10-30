@@ -1,69 +1,33 @@
-* {
-	margin: 0;
-	padding: 0;
-}
+const input = document.querySelector('#favchap');
+const notesInput = document.querySelector('#notes'); //Select the notes input
+const button = document.querySelector('button');
+const list = document.querySelector('#list')
 
-body {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-family: Acme, Arial, sans-serif;
-}
+button.addEventListener('click', function() {
+    if (input.value != '' && notesInput.value != '') {
 
-h1 {
-	font-size: 1.5rem;
-}
+        const li = document.createElement('li');  //Create a new li item
+        const deleteButton = document.createElement('button'); //Create a delete button
 
-main {
-	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 1rem;
-	background-color: #ddd;
-	display: flex;
-	flex-direction: column;
-}
+        //Populate the li elements with the chapter and notes
+        li.textContent = `${input.value} - Notes: ${notesInput.value}`;
 
-input,
-button {
-	padding: 0.5rem;
-}
+        deleteButton.textContent = '✖️'; //Populate the button textContent with a x
+        li.append(deleteButton); //Append the li element with the delete button
+        list.append(li); //Append the li element to the ul in your HTML
 
-button {
-	margin: 0.5rem;
-}
+        //Add an event listener to the delete button that removes the li element when clicked
+        deleteButton.addEventListener('click', function (){
+            list.removeChild(li);
+            input.focus();
+        }); 
 
-.delete {
-	width: fit-content;
-}
+        input.focus(); //Send the focus to the input element
+        input.value = ''; //Change the input value to nothing
+        notesInput.value = ''; //Clear notes and input value
 
-.input {
-	display: flex;
-	gap: 1rem;
-}
-
-.list {
-	padding: 0.5rem;
-}
-
-ul {
-	margin: 1rem;
-	list-style: none;
-}
-
-li {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-@media only screen and (min-width: 32.5em) {
-	h1 {
-		font-size: 2rem;
-	}
-
-	main {
-		width: 320px;
-	}
-}
+    } else {
+        alert('Enter a chapter and an added note!');
+    }
+});
+    
