@@ -130,10 +130,15 @@ picture img {
     opacity: .9;
     padding: 0px;
     border-radius: 5px;
+}
+
+.hero-label h2 {
     color: black;
     text-align: center;
     font-family: 'Gowun Batang', serif;
     font-size: .8em;
+    font-weight: 300;
+
 }
 
 
