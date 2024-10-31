@@ -10,7 +10,7 @@ chaptersArray.forEach(chapter => {
 });
 
 button.addEventListener('click', () => {
-    if (input.value != '') { //Check if input is empty, if not, then
+    if (input.value !='') { //Check if input is empty, if not, then
         displayList(input.value); //Call displayList with the input.value
         chaptersArray.push(input.value); //Push the input.value into the chaptersArray
         setChapterList(); //Update the localStorage with the new array calling a function named setChapterList
@@ -39,7 +39,7 @@ function displayList(item) {
         input.focus();
     });
 
-    console.log('Deleting chapter');  
+    console.log('Deleted Chapter');  
 }
 
 function setChapterList () {
@@ -52,6 +52,7 @@ function getChapterList () {
 
 function deleteChapter(chapter) {
     chapter = chapter.slice(0, chapter.length - 1); //Remove the delete symbol from the end
-    chaptersArray = chaptersArray.filter((item) => item !== chapter); //Filter out the chapter
+    chaptersArray = chaptersArray.filter(item => item !== chapter); //Filter out the chapter
     setChapterList(); // Update localStorage
 }
+
