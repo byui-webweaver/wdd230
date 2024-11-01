@@ -10,9 +10,10 @@ chaptersArray.forEach(chapter => {
 });
 
 button.addEventListener('click', () => {
-    if (input.value !='') { //Check if input is empty, if not, then
-        displayList(input.value); //Call displayList with the input.value
-        chaptersArray.push(input.value); //Push the input.value into the chaptersArray
+    const chapterValue = input.value.trim(); // use trim to clean up input
+    if (input.value !=='') { //Check if input is empty, if not, then
+        displayList(chapterValue); //Call displayList
+        chaptersArray.push(chapterValue); //Push the chapterValue into the chaptersArray
         setChapterList(); //Update the localStorage with the new array calling a function named setChapterList
         input.value = ''; //set input.value to nothing
         input.focus(); //Set the focus back to the input
@@ -22,7 +23,6 @@ button.addEventListener('click', () => {
 });
 
 function displayList(item) {
-    
     const li = document.createElement('li');//pull all the code that builds a list item from the previous button click even listener
     const deleteButton = document.createElement('button'); // Create a delete button
 
@@ -35,7 +35,7 @@ function displayList(item) {
     // Add event listener to the delete button
     deleteButton.addEventListener('click', function () {
         list.removeChild(li);
-        deleteChapter(li.textContent);
+        deleteChapter(item);//Pass the chapter item to delete
         input.focus();
     });
 
@@ -51,8 +51,9 @@ function getChapterList () {
 }
 
 function deleteChapter(chapter) {
-    chapter = chapter.slice(0, chapter.length - 1); //Remove the delete symbol from the end
+   
     chaptersArray = chaptersArray.filter(item => item !== chapter); //Filter out the chapter
     setChapterList(); // Update localStorage
+    console.log(chaptersArray);
 }
 
