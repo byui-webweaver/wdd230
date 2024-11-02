@@ -580,6 +580,11 @@ body.dark-mode .line {
     box-shadow: none; /* No shadow effect on mobile */
 }
 
+.alpine-imgs p {
+    font-family: 'Poppins', sans-serif;
+    color: #1d4a4d;
+}
+
 body.dark-mode #main-2 {
     background-color: #1d1d1d;
 }
