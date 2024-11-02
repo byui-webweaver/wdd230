@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {}
+document.addEventListener('DOMContentLoaded', function () {
 
     //Windchill calculations for weather 
     function calculateWindChill() {
