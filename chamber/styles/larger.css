@@ -209,7 +209,7 @@
     }
 
     .alpine-imgs picture img {
-        transition: box-shadow 0.3 ease;
+        transition: box-shadow 0.3s ease;
     }
 
     .alpine-imgs picture img:hover {
