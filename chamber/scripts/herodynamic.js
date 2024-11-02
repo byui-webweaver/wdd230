@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 function updateHomeTitle() {
     const titleElement = document.getElementById('home-title');
     const screenWidth = window.innerWidth;
@@ -16,3 +17,4 @@ updateHomeTitle();
 
 // Event listener to update on resize
 window.addEventListener('resize', updateHomeTitle);
+});
