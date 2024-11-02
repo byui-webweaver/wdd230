@@ -572,7 +572,7 @@ body.dark-mode .line {
 }
 
 .alpine-imgs picture {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 
@@ -583,6 +583,7 @@ body.dark-mode .line {
 .alpine-imgs p {
     font-family: 'Poppins', sans-serif;
     color: #1d4a4d;
+    margin-bottom: 20px;
 }
 
 body.dark-mode #main-2 {
