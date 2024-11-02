@@ -3,11 +3,11 @@ function updateHomeTitle() {
     const screenWidth = window.innerWidth;
 
     if (screenWidth < 600) {
-        titleElement.textContent = "Small";
+        titleElement.textContent = "Welcome";
     } else if (screenWidth >= 600 && screenWidth < 850) {
-        titleElement.textContent = "Medium";
+        titleElement.textContent = "Welcome";
     } else {
-        titleElement.textContent = "Large";
+        titleElement.textContent = "Welcome";
     }
 }
 

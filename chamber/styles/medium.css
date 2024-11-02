@@ -5,6 +5,8 @@
         height: 100px;
     }
 
-  
+  #demographic, #events-2, #attractions {
+    margin-bottom: 30px;
+  }
 
 }

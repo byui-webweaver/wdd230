@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alpine Chamber of Commerce</title>
+    <title>Chamber Discover Page</title>
     <meta name="description" content="Alpine Chamber of Commerce Home Page">
     <meta name="author" content="Julie Eakins">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -14,11 +14,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet"> 
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <meta property="og.title" content="Alpine Chamber of Commerce Home Page">
+    <meta property="og.title" content="Alpine Chamber of Commerce Discover Page">
     <meta property="og.type" content="Website">
     <meta property="og:image" content="https://www.alpinecity.org/ImageRepository/Document?documentID=201">
     <meta property="og.url" content="https://byui-webweaver.github.io/wdd230/chamber">
 </head>
+
 <body>
     <div id="content">
         <header>
@@ -48,14 +49,19 @@
             </div>
 
         </header>
+    </div>
 
-        
+    <div id="container-visits">
+        <h4> <span class="label"></span><span class="visits"></span></h4>
+    </div>
+           
       
 
-    <main>
+    <main id="main-2">
+        
         <div class="sidebar">
 
-            <div>
+            <div id="demographic">
                 <h1>Alpine Demographics</h1>
                 <ul>
                     <li>Population: 10,298</li>
@@ -65,17 +71,16 @@
                 </ul>
             </div>
 
-            <div>
+            <div id="events-2">
                 <h1>Upcoming Events</h1>
                 <ul>
-                    <li>Annual Alpine Days
+                    <li>Annual Alpine Days/ Rodeo
                         <p>Date: August 2-7</p>
-                        <p></p>
                     </li>
 
                     <li>Business Networking Mixer
-                        <p>Date/Time: August 27th at 5pm at Alpine City Offices</p>
-                        <p>Place: Alpine City Centeer</p>
+                        <p>Date/Time: August 27th at 5pm</p>
+                        <p>Place: Alpine City Center</p>
                     </li>
 
                     <li>Farmers Market
@@ -86,7 +91,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div id="attractions">
                 <h1>Local Attractions</h1>
                 <h3>Explore what makes Alpine so desirable</h3>
                 <ul>
@@ -94,7 +99,7 @@
                         <p>A beautiful park that offers multiple mountain biking and hiking trails.</p>
                     </li>
 
-                    <li>Alpine HighwayHt
+                    <li>Alpine Highway Loop
                         <p>Located minutes away from the Alpine City Center, the Alpine Highway Loop shares the beauty of the region through scenic drives, camping, hiking and more.</p>
                     </li>
 
@@ -103,34 +108,36 @@
                     </li>
                 </ul>
             </div>
+
+
         
         </div>
-      
+        
+        <div class="alpine-imgs">
+            <picture>
+                <img loading="lazy" src="images/poppies.webp" alt="Poppie flowers in a field" width="600" height="400" >
+            </picture>
+            
+            <picture >
+                <img loading="lazy" src="images/alpine-rainbow-smaller.webp" alt="Alpine City Carnival with rainbow over the mountains" width="600" height="400" >
+            </picture>
+                
+            <picture>
+                <img loading="lazy" src="images/lambert-park.webp" alt="Lambert Park sign" width="600" height="400" >
+            </picture>
+                
+            <picture>
+                <img loading="lazy" src="images/parade.webp" alt="Parade with people holding a sign" width="600" height="400" >
+            </picture>
     
-        <picture>
-            <img loading="lazy" src="images/poppies.webp" alt="Poppie flowers in a field" width="600" height="400" >
-        </picture>
-        
-        <picture>
-            <img loading="lazy" src="images/alpine-rainbow-smaller.webp" alt="Alpine City Carnival with rainbow over the mountains" width="600" height="400" >
-        </picture>
+            <picture>
+                <img loading="lazy" src="images/rodeo.webp" alt="Girl Barrel Racing" width="600" height="400" >
+            </picture>
             
-        <picture>
-            <img loading="lazy" src="images/lambert-park.webp" alt="Lambert Park sign" width="600" height="400" >
-        </picture>
-            
-        <picture>
-            <img loading="lazy" src="images/parade.webp" alt="Parade with people holding a sign" width="600" height="400" >
-        </picture>
-  
-        <picture>
-            <img loading="lazy" src="images/rodeo.webp" alt="Girl Barrel Racing" width="600" height="400" >
-        </picture>
-        
-        <picture>
-            <img loading="lazy" src="images/alpine-highway.webp" alt="Changing Fall leaves along the Alpine Highway" width="600" height="400" >
-        </picture>
-
+            <picture>
+                <img loading="lazy" src="images/alpine-highway.webp" alt="Changing Fall leaves along the Alpine Highway" width="600" height="400" >
+            </picture>
+        </div>
 
 
     </main>
@@ -145,7 +152,7 @@
         <div class="footer-middle">
             <img class="footer-logo" src="images/ALPINE.webp" width="80" alt="Alpine Chamber of Commerce Logo">
             <h3>Alpine Chamber of Commerce</h3>
-            <p>&copy; <span id="currentYear"></span>
+            <p>&copy; <span id="currentYear"></span></p>
         </div>
 
         <div class="right-footer">
@@ -160,8 +167,9 @@
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/herodynamic.js"></script>
     <script src="scripts/windchill.js"></script>
-    
-    </div>
+    <script src="scripts/visits.js"></script>
+
+
 </body>
 
 </html>

@@ -161,6 +161,8 @@
     
     }
 
+    
+
     .business-msg {
         
         position: absolute;
@@ -193,6 +195,31 @@
         margin-left: 400px;
        
     }
+
+    /* Discover Page Styling */
+
+    #main-2 {
+        grid-template-columns: 1fr 2fr;
+
+    }
+
+    .alpine-imgs picture {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .alpine-imgs picture img {
+        transition: box-shadow 0.3 ease;
+    }
+
+    .alpine-imgs picture img:hover {
+        box-shadow: 0 4px 50px #1d414d;
+    }
+
+    #demographic, #events-2, #attractions {
+        margin-bottom: 40px;
+    }
+
     /*Footer Styling for larger screen */
 
     footer {
