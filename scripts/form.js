@@ -18,7 +18,7 @@ function checkSame() {
     } else {
         message.style.visibility = "hidden"; // Hide the message
         message.style.display = "none"; // Ensure the message is not displayed
-        password2.style.backgroundColor = "#fff";
+        password2.style.backgroundColor = "#ced5d2";
         password2.style.color = "#000";
     }
 }

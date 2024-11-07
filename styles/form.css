@@ -1,3 +1,11 @@
+:root {
+    --main-bg-color: #ced5d2;      /* Background color for inputs */
+    --border-color: #1d4a4d;       /* Main border color */
+    --submit-bg-color: #55828B;    /* Background color for submit button */
+    --error-color: red;             /* Error color for required inputs */
+    --success-color: rgb(108, 185, 108); /* Success color for valid inputs */
+}
+
 main {
     padding: 0 2%;
     min-height: 20rem;
@@ -7,6 +15,7 @@ main {
 
 /* Form Styling */
 
+
 #formessage {
     display: none;
     margin-top: -1rem;
@@ -14,7 +23,7 @@ main {
 
 fieldset {
     margin: 2rem 0;
-    border: 1px solid #1d414d;
+    border: 1px solid var(--border-color);
     border-radius: 6px;
     padding: .5rem 2%;
     width: 500px;
@@ -23,14 +32,14 @@ fieldset {
 }
 
 legend {
-    color: #1d414d;
+    color: var(--border-color);
     padding: 0 .5rem;
 }
 
 label {
     display: block;
     padding-left: 1rem;
-    color: #1d414d;
+    color: var(--border-color);
     font-size: .9rem;
     padding-bottom: 20px;
     
@@ -40,9 +49,9 @@ input[type="text"],
 input[type="password"],
 input[type="email"]
 {
-    background-color: #ced5d2;
+    background-color: var(--main-bg-color);
     display: block;
-    border: solid 1px #1d414d;
+    border: solid 1px var(--border-color);
     border-radius: 6px;
     padding: .75rem;
     color: #1d414d;
@@ -54,14 +63,11 @@ input[type="email"]
 input[type="range"] {
     display: block;
     width: 300px;
-    margin-left: 16px;
-    
-    
+    margin-left: 16px;   
 }
 
 #rangevalue {
-    font-size: 2rem;
-    
+    font-size: 2rem; 
     width: 200px;
 }
 
@@ -83,12 +89,27 @@ input[type="range"] {
 
 input[type="submit"]{
     border: solid 1px;
-    background-color:#55828B; 
+    background-color: var(--submit-bg-color); 
     color: white;
     padding: 15px;
     border-radius: 6px;
     width: 96%;
     max-width: 500px;
    
+}
+
+input[type="submit"]:hover {
+    background-color: #87BBA2;
+    border-color: #87BBA2 ;
+    color: black;
+    cursor: pointer;
+}
+
+input:required {
+    border-left: solid 8px var(--error-color);
+}
+
+input:required:valid {
+    border-left: solid 8px var(--success-color);
 }
 
