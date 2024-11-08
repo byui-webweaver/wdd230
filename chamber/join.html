@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpine Chamber of Commerce</title>
+    <meta name="description" content="Alpine Chamber of Commerce Home Page">
+    <meta name="author" content="Julie Eakins">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet"> 
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <meta property="og:title" content="Alpine Chamber of Commerce Home Page">
+    <meta property="og:type" content="Website">
+    <meta property="og:image" content="https://www.alpinecity.org/ImageRepository/Document?documentID=201">
+    <meta property="og:url" content="https://byui-webweaver.github.io/wdd230/chamber">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div class="header-left">
+                <img id="logo" src="images/ALPINE.webp" alt="Alpine Chamber of Commerce logo">
+                <h1>Alpine Chamber Of Commerce</h1>
+            </div>
+
+            <div>
+                <div class="toggle-container">
+                     <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+              
+                <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false"></button>
+            
+                <nav class="navigation"> 
+                    <ul class="menu">
+                        <li><a href="https://byui-webweaver.github.io/wdd230/chamber/">Home</a></li>
+                        <li><a href="https://byui-webweaver.github.io/wdd230/chamber/discover.html">Discover</a></li>
+                        <li><a href="">Directory</a></li>
+                        <li><a href="">Join</a></li> 
+                     </ul>      
+                 </nav>
+            </div>
+
+        </header>
+
+    <main>
+
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Information</legend>
+                <label>First Name✳️<input type="text" id="fname" name="fname" required></label>
+                <label>Last Name✳️<input type="text" id="lname" name="lname" required></label>
+                <label>Title or Position✳️<input type="text" id="title" name="title" required pattern="^[A-Za-z\s\-]{7,}$" title="Minimum 7 characters. Only letters, spaces, and hyphens are allowed."></label>
+                <label for="email">Email✳️<input type="email" id="email" name="email" placeholder="youremail@gmail.com" title="A valid email address: youremail@gmail.com." required></label>
+                <label>Phone Number✳️<input type="tel" id="phone" name="phone" required></label>
+                <label>Business/Organization's Name✳️<input type="text" id="bname" name="bname" required></label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label><input type="radio" name="level" value="non-profit">Non-Profit Membership (No Fee)</label> 
+                <label><input type="radio" name="level" value="bronze">Bronze Membership</label>
+                <label><input type="radio" name="level" value="silver">Silver Membership</label>
+                <label><input type="radio" name="level" value="gold">Gold Membership</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Business/Organization Description</legend>
+                <textarea id="descriptions" name="description"></textarea>
+            </fieldset>
+            <input type="hidden" id="date-time" name="date-time" value="">
+            <input type="submit" value="Join Now">
+        </form>
+
+        <div>
+            <h1>Level Benefits</h1>
+
+            <div>
+                <h2>General Benefits Across Levels</h2>
+                <ul>
+                    <li><strong>Community Engagement:</strong>Opportunities to participate in community service initiatives and local advocacy projects.</li>
+                    <li><strong>Resources and Information:</strong>Access to valuable market research, business trends, and updates that can help inform business strategies.</li>
+                    <li><strong>Credibility:</strong>Being a member of the chamber lends credibility to your organization, showing commitment to the local economy and community.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Non-Profit Membership-No Fee</h2>
+                <ul>
+                    <li><strong>Networking Opportunities:</strong> Access to networking events tailored for non-profits to connect with other organizations, 
+                        local businesses, and potential collaborators.</li>
+                    <li><strong>Advocacy:</strong> A voice in local issues affecting non-profits, including legislative advocacy and support for community initiatives.</li>
+                    <li><strong>Discounted Services:</strong>Reduced fees for chamber events and services, such as workshops and training specifically designed for non-profits.</li>
+                
+                </ul>
+            </div>
+
+            <div>
+                <h2>Bronze Membership-$250</h2>
+                <ul>
+                    <li><strong>Basic Networking: </strong>Invitations to general networking events to meet local business leaders and other members.</li>
+                    <li><strong>Listing in Directory:</strong>Inclusion in the chamber's member directory, increasing visibility among potential clients and partners.</li>
+                    <li><strong>Promotional Opportunities:</strong>Basic access to community and chamber events to promote your business, often through flyers or digital promotions.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Silver Membership-$450</h2>
+                <ul>
+                    <li><strong>Enhanced Networking:</strong>Access to exclusive member-only events, and opportunities for deeper connections with business leaders.</li>
+                    <li><strong>Marketing Exposure: </strong>Opportunities for increased visibility through sponsorship options at events, newsletters, and chamber website.</li>
+                    <li><strong>Educational Resources:</strong>Access to workshops, seminars, or training sessions that are relevant to your industry or business growth.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Gold Membership-$1000</h2>
+                <ul>
+                    <li><strong>Premium Networking:</strong>Priority access to all events, exclusive networking dinners, and opportunities to engage with high-profile speakers or business leaders.</li>
+                    <li><strong>Comprehensive Marketing:</strong>Superior advertising options, including prominent placement in chamber communications and the chance to host events.</li>
+                    <li><strong>Business Support Services:</strong>Additional resources such as business consulting, marketing support, and access to research and development resources specific to your industry.</li>
+                </ul>
+            </div>
+
+            <div>          
+                <p>When considering membership, it's essential to evaluate which benefits align best with your organization’s goals and needs.</p>
+            </div>
+
+        </div>
+    </main>
+
+    
+
+    <footer>
+        <div class="left-footer">
+            <p>Contact Us</p>
+            <p>801-555-5555</p>
+            <p>alpine-commerce@alpinecity.org</p>
+        </div>
+            
+        <div class="footer-middle">
+            <img class="footer-logo" src="images/ALPINE.webp" width="80" alt="Alpine Chamber of Commerce Logo">
+            <h3>Alpine Chamber of Commerce</h3>
+            <p>&copy; <span id="currentYear"></span>
+        </div>
+
+        <div class="right-footer">
+            <p>Julie Eakins | WDD230 Project</p>
+            <p id="lastModified"></p>
+        </div>
+    
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/herodynamic.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+    <script>
+        // Set current date and time when the document is ready
+        document.addEventListener("DOMContentLoaded", function() {
+            const dateTimeInput = document.getElementById('date-time');
+            const now = new Date();
+            const formattedDate = now.toLocaleString(); // You can change format as needed
+            dateTimeInput.value = formattedDate;
+        });
+    </script>
+    
+    </div>
+</body>
+
+</html>
