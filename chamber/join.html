@@ -49,89 +49,142 @@
 
         </header>
 
-    <main>
+    <main class="form-content">
+        <div class="left-form">
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Information</legend>
+                    <label>First Name✳️<input type="text" id="fname" name="fname" required></label>
+                    <label>Last Name✳️<input type="text" id="lname" name="lname" required></label>
+                    <label>Title or Position✳️<input type="text" id="title" name="title" required pattern="^[A-Za-z\s\-]{7,}$" title="Minimum 7 characters. Only letters, spaces, and hyphens are allowed."></label>
+                    <label for="email">Email✳️<input type="email" id="email" name="email" placeholder="youremail@gmail.com" title="A valid email address: youremail@gmail.com." required></label>
+                    <label>Phone Number✳️<input type="tel" id="phone" name="phone" required></label>
+                    <label>Business/Organization's Name✳️<input type="text" id="bname" name="bname" required></label>
 
-        <form method="get" action="thankyou.html">
-            <fieldset>
-                <legend>Information</legend>
-                <label>First Name✳️<input type="text" id="fname" name="fname" required></label>
-                <label>Last Name✳️<input type="text" id="lname" name="lname" required></label>
-                <label>Title or Position✳️<input type="text" id="title" name="title" required pattern="^[A-Za-z\s\-]{7,}$" title="Minimum 7 characters. Only letters, spaces, and hyphens are allowed."></label>
-                <label for="email">Email✳️<input type="email" id="email" name="email" placeholder="youremail@gmail.com" title="A valid email address: youremail@gmail.com." required></label>
-                <label>Phone Number✳️<input type="tel" id="phone" name="phone" required></label>
-                <label>Business/Organization's Name✳️<input type="text" id="bname" name="bname" required></label>
+                </fieldset>
 
-            </fieldset>
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <label><input type="radio" name="level" value="non-profit"> Non-Profit Membership (No Fee)</label> 
+                    <label><input type="radio" name="level" value="bronze" > Bronze Membership</label>
+                    <label><input type="radio" name="level" value="silver"> Silver Membership</label>
+                    <label><input type="radio" name="level" value="gold"> Gold Membership</label>
 
-            <fieldset>
-                <legend>Membership Level</legend>
-                <label><input type="radio" name="level" value="non-profit">Non-Profit Membership (No Fee)</label> 
-                <label><input type="radio" name="level" value="bronze">Bronze Membership</label>
-                <label><input type="radio" name="level" value="silver">Silver Membership</label>
-                <label><input type="radio" name="level" value="gold">Gold Membership</label>
+                </fieldset>
 
-            </fieldset>
+                <fieldset>
+                    <legend>Business/Organization Description</legend>
+                    <textarea id="description" name="description"></textarea>
+                </fieldset>
+                <input type="hidden" id="date-time" name="date-time" value="">
+                <div class="button-container">
+                    <input type="submit" id="join-now" value="Join Now">
+                </div>
+            </form>
+        </div>
 
-            <fieldset>
-                <legend>Business/Organization Description</legend>
-                <textarea id="descriptions" name="description"></textarea>
-            </fieldset>
-            <input type="hidden" id="date-time" name="date-time" value="">
-            <input type="submit" value="Join Now">
-        </form>
+        <div class="right-form">
+            
 
-        <div>
-            <h1>Level Benefits</h1>
-
-            <div>
-                <h2>General Benefits Across Levels</h2>
+            <div class="gen-ben">
+                <div class="ben-head">
+                    <h2>General Benefits Across Levels</h2>
+                </div>
                 <ul>
-                    <li><strong>Community Engagement:</strong>Opportunities to participate in community service initiatives and local advocacy projects.</li>
-                    <li><strong>Resources and Information:</strong>Access to valuable market research, business trends, and updates that can help inform business strategies.</li>
-                    <li><strong>Credibility:</strong>Being a member of the chamber lends credibility to your organization, showing commitment to the local economy and community.</li>
+                    <li>
+                        <h4>Community Engagement:</h4>
+                        <p>Opportunities to participate in community service initiatives and local advocacy projects.</p>
+                    </li>
+                        
+                    <li>
+                        <h4>Resources and Information:</h4>
+                        <p>Access to valuable market research, business trends, and updates that can help inform business strategies.</p>
+                    </li>
+
+                    <li>
+                        <h4>Credibility:</h4>
+                        <p>Being a member of the chamber lends credibility to your organization, showing commitment to the local economy and community.</p></li>
                 </ul>
             </div>
 
-            <div>
-                <h2>Non-Profit Membership-No Fee</h2>
+            <div class="np">
+                <div class="ben-head">
+                    <h2>Non-Profit Membership-No Fee</h2>
+                </div>    
                 <ul>
-                    <li><strong>Networking Opportunities:</strong> Access to networking events tailored for non-profits to connect with other organizations, 
-                        local businesses, and potential collaborators.</li>
-                    <li><strong>Advocacy:</strong> A voice in local issues affecting non-profits, including legislative advocacy and support for community initiatives.</li>
-                    <li><strong>Discounted Services:</strong>Reduced fees for chamber events and services, such as workshops and training specifically designed for non-profits.</li>
+                    <li>
+                        <h4>Networking Opportunities:</h4>
+                        <p>Access to networking events tailored for non-profits to connect with other organizations, 
+                        local businesses, and potential collaborators.</p>
+                    </li>
+
+                    <li><h4>Advocacy:</h4>
+                        <p>A voice in local issues affecting non-profits, including legislative advocacy and support for community initiatives.</p>
+                    </li>
+
+                    <li><h4>Discounted Services:</h4>
+                        <p>Reduced fees for chamber events and services, such as workshops and training specifically designed for non-profits.</p>
+                    </li>
                 
                 </ul>
             </div>
 
-            <div>
-                <h2>Bronze Membership-$250</h2>
+            <div class="bronze">
+                <div class="ben-head">
+                    <h2>Bronze Membership-$250</h2>
+                </div>
                 <ul>
-                    <li><strong>Basic Networking: </strong>Invitations to general networking events to meet local business leaders and other members.</li>
-                    <li><strong>Listing in Directory:</strong>Inclusion in the chamber's member directory, increasing visibility among potential clients and partners.</li>
-                    <li><strong>Promotional Opportunities:</strong>Basic access to community and chamber events to promote your business, often through flyers or digital promotions.</li>
+                    <li><h4>Basic Networking:</h4>
+                    <p>to general networking events to meet local business leaders and other members.</p>
+                </li>
+
+                    <li><h4>Listing in Directory:</h4>
+                        <p>in the chamber's member directory, increasing visibility among potential clients and partners.</p>
+                    </li>
+
+                    <li><h4>Opportunities:</h4>
+                        <p>Basic access to community and chamber events to promote your business, often through flyers or digital promotions.</p>
+                    </li>
                 </ul>
             </div>
 
-            <div>
-                <h2>Silver Membership-$450</h2>
+            <div class="silver">
+                <div class="ben-head">
+                    <h2>Silver Membership-$450</h2>
+                </div>
                 <ul>
-                    <li><strong>Enhanced Networking:</strong>Access to exclusive member-only events, and opportunities for deeper connections with business leaders.</li>
-                    <li><strong>Marketing Exposure: </strong>Opportunities for increased visibility through sponsorship options at events, newsletters, and chamber website.</li>
-                    <li><strong>Educational Resources:</strong>Access to workshops, seminars, or training sessions that are relevant to your industry or business growth.</li>
+                    <li>
+                        <h4>Enhanced Networking:</h4>
+                        <p>to exclusive member-only events, and opportunities for deeper connections with business leaders.</p>
+                    </li>
+
+                    <li><h4>Marketing Exposure:</h4>
+                        <p>Opportunities for increased visibility through sponsorship options at events, newsletters, and chamber website.</p>
+                    </li>
+
+                    <li><h4>Educational Resources:</h4>
+                        <p>Access to workshops, seminars, or training sessions that are relevant to your industry or business growth.</p>
+                    </li>
                 </ul>
             </div>
 
-            <div>
-                <h2>Gold Membership-$1000</h2>
+            <div class="gold">
+                <div class="ben-head">
+                    <h2>Gold Membership-$1000</h2>
+                </div>
                 <ul>
-                    <li><strong>Premium Networking:</strong>Priority access to all events, exclusive networking dinners, and opportunities to engage with high-profile speakers or business leaders.</li>
-                    <li><strong>Comprehensive Marketing:</strong>Superior advertising options, including prominent placement in chamber communications and the chance to host events.</li>
-                    <li><strong>Business Support Services:</strong>Additional resources such as business consulting, marketing support, and access to research and development resources specific to your industry.</li>
-                </ul>
-            </div>
+                    <li><h4>Premium Networking:</h4>
+                        <p>Priority access to all events, exclusive networking dinners, and opportunities to engage with high-profile speakers or business leaders.</p>
+                    </li>
 
-            <div>          
-                <p>When considering membership, it's essential to evaluate which benefits align best with your organization’s goals and needs.</p>
+                    <li><h4>Comprehensive Marketing:</h4>
+                        <p>Superior advertising options, including prominent placement in chamber communications and the chance to host events.</p>
+                    </li>
+
+                    <li><h4>Support Services:</h4>
+                        <p>Additional resources such as business consulting, marketing support, and access to research and development resources specific to your industry.</p>
+                    </li>
+                </ul>
             </div>
 
         </div>
