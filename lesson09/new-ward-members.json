@@ -1,0 +1,35 @@
+{
+    "wardInformation": {
+    "familyName": "Norton",
+    "moveInDate": "2024-03-08",
+    "numberOfPeople": 5,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Donovan Norton",
+        "gender": "Male",
+        "birthdate": "1986-03-11"
+      },
+      {
+        "name": "Sarah Norton",
+        "gender": "Female",
+        "birthdate": "1989-09-22"
+      },
+      {
+        "name": "Charlotte Norton",
+        "gender": "Female",
+        "birthdate": "2014-01-09"
+      },
+      {
+        "name": "Carter Norton",
+        "gender": "Male",
+        "birthdate": "2016-06-12"
+      },
+      {
+        "name": "Laura Norton",
+        "gender": "Female",
+        "birthdate": "2021-08-02"
+      }
+    ]
+    }
+  }
