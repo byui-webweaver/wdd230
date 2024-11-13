@@ -1,0 +1,116 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson02/design.html",
+                    "title":"Design Principles"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson02/media-query.html",
+                    "title":"Media Query"
+                },
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson02/design-principles.html",
+                    "title":"Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson03/images/css-comb-screen-shot.jpeg",
+                    "title":"CSS Combinators"
+                },
+                {
+                    "url":"https://codepen.io/julieeakins/pen/Yzmymbb",
+                    "title":"CSS Pseudo Elements"
+                },
+                {
+                    "url":"https://codepen.io/julieeakins/pen/yLmeBEq",
+                    "title":"Hamburger Menu"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url":"https://codepen.io/julieeakins/pen/xxvERLp?editors=1100",
+                    "title":"CSS Pseudo-Class"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson05/bom.html",
+                    "title":"Dom Manipulation"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson03/images/landscape.webp",
+                    "title":"WebP Image"
+                },
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson06/responsive-images.html",
+                    "title":"Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson03/lazyload.html",
+                    "title":"Lazy Loading"
+                },
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson07/bom.html",
+                    "title":"BOM Local Storage"
+                }
+                
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson08/tablebuild.html",
+                    "title":"HTML Tables"
+                },
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson08/index.html",
+                    "title":"HTML Forms"
+                }
+               
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson09/new-ward-members.json",
+                    "title":"JSON File"
+                },
+                {
+                    "url":"https://byui-webweaver.github.io/wdd230/lesson09/prophets.html",
+                    "title":"The Fetch API"
+                }
+            ]
+        }
+
+    ]
+}
