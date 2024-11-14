@@ -18,13 +18,12 @@ async function getLinks() {
     weeks.forEach(lesson => {
         const lessonItem = document.createElement('li');
         
-        lessonItem.textContent = lesson.lesson + ':';
+        lessonItem.textContent = `${lesson.lesson}:`;
 
         lesson.links.forEach(link => {
             const anchor = document.createElement('a');
             anchor.href = link.url;
-            anchor.textContent = link.title;
-            anchor.target = '_blank';
+            anchor.textContent = ` ${link.title}`;
 
             lessonItem.appendChild(anchor);
 
