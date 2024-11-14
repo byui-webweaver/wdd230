@@ -477,8 +477,23 @@ body.dark-mode .weather {
 body.dark-mode .line {
     background-color: #f4f4f4;
 }
+/* dark mode for discover page */
+body.dark-mode .alpine-imgs p {
+    color: #f4f4f4;
+}
 
+/* dark mode for join page */
+body.dark-mode legend {
+    color: #f4f4f4;
+}
 
+body.dark-mode li {
+    color: black;
+}
+
+.alpine-imgs.dark-mode p {
+    color: #f4f4f4;
+}
 
 /*Styles for Discover Page */
 #container-visits {
@@ -747,6 +762,9 @@ input:required:valid {
     padding-right: 30px;
     padding-bottom: 20px;
 }
+
+
+
 
 
 

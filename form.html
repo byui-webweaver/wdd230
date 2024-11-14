@@ -41,11 +41,11 @@
         <form method="get" action="record.html">
             <fieldset>
                 <legend>Information</legend>
-                <label>Username✳️<input type="text" id="uname" name="uname" required></label>
-                <label>Password✳️<input type="password" id="pwd" name="pwd" pattern=".{8,}" required placeholder="At least eight characters long using only letters and numbers."></label>
-                <label>Re-enter Password✳️<input type="password" id="pwd2" name="pwd2" required></label>
+                <label>Username*<input type="text" id="uname" name="uname" required></label>
+                <label>Password*<input type="password" id="pwd" name="pwd" pattern=".{8,}" required placeholder="At least eight characters long using only letters and numbers."></label>
+                <label>Re-enter Password*<input type="password" id="pwd2" name="pwd2" required></label>
                 <div id="formessage"></div>
-                <label for="email">Email✳️<input type="email" id="email" name="email" placeholder="Your byui.edu email address" title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
+                <label for="email">Email*<input type="email" id="email" name="email" placeholder="Your byui.edu email address" title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
                 <label for="pgrate" id="rate">Page Rating</label>
                 <div id="rangevalue"></div>
                     <input type="range" id="pgrate" name="pgrate" min="0" max="10" value="0" step="1" list="rangevalues"> 
