@@ -32,8 +32,6 @@ async function getLinks() {
             lessonItem.appendChild(separator);
         });
 
-        lessonItem.lastChild.remove();
-
         activitiesList.appendChild(lessonItem);
     });
 
