@@ -31,6 +31,9 @@ const displayCards = (cards) => {
         let icon = document.createElement('img');
         icon.src = card.image;
         icon.alt = `${card.name} logo`;
+        icon.setAttribute('loading', 'lazy');
+        icon.setAttribute('width', 150);
+    
 
         let name = document.createElement('h2');
         name.textContent = card.name;
