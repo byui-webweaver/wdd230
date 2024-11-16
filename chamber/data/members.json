@@ -14,7 +14,7 @@
         "address":"333 S Main St. Alpine, Utah 84004",
         "phone":"(801)770-2565",
         "url":"https://alpinegold.com/",
-        "image":"images/alpine-gold-exchange",
+        "image":"images/alpine-gold-exchange.jpeg",
         "level":"Gold"
     },
 
@@ -23,7 +23,7 @@
         "address":"363 S Main St Alpine, Utah 84004",
         "phone":"(801)448-6876",
         "url":"https://www.ezralee.com/",
-        "image":"images-ezralee-logo.jpeg",
+        "image":"images/ezralee-logo.jpeg",
         "level":"Silver"
     },
 
