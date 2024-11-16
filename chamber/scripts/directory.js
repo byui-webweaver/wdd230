@@ -46,8 +46,8 @@ const displayCards = (cards) => {
 
         let url = document.createElement('p');
         url.innerHTML = `<a href="${card.url}" target="_blank">${card.url}</a>`;
-        url.setAttribute('text-decoration', 'none');
         
+
         busCard.appendChild(icon);
         busCard.appendChild(name);
         busCard.appendChild(address);
