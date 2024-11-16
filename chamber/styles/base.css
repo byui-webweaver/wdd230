@@ -774,6 +774,7 @@ input:required:valid {
 }
 .options {
     display: flex; 
+    margin-bottom: 10px;
     
 }
 .options button {
@@ -811,7 +812,9 @@ input:required:valid {
 
 .business-card p {
     font-family: 'Source Sans 3', sans-serif;
-    padding-top: 5px;
+    padding-top: 10px;
+    text-align: center;
+    
 }
  .business-card img {
     padding-bottom: 5px;   
@@ -821,6 +824,7 @@ input:required:valid {
 
  article .list {
     width: 1200px;
+    
  }
 
  .list section {
