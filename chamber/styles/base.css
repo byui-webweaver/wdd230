@@ -822,7 +822,7 @@ input:required:valid {
  }
  /* STyling for List page */
 
- article .list {
+ .list {
     width: 1200px;
     
  }
