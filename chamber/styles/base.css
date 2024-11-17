@@ -27,7 +27,7 @@ header {
 .header-left {
     display: flex; 
     align-items: center;  
-    margin-right: auto;  
+     
 }
 
 .toggle-container {
@@ -46,12 +46,9 @@ header {
 }
 
 header h1 {
-    font-family: 'Poppins', sans-serif;
     font-weight: 450;
-    padding-left: 5px;
     font-size: 1rem;
-    padding-right: 20px;
-    
+    padding: 0 20px 0 5px; 
 }
 
 /* Dark Mode Toggle Switch */
@@ -61,8 +58,6 @@ header h1 {
     display: inline-block;
     width: 35px;
     height: 20px;
-    margin: 0;
-
   }
   
   .switch input { 
@@ -79,7 +74,6 @@ header h1 {
     right: 0;
     bottom: 0;
     background-color: #ccc;
-    -webkit-transition: .4s;
     transition: .4s;
   }
   
@@ -91,7 +85,6 @@ header h1 {
     left: 4px;
     bottom: 4px;
     background-color: white;
-    -webkit-transition: .4s;
     transition: .4s;
   }
   
@@ -104,8 +97,8 @@ header h1 {
   }
   
   input:checked + .slider:before {
-    -webkit-transform: translateX(14px);
-    -ms-transform: translateX(14px);
+    
+  
     transform: translateX(14px);
   }
   
@@ -119,7 +112,7 @@ header h1 {
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     flex-direction: column;
     display: none; /* hide menu by default on mobile */
     align-items: flex-start;
@@ -136,10 +129,8 @@ nav ul {
 nav a {
     display: block; 
     color:#f4f4f4;
-    background-color: #1d4a4d;
     padding: 15px 20px;
     text-decoration: none;
-    font-family: 'Source Sans 3', sans-serif;
     font-size: 1.2em;
     text-align: center;
 }
@@ -156,10 +147,7 @@ nav a:hover {
     color: white;
     position: absolute;
     right: 1rem;
-    cursor: pointer;
-    display: block;
-    margin-top: auto;
-    
+    cursor: pointer; 
 }
 
 #hamburger::before {
@@ -179,20 +167,6 @@ nav a:hover {
     margin-top: 60px;
     
 }
-
- nav ul li {
-    width: 100%;
-    margin: 0;
-    padding: 0;
- }
-
- 
-
- /*Hero image not on smaller screen */
-
- /*#hero {
-    display: none;
- }*/
 
  /*Lesson 06 Hero Image at different sizes */
 
@@ -373,8 +347,6 @@ nav a:hover {
     align-items: center;
     margin-top: 20px;
     
-
-    
 }
 
  
@@ -498,25 +470,30 @@ body.dark-mode li {
     color: #f4f4f4;
 }
 
+body.dark-mode .business-card h2,
+body.dark-mode .business-card p {
+    color: black;
+}
+
 /*Styles for Discover Page */
 #container-visits {
     background-color: #EDDFCC;
-    
     text-align: center;
     color: #1d4a4d;
     margin: 20px ;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 1px 5px #1d4a4d;
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px; 
 
 }
 
 #container-visits h4 {
-    font-family: 'Poppins', sans serif;
-    
+    font-family: 'Poppins', sans serif;  
 
+}
+#container-visits p {
+    text-align: center;
 }
 
 #main-2 {
