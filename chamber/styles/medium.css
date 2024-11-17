@@ -10,8 +10,31 @@
   }
 
   .cards-dir {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px; 
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: 800px;
+  gap: 0;
+}
+
+.list section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+
+.list .business-card {
+  min-height: 150px;
+}
+
+.list h2 {
+  text-align: left;
 }
 
   
