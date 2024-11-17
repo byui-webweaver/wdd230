@@ -779,7 +779,7 @@ input:required:valid {
     padding: 20px;
     text-align: center;
     width: 100%;
-    min-height: 200px;
+    min-height: 300px;
     border: 1px solid black;
     box-shadow: 2px 2px 6px #1d4a4d ;
     display: flex;
