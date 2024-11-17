@@ -265,41 +265,65 @@
 
     .cards-dir {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: center;
-        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
         
     }
 
     .business-card {
-        height: 300px;
-        width: auto;
-
+        min-height: 300px;
     }
+
+    .business-card h2,
+    .business-card p {
+        margin: 0;
+    }
+    /*list styling larger screen */
 
     .list {
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
         max-width: 1200px;
+        gap: 0;
+        
     }
 
     .list section {
         display: grid;
-        grid-template-columns: 1fr 300px 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 100%;
         justify-content: start;
         align-items: center;
         padding-bottom: 20px;
         padding-top: 20px;
+    
         
     }
 
     .list p {
         font-size: 1.2rem;
-        padding-left: 30px;
-
+        text-align: center;  
+        margin-left: 20px;
+        padding-left: 20px;
     }
+
+    .list .business-card {
+        min-height: 150px; 
+        padding: 10px;
+        
+    }
+
+    .list p,
+    .list h2 {
+        text-align: left;
+    }
+
+    .list h2 {
+        margin-left: 20px;
+    }
+
+    
 
     
 

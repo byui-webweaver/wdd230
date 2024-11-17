@@ -744,10 +744,15 @@ input:required:valid {
 }
 
 /* Styling for Directory Page */
+
+
 .dir-page {
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
+    width: auto;
+    justify-items: center;
+    align-items: center;
 }
 .options {
     display: flex; 
@@ -762,24 +767,27 @@ input:required:valid {
     margin: 10px;
     border: none;
 }
-.dir-page {
-    padding: 10px;
-    width: auto;
-    justify-items: center;
-    align-items: center;
+
+.cardS-dir {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px;
 }
 
 .business-card {
     background-color: white;
     padding: 20px;
     text-align: center;
-    margin: 10px;
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    min-height: 200px;
     border: 1px solid black;
     box-shadow: 2px 2px 6px #1d4a4d ;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
 }
 
 .business-card h2 {
@@ -797,10 +805,17 @@ input:required:valid {
     padding-bottom: 5px;   
    
  }
+
+ .business-card h2,
+ .business-card p {
+    margin: 0;
+ }
+
  /* STyling for List page */
 
  .list {
-    width: 1200px;
+    width: 100%;
+    
     
  }
 
@@ -824,14 +839,10 @@ input:required:valid {
 }
 
 .list h2, p {
-    text-align: left;
+    text-align: center;
 }
 
-.list .business-card {
-    width: 100%;
-    max-width: 1200px;
-   
-}
+
 
 
 

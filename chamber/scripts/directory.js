@@ -45,7 +45,7 @@ const displayCards = (cards) => {
         phone.textContent = card.phone;
 
         let url = document.createElement('p');
-        url.innerHTML = `<a href="${card.url}" target="_blank">${card.url}</a>`;
+        url.innerHTML = `<a href="${card.url}" target="_blank">Website</a>`;
         
 
         busCard.appendChild(icon);
