@@ -532,6 +532,7 @@ body.dark-mode .business-card p {
 
 #main-2 li p {
     padding-top: 5px;
+    text-align: start;
 }
 
 #main-2 ul {
@@ -579,6 +580,7 @@ body.dark-mode .business-card p {
     font-family: 'Poppins', sans-serif;
     color: #1d4a4d;
     margin-bottom: 20px;
+    text-align: start;
 }
 
 body.dark-mode #main-2 {
