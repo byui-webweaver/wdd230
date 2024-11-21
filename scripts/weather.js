@@ -1,0 +1,46 @@
+//Select HTML elements in the document
+const currentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('figcaption');
+
+//Declare const variable assigned to a valid URL string from openweathermap apo documentation
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=40.457&lon=-111.776&units=imperial&appid=384a2edb7c93680cf99d1c73c465c0f3';
+
+//Define asunchronous function named apiFetch with try block for errors
+
+async function apiFetch() {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            displayResults(data); //call displayResults here
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+    
+}
+
+apiFetch();
+
+function displayResults (data) {
+    //Display rounded temperature
+    currentTemp.innerHTML = `${Math.round(data.main.temp)}&deg;F`;
+
+    //icon sourse URL
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+
+    //Capitalize the description
+    let desc = data.weather.map(item => item.description.charAt(0).toUpperCase() + item.description.slice(1)).join(',');
+
+    //Attributes for the icon
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', desc);
+
+    //Set caption text
+    captionDesc.textContent = desc;
+    
+} 
