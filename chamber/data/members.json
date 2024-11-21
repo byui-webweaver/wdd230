@@ -2,7 +2,7 @@
 "companies": [
     {
         "name":"Alpine Home Design",
-        "address":"1864 W 800 N  Alpine, Utah 84004",
+        "address":"1864 W 800 N   Alpine, Utah 84004",
         "phone":"(801)492-7535",
         "url":"https://www.alpinehomedesigninc.com/",
         "image":"images/alpine-home-design.webp",
@@ -11,7 +11,7 @@
 
     {
         "name":"Alpine Gold Exchange",
-        "address":"333 S Main St.  Alpine, Utah 84004",
+        "address":"333 S Main St.   Alpine, Utah 84004",
         "phone":"(801)770-2565",
         "url":"https://alpinegold.com/",
         "image":"images/alpine-gold-exchange.jpeg",
@@ -20,7 +20,7 @@
 
     {
         "name":"Ezra Lee Design + Build",
-        "address":"363 S Main St  Alpine, Utah 84004",
+        "address":"363 S Main St   Alpine, Utah 84004",
         "phone":"(801)448-6876",
         "url":"https://www.ezralee.com/",
         "image":"images/ezralee-logo.jpeg",
@@ -29,7 +29,7 @@
 
     {
         "name":"Cambridge Home Company",
-        "address":"395 S Main St.  Alpine, Utah 84004",
+        "address":"395 S Main St.   Alpine, Utah 84004",
         "phone":"(801)971-5545",
         "url":"https://www.cambridgehomecompany.com/",
         "image":"images/cambridge-home.jpeg",
@@ -38,7 +38,7 @@
 
     {
         "name":"Glo Esthetics",
-        "address":"40 W Main St  Alpine, Utah 84004",
+        "address":"40 W Main St   Alpine, Utah 84004",
         "phone":"(801)692-1782",
         "url":"https://gloesthetics.com/services/",
         "image":"images/glo-esthetics.jpeg",
@@ -47,7 +47,7 @@
 
     {
         "name":"Utah Leadership Training Academy",
-        "address":"2 N Village Ct  Alpine, Utah 84004",
+        "address":"2 N Village Ct   Alpine, Utah 84004",
         "phone":"(801)216-4082",
         "url":"https://www.utahleadership.com/",
         "image":"images/ULTrAlogo_white_-07-for-web.jpg",
@@ -56,7 +56,7 @@
 
     {
         "name":"Alpine Surgical Arts",
-        "address":"3300 N Running Creek Way  Alpine, Utah 84004",
+        "address":"3300 N Running Creek Way   Alpine, Utah 84004",
         "phone":"(801)766-4834",
         "url":"https://www.alpinesurgicalarts.com/optin29827004",
         "image":"images/alpine-surgical-arts.jpeg",
