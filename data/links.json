@@ -115,7 +115,8 @@
             "lesson": "10",
             "links": [
                 {
-                    "url"
+                    "url" :"https://byui-webweaver.github.io/wdd230/lesson10/weather.html",
+                    "title": "Consuming a Weather API"
                 }
             ]
         }
