@@ -121,15 +121,18 @@
         margin-bottom: 0px;
         margin-top: 20px;
         margin-bottom: 10px;
+        padding-left: 5px;
 
     }
     .resource-msg p {
-        text-align: left;
+        text-align: start;
+        padding-left: 5px;
     }
 
     .button-box {
-        text-align: left;
+        text-align: start;
         margin-bottom: 10px;
+        padding-left: 5px;
     }
 
     .join-now {
@@ -174,10 +177,14 @@
         color: #1d414d;
         padding: 20px;
         z-index: 1;
-        text-align: left;
+        text-align: start;
         width: 500px;
         height: auto;
         
+    }
+
+    .business-msg p {
+        text-align: start;
     }
 
     #bus-address {

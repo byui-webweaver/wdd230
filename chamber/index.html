@@ -100,9 +100,16 @@
 
             <div class="weather">
                 <h1>Weather</h1>
-                <h2>Temperature: <span id="temperature">30</span>&deg;F</h2>
-                <h2>Windspeed: <span id="windspeed">10</span>mph</h2>
-                <h2>Wind Chill: <span id="windchill">N/A</span></h2>
+
+                <h2>Temperature: <span id="temperature"></span>&deg;F</h2>
+                <h2>Current Conditions: <span id="cur-conditions">
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </span></h2>
+
+                <div><h2>Three Day Forecast: <span id="forecast"></span></h2></div>
             </div>
         </div>
 
@@ -148,7 +155,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/herodynamic.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
     
     </div>
 </body>
