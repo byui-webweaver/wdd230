@@ -33,7 +33,13 @@ function displayResults (data) {
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
 
     //Capitalize the description
-    let desc = data.weather.map(item => item.description.charAt(0).toUpperCase() + item.description.slice(1)).join(',');
+    const capitalizeDescription = (description => {
+        return description
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+    })
+    let desc = data.weather.map(item => capitalizeDescription(item.description)).join(', ');
 
     //Attributes for the icon
     weatherIcon.setAttribute('src', iconsrc);
