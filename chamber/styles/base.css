@@ -208,6 +208,36 @@ nav a:hover {
     text-align: center;
  }
 
+ /*Banner Styling*/
+
+ #meet-greet-banner {
+    display: none;
+    background-color: #EDDFCC;
+    color: #1d4a4d;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 5px;
+    
+ }
+
+ .banner-content p {
+    margin: 0;
+    font-weight: 650;
+ }
+
+ #close-banner {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+ }
+
  /* Main styling */
  /* Community Resources Section */
 
