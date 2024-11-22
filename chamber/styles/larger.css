@@ -169,7 +169,7 @@
     .business-msg {
         
         position: absolute;
-        top: 30%;
+        top: 25%;
         left: auto;
         transform: translate(-50%, -20%);
         background: #EDDFCC;
@@ -180,6 +180,8 @@
         text-align: start;
         width: 500px;
         height: auto;
+        
+    
         
     }
 

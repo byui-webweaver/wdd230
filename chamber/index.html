@@ -79,7 +79,7 @@
                 <h2>Our Vision</h2>
                 <p>To promote, support, connect, and advocate for our members both within and beyond our communities.</p>
                 <div class="button-box">
-                <a class="join-now" href="">Join Here</a>
+                <a class="join-now" href="https://byui-webweaver.github.io/wdd230/chamber/join.html">Join Here</a>
                 </div>   
             </div>
         </div>
@@ -101,15 +101,22 @@
             <div class="weather">
                 <h1>Weather</h1>
 
-                <h2>Temperature: <span id="temperature"></span>&deg;F</h2>
-                <h2>Current Conditions: <span id="cur-conditions">
-                    <figure>
-                        <img id="weather-icon" src="" alt="">
-                        <figcaption></figcaption>
-                    </figure>
-                </span></h2>
+                <div>
+                    <h2>Current temperature: </h2> 
+                    <h2><span id="temperature"></span></h2>
+                </div>
+                
+                <div id="conditions">
+                    <h2><span id="cur-conditions"></span></h2>
+                    <img id="weather-icon" src="" alt="">
+                </div>    
+        
+                    
 
-                <div><h2>Three Day Forecast: <span id="forecast"></span></h2></div>
+                <div>
+                    <h2>Three Day Forecast: </h2>
+                    <span id="forecast"></span>
+                </div>
             </div>
         </div>
 
@@ -141,7 +148,7 @@
         <div class="footer-middle">
             <img class="footer-logo" src="images/ALPINE.webp" width="80" alt="Alpine Chamber of Commerce Logo">
             <h3>Alpine Chamber of Commerce</h3>
-            <p>&copy; <span id="currentYear"></span>
+            <p>&copy; <span id="currentYear"></span></p>
         </div>
 
         <div class="right-footer">

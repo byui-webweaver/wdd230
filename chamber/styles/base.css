@@ -293,7 +293,7 @@ nav a:hover {
  }
 
  .events h2 {
-    margin-top: 20px;
+    margin-top: 5px;
  }
 
  .events p {
@@ -337,6 +337,30 @@ nav a:hover {
 
  }
 
+ .weather h1 {
+    margin-top: 0;
+    margin-bottom: 8px;
+ }
+
+ #cur-conditions {
+    margin-bottom: 20px;
+ }
+
+ #conditions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ #forecast {
+    display: block;
+
+ }
+
+ .forecast-item {
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+ }
 
 
  /* Business Highlight */
