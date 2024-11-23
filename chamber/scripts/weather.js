@@ -38,8 +38,13 @@ function displayResults(data) {
     conditions.innerHTML = desc;
 
     // Attributes for the icon
+    const weatherIcon = document.createElement('img');
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
+    weatherIcon.setAttribute('id', 'weather-icon');
+
+    const conditionsContainer = document.getElementById('conditions');
+    conditionsContainer.appendChild(weatherIcon);
 
     const forecastMap = {};
 
