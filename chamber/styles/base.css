@@ -32,8 +32,7 @@ header {
 
 .toggle-container {
     margin-left: auto;
-    margin-top: -40px;
-    margin-bottom: 20px;
+    margin-top: -40px 0 20px 0;
 }
 
 
@@ -97,8 +96,6 @@ header h1 {
   }
   
   input:checked + .slider:before {
-    
-  
     transform: translateX(14px);
   }
   
@@ -163,9 +160,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     width: 200px;
-    margin-right: -100px;
-    margin-top: 60px;
-    
+    margin: 60px -100px 0 0;
 }
 
  /*Lesson 06 Hero Image at different sizes */
@@ -303,8 +298,7 @@ nav a:hover {
     text-decoration: none;
     font-size: 16px;
     padding: 10px 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0;
     text-align: center;
     font-family: 'Source Sans 3', sans-serif;
     display: inline-block;
@@ -359,17 +353,13 @@ nav a:hover {
     text-decoration: none;
     font-size: 16px;
     padding: 10px 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0;
     text-align: center;
     font-family: 'Source Sans 3', sans-serif;
-    margin-bottom: 20px;
-
  }
 
  .weather h1 {
-    margin-top: 0;
-    margin-bottom: 8px;
+    margin: 30px 0 8px 0;
  }
 
  #cur-conditions {
@@ -409,17 +399,13 @@ nav a:hover {
     font-weight: 500;
     font-size: 22px;
     color: #1d4a4d;
-    padding-left: 25px;
-    padding-right: 25px;
-    color: #1d4a4d;
+    padding: 0 25px;
 }
 
 .business-msg h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 450;
-    padding: 25px;
-    padding-bottom: 10px;
-    padding-top: 0;
+    padding: 0 25px 10px 25px;
     font-size: 1em;
     color: #1d4a4d;
 }
@@ -428,10 +414,7 @@ nav a:hover {
     font-family: 'Source Sans 3', sans-serif;
     font-size: 16px;
     color: #1d4a4d;
-    padding-left: 25px;
-    padding-right: 25px;
-    color: #1d4a4d;
-    
+    padding: 0 25px;
 }
 
 .business-img {
@@ -444,8 +427,7 @@ nav a:hover {
 #bus-address  {
     margin-top: 10px;
     font-size: 1em;
-    font-weight: 600;
-    
+    font-weight: 600; 
 }
 
 .business-msg {
@@ -482,8 +464,7 @@ footer p {
 }
 
 .footer-middle h3 {
-    padding: 10px;
-    padding-bottom: 5px;
+    padding: 10px 10px 5px 10px;
 }
 
 .footer-middle p {
@@ -535,11 +516,10 @@ body.dark-mode .business-card p {
     background-color: #EDDFCC;
     text-align: center;
     color: #1d4a4d;
-    margin: 20px ;
+    margin: 20px 20px 5px 20px ;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 1px 5px #1d4a4d;
-    margin-bottom: 5px; 
 
 }
 
@@ -579,10 +559,8 @@ body.dark-mode .business-card p {
 #main-2 li {
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 600;
-    padding-bottom: 10px;
-    margin-left: 40px;
-    padding-right: 10px;
-    margin-right: 20px;
+    padding: 0 10px 10px 0;
+    margin: 0 20px 0 40px;
 }
 
 #main-2 li p {
@@ -608,9 +586,8 @@ body.dark-mode .business-card p {
 #attractions h3 {
     font-family: 'Poppins', sans serif;
     font-weight: 500;
-    padding-left: 20px;
-    padding-bottom: 15px;
-    padding-right: 20px;
+    padding: 0 20px 15px 20px;
+
 }
 
 #demographic, #events-2, #attractions {
@@ -663,12 +640,11 @@ body.dark-mode .sidebar {
 
 
 fieldset {
-    margin: 2rem 0;
+    margin: 2rem 0 20px 0;
     border: 1px solid #1d4a4d;
     border-radius: 6px;
     padding: .5rem 2%;
     width: 400px;
-    margin-bottom: 20px;
     background-color: #f7f8f8;
 }
 
@@ -681,11 +657,10 @@ legend {
 
 label {
     display: block;
-    padding-left: 1rem;
     color: #1d4a4d;
     font-size: .9rem;
-    padding-bottom: 20px;
-    padding-right: 1rem;
+    padding: 0 1rem 20px 1rem;
+
 }
 
 input[type="text"],
@@ -710,8 +685,7 @@ input {
 #description {
     width: 95%;
     height: 100px;
-    margin-left: .5rem;
-    margin-bottom: 10px;
+    margin: 0 0 10px .5rem;
     border-radius: 6px;
     
     
@@ -759,17 +733,15 @@ input:required:valid {
 .gold {
     background-color: #EDDFCC;
     opacity: .9;
-    
     padding-top: 0;
     margin: 20px;
     border-radius: 6px;
     border: solid 2px #1d4a4d;
-    
+ 
 }
 
 .right-form h2 {
     font-weight: 400;
-   
 }
 
 
@@ -783,6 +755,7 @@ input:required:valid {
 .right-form p{
     font-family: 'Source Sans 3', sans-serif;
     padding-bottom: 10px;
+    text-align: start;
 }
 
 .ben-head {
@@ -795,9 +768,8 @@ input:required:valid {
     
 }
 .right-form ul {
-    padding-left: 40px;
-    padding-right: 30px;
-    padding-bottom: 20px;
+    padding: 0 30px 20px 40px;
+   
 }
 
 /* Styling for Directory Page */
@@ -811,14 +783,16 @@ input:required:valid {
     justify-items: center;
     align-items: center;
 }
+
 .options {
     display: flex; 
     margin-bottom: 10px;
     
 }
+
 .options button {
-    background-color: #678e90 ;
-    color: white;
+    background-color: #EDDFCC ;
+    color: #1d4a4d;
     padding: 20px;
     font-size: 1.5rem;
     margin: 10px;
@@ -871,16 +845,14 @@ input:required:valid {
  /* STyling for List page */
 
  .list {
-    width: 100%;
-    
-    
+    width: 100%;  
  }
 
  .list section {
     margin: 0;
-    padding: 0.25rem;
+    padding: 0.25rem 0.25rem 20px 0.25rem;
     height: 100%;
-    padding-bottom: 20px; 
+
  }
 
 .list section > * {
@@ -892,7 +864,7 @@ input:required:valid {
 }
 
 .list section:nth-child(even) {
-    background-color: #a7c9cb;
+    background-color: #EDDFCC;
 }
 
 .list h2, p {
