@@ -362,8 +362,16 @@ nav a:hover {
     margin: 30px 0 8px 0;
  }
 
+ #temperature {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    
+ }
+
  #cur-conditions {
-    margin-bottom: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2rem;
+    margin: 10px;
  }
 
  #conditions {
@@ -374,13 +382,17 @@ nav a:hover {
  }
  #forecast {
     display: block;
+    margin-top: 8px;
 
  }
 
  .forecast-item {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
  }
+
+
 
 
  /* Business Highlight */
