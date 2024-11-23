@@ -402,6 +402,16 @@ nav a:hover {
     padding: 0 25px;
 }
 
+#bus-spotlight-name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #1d4a4d;
+    padding: 0 25px;
+    margin-bottom: 5px;
+
+}
+
+
 .business-msg h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 450;
