@@ -14,7 +14,7 @@
         "address":"333 S Main St.   Alpine, Utah 84004",
         "phone":"(801)770-2565",
         "url":"https://alpinegold.com/",
-        "image":"images/alpine-gold-exchange.jpeg",
+        "image":"images/alpine-gold-exchange.webp",
         "level":"Gold"
     },
 
@@ -23,7 +23,7 @@
         "address":"363 S Main St.   Alpine, Utah 84004",
         "phone":"(801)448-6876",
         "url":"https://www.ezralee.com/",
-        "image":"images/ezralee-logo.jpeg",
+        "image":"images/ezralee-logo.webp",
         "level":"Silver"
     },
 
@@ -32,7 +32,7 @@
         "address":"395 S Main St.   Alpine, Utah 84004",
         "phone":"(801)971-5545",
         "url":"https://www.cambridgehomecompany.com/",
-        "image":"images/cambridge-home.jpeg",
+        "image":"images/cambridge-home.webp",
         "level":"Bronze"
     },
 
@@ -41,7 +41,7 @@
         "address":"40 W Main St.   Alpine, Utah 84004",
         "phone":"(801)692-1782",
         "url":"https://gloesthetics.com/services/",
-        "image":"images/glo-esthetics.jpeg",
+        "image":"images/glo-esthetics.webp",
         "level":"Silver"
     },
 
@@ -50,7 +50,7 @@
         "address":"2 N Village Ct.   Alpine, Utah 84004",
         "phone":"(801)216-4082",
         "url":"https://www.utahleadership.com/",
-        "image":"images/ULTrAlogo_white_-07-for-web.jpg",
+        "image":"images/ULTrAlogo_white_-07-for-web.webp",
         "level":"Non-Profit"
     },
 
@@ -59,7 +59,7 @@
         "address":"3300 N Running Creek Way   Alpine, Utah 84004",
         "phone":"(801)766-4834",
         "url":"https://www.alpinesurgicalarts.com/optin29827004",
-        "image":"images/alpine-surgical-arts.jpeg",
+        "image":"images/alpine-surgical-arts.webp",
         "level":"Gold"
     }
 
