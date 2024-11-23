@@ -181,8 +181,6 @@
         width: 500px;
         height: auto;
         
-    
-        
     }
 
     .business-msg p {
@@ -198,11 +196,9 @@
         position: relative;
         width: 100%;
         max-width: 600px;
-        margin-top: 0;
+        margin: 0 0 0 400px;
         border-radius: 5%;
-        display: block;
-        margin-left: 400px;
-       
+        display: block;  
     }
 
     /* Discover Page Styling */
@@ -213,8 +209,8 @@
     }
 
     .alpine-imgs picture {
-        margin-top: 40px;
-        margin-bottom: 0;
+        margin: 40px 0 0 0;
+    
     }
 
     .alpine-imgs picture img {
@@ -233,8 +229,7 @@
 
     footer {
         display: grid;
-        grid-template-columns: 1fr auto 1fr;
-        
+        grid-template-columns: 1fr auto 1fr;    
         align-items: center;
         padding: 20px;
     }
