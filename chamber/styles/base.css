@@ -894,6 +894,31 @@ input:required:valid {
 .list h2, p {
     text-align: center;
 }
+/* styling for thank you page */
+.main-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#thank-you {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f8f8;
+    width: 100%;
+    max-width: 800px;
+    margin: 40px;
+    padding: 30px;
+    border: 1px solid #1d4a4d;
+    border-radius: 5px;
+    
+}
+
+#thank-you p {
+    padding: 20px;
+    color: #1d4a4d;
+}
 
 
 
