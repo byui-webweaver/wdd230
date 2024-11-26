@@ -460,6 +460,52 @@ nav a:hover {
     margin-bottom: 30px;
     
 }
+
+.highlight-header {
+    background-color: #EDDFCC;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 5px #1d4a4d;
+    opacity: .9;
+    padding: 20px;
+}
+
+.highlight-header h2 {
+    color: #1d4a4d;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px;
+
+}
+
+.highlight-img {
+    width: 80px;
+
+}
+
+.business-card-highlight h2 {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.business-card-highlight p {
+    padding-bottom: 5px;
+}
+
+.business-card-highlight a {
+    padding: 10px;
+}
+
+.business-card-highlight {
+    padding: 0 10px;
+}
+
+.business-highlights {
+    display: grid;
+    grid-template-columns: 1fr;
+
+
+}
  
 /* Footer Styles */
 footer {
@@ -834,7 +880,8 @@ input:required:valid {
     gap: 20px;
 }
 
-.business-card {
+.business-card,
+.business-card-highlight {
     background-color: white;
     padding: 20px;
     text-align: center;
@@ -846,6 +893,7 @@ input:required:valid {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    color: #1d4a4d;
     
 }
 
