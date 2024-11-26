@@ -90,6 +90,11 @@ header h1 {
     background-color: white;
     transition: .4s;
   }
+
+  .label-text {
+    color: white;
+    display: none;
+  }
   
   input:checked + .slider {
     background-color: blue;
