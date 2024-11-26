@@ -853,7 +853,9 @@ input:required:valid {
 }
 
 /* Styling for Directory Page */
-
+.dir-page h1 {
+    text-align: center;
+}
 
 .dir-page {
     max-width: 1200px;
@@ -900,6 +902,11 @@ input:required:valid {
     margin-bottom: 20px;
     color: #1d4a4d;
     
+}
+
+.business-card {
+    height: 305px;
+    min-height: 300px;
 }
 
 .business-card h2 {

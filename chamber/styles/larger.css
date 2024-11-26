@@ -166,8 +166,6 @@
         padding-top: 30px;
     }
 
-    
-
     /* Discover Page Styling */
 
     #main-2 {
@@ -250,6 +248,7 @@
     }
 
     .business-card {
+        height: 350px;
         min-height: 300px;
     }
 
