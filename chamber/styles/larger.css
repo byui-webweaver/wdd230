@@ -153,53 +153,15 @@
         display: block;
     }
 
-/* Business Highlight Styling */
-    .business-highlight {
-        position: relative;
-        display: flex;
+    .business-highlights {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
         align-items: center;
-        justify-content: flex-end;
-        margin: 50px auto;
-        max-width: 1000px
-    
+        gap: 20px;
     }
 
     
-
-    .business-msg {
-        
-        position: absolute;
-        top: 22%;
-        left: auto;
-        transform: translate(-50%, -20%);
-        background: #EDDFCC;
-        opacity: .9;
-        color: #1d414d;
-        padding: 20px;
-        z-index: 1;
-        text-align: start;
-        width: 500px;
-        height: auto;
-        
-    }
-
-    .business-msg p {
-        text-align: start;
-    }
-
-    #bus-address {
-        padding-bottom: 20px;
-    }
-
-
-    .business-img {
-        position: relative;
-        width: 100%;
-        max-width: 600px;
-        margin: 0 0 0 400px;
-        border-radius: 5%;
-        display: block;  
-    }
 
     /* Discover Page Styling */
 
@@ -364,5 +326,20 @@
     .list {
         max-width: 2000px;
     }
+
+  .highlight-header {
+    justify-content: center;
+    padding: 20px 40px;
+    width: 1800px;
+  }
+  #bottom {
+    justify-items: center;
+    align-items: center;
+
+  }
+  .business-highlights {
+    gap: 60px;
+  }
+
 
 }

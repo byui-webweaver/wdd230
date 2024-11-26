@@ -40,8 +40,13 @@ function displaySpotlightMembers(members) {
 async function init() {
     const members = await fetchMembers();
     const filteredMembers = filterMembers(members);
-    const randomMembers = getRandomMembers(filteredMembers,2);
+
+    const count = (window.innerWidth >= 600 && window.innerWidth <= 849) ? 2 : 3;
+
+    const randomMembers = getRandomMembers(filteredMembers, count);
     displaySpotlightMembers(randomMembers);
 }
 
 window.onload = init;
+
+window.onresize = init;

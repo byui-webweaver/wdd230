@@ -470,11 +470,12 @@ nav a:hover {
     padding: 20px;
 }
 
-.highlight-header h2 {
+.highlight-header h1 {
     color: #1d4a4d;
     text-align: center;
     font-weight: 600;
-    padding: 20px;
+    padding: 0 20px;
+    margin: 10px 0 25px 0;
 
 }
 
@@ -498,6 +499,9 @@ nav a:hover {
 
 .business-card-highlight {
     padding: 0 10px;
+    width: 300px;
+    max-width: 400px;
+    height: 250px;
 }
 
 .business-highlights {
