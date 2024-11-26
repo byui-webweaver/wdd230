@@ -557,6 +557,11 @@ body.dark-mode .business-card p {
     text-align: center;
 }
 
+.disc-heading {
+    color: #1d4a4d;
+    text-align: center;
+}
+
 #main-2 {
     display: grid;
     grid-template-columns: 1fr; /* Single column for smaller screen */
