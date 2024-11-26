@@ -560,7 +560,6 @@ body.dark-mode .business-card p {
 #main-2 {
     display: grid;
     grid-template-columns: 1fr; /* Single column for smaller screen */
-    color: #1d4a4d;
 }
 
 
@@ -619,7 +618,7 @@ body.dark-mode .business-card p {
 #demographic, #events-2, #attractions {
     background-color: #EDDFCC;
     padding: 0;
-    margin: 20px;
+    margin: 20px 0 20px 0;
     box-shadow: 0 1px 5px #1d4a4d;
     border-radius: 5px;
     opacity: .9;
@@ -635,7 +634,6 @@ body.dark-mode .business-card p {
 }
 
 .alpine-imgs p {
-    font-family: 'Poppins', sans-serif;
     color: #1d4a4d;
     margin-bottom: 20px;
     text-align: start;
