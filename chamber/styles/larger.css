@@ -159,6 +159,11 @@
         justify-items: center;
         align-items: center;
         gap: 20px;
+        
+    }
+
+    #bottom {
+        padding-top: 30px;
     }
 
     
@@ -331,6 +336,7 @@
     justify-content: center;
     padding: 20px 40px;
     width: 1800px;
+
   }
   #bottom {
     justify-items: center;
