@@ -208,6 +208,10 @@
 
     }
 
+    .sidebar {
+        padding: 20px;
+    }
+
     .alpine-imgs picture {
         margin: 40px 0 0 0;
     
