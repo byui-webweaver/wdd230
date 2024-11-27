@@ -227,10 +227,13 @@
     }
     .left-form {
         align-items: normal;
+        width: 100%;
+        max-width: 800px;
     }
 
     fieldset {
         width: 100%;
+        max-width: 800px;
         
     }
 
