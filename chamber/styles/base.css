@@ -145,6 +145,10 @@ nav a:hover {
     color:#EDDFCC;
 }
 
+nav a.active {
+    color: #EDDFCC;
+}
+
 /* Hamburger Styling */
 #hamburger {
     font-size: 2.5rem;
