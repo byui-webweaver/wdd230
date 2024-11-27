@@ -70,7 +70,7 @@ function displayResults(data) {
     }).join('<br>');
         
 
-    console.log('Three Dya Forecast:', threeDayForecast);
+
 
     forecast.innerHTML = threeDayForecast;
 }
