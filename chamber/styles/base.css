@@ -712,24 +712,22 @@ body.dark-mode .sidebar {
 /* for the actual form */
 
 .form-content {  /*Main content*/
-   display: flex;
-   flex-direction: column;
-   align-items: center;
    padding: 0 2%;
    min-height: 20rem;
    font-family: 'Poppins', sans-serif;
+   width: 100%;
    max-width: 600px;
-   margin: 0 auto;
+   margin: -10px auto;
 
 }  
-
 
 fieldset {
     margin: 2rem 0 20px 0;
     border: 1px solid #1d4a4d;
     border-radius: 6px;
     padding: .5rem 2%;
-    width: 400px;
+    width: auto;
+    max-width: 600px;
     background-color: #f7f8f8;
 }
 
@@ -788,7 +786,7 @@ input[type="submit"] {
     color: #f4f4f4;
     padding: 15px;
     border-radius: 6px;
-    width: 50%;
+    width: 80%;
     max-width: 200px;
     cursor: pointer;
  
@@ -809,6 +807,11 @@ input:required:valid {
 }
 
 /* Styling for the membership benefits */
+
+.heading-4 {
+    text-align: center;
+    color: #1d4a4d;
+}
 
 
 .gen-ben, 
@@ -936,7 +939,7 @@ input:required:valid {
     margin: 0;
  }
 
- /* STyling for List page */
+ /* Styling for List page */
 
  .list {
     width: 100%;  
