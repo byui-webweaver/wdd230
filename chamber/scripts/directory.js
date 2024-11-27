@@ -32,7 +32,9 @@ const displayCards = (cards) => {
         icon.src = card.image;
         icon.alt = `${card.name} logo`;
         icon.setAttribute('loading', 'lazy');
-        icon.setAttribute('width', 150);
+        icon.setAttribute('width', '150');
+        icon.setAttribute('height', 'auto');
+    
     
 
         let name = document.createElement('h2');
