@@ -306,7 +306,7 @@ nav a.active {
 
  .join-now {
     background-color: #1d4a4d;
-    opacity: .8;
+    opacity: 1;
     color: #f4f4f4;
     text-decoration: none;
     font-size: 16px;
@@ -319,7 +319,7 @@ nav a.active {
 
  .button-box a:hover {
     background-color: #1d1d1d;
-    
+    opacity: 1;
  }
 
  /* Events and Weather Sections */
