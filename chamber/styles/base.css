@@ -317,6 +317,11 @@ nav a.active {
     display: inline-block;
  }
 
+ .button-box a:hover {
+    background-color: #1d1d1d;
+    
+ }
+
  /* Events and Weather Sections */
  .middle {
     display: grid;
