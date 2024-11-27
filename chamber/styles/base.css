@@ -364,17 +364,7 @@ nav a.active {
     
  }
 
- #see-more {
-    background-color: #1d4a4d;
-    opacity: .8;
-    color: #f4f4f4;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 10px 30px;
-    margin: 20px 0;
-    text-align: center;
-    font-family: 'Source Sans 3', sans-serif;
- }
+
 
  .weather h1 {
     margin: 30px 0 8px 0;
@@ -414,66 +404,6 @@ nav a.active {
 
 
  /* Business Highlight */
- .business-highlight {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    
-}
-
- 
-.business-msg h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 22px;
-    color: #1d4a4d;
-    padding: 0 25px;
-}
-
-#bus-spotlight-name {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    color: #1d4a4d;
-    padding: 0 25px;
-    margin-bottom: 5px;
-
-}
-
-
-.business-msg h3 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 450;
-    padding: 0 25px 10px 25px;
-    font-size: 1em;
-    color: #1d4a4d;
-}
-
-.business-msg p {
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 16px;
-    color: #1d4a4d;
-    padding: 0 25px;
-}
-
-.business-img {
-    margin-left: 0;
-    width: 100%;
-    display: block;
-    margin-top: 5px;
-}
-
-#bus-address  {
-    margin-top: 10px;
-    font-size: 1em;
-    font-weight: 600; 
-}
-
-.business-msg {
-    margin-bottom: 30px;
-    
-}
 
 .highlight-header {
     background-color: #EDDFCC;
@@ -522,8 +452,6 @@ nav a.active {
 .business-highlights {
     display: grid;
     grid-template-columns: 1fr;
-
-
 }
  
 /* Footer Styles */
