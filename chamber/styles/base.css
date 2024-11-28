@@ -905,6 +905,10 @@ input:required:valid {
 .list h2, p {
     text-align: center;
 }
+
+.list h2 {
+    padding-top: 20px;
+}
 /* styling for thank you page */
 .main-4 {
     display: grid;

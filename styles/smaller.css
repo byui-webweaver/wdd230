@@ -62,4 +62,40 @@
     padding: 0;
    }
 
+   .hero-label h2 {
+    padding: 10px;
+    margin: 0;
+   }
+
+   .card,
+   .card-1 {
+    display: block;
+    width: 90%;
+    max-width: 600px;
+    
+    justify-items: center;
+    margin: 15px;
+    
+   }
+
+   .content {
+    padding: 0;
+    justify-items: center;
+    width: 100%;
+   
+   }
+
+   .content h2 {
+    padding-top: 10px;
+   }
+
+   .card h3 {
+    width: 100%;
+   }
+   .card-1 h3 {
+    width: 100%;
+   }
+
+
+
 }
