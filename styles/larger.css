@@ -70,10 +70,6 @@
         margin-bottom: 40px;
     }
 
-    picture img {
-        width: auto;
-    }
-
     .hero-label {
       
         font-size: 2em;
@@ -83,12 +79,18 @@
     .content {
         display: grid; /* Use grid layout for main content */
         grid-template-columns: 1fr 1fr; /* Two equal columns */
-        gap: 10px; /* Space between columns */
+        gap: 20px; /* Space between columns */
         justify-items: center;
     }
 
     .card {
         padding: 20px; /* Ensure there is padding inside the cards for 2 columns*/
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .card-1 {
+        margin-left: 0;
     }
  
     h2 {
