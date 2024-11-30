@@ -814,6 +814,8 @@ input:required:valid {
 .options {
     display: flex; 
     margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
     
 }
 
