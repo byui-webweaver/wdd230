@@ -9,14 +9,53 @@ body {
     background-color: #f4f4f4;
     font-family: 'Quicksand', sans-serif;
 }
+header {
+    width: 100%;
+}
+
+#weather-banner {
+    position: relative;
+    display: flex;
+    background-color: #00c3d8;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#close-banner {
+    position: absolute;
+    top: autp;
+    right: 10px;
+    transform: translate(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+
+}
+
+#close-banner:hover {
+    color: #0c0f09;
+}
 
 #content {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px;
 }
-
 
 
 #hero-box{
@@ -29,10 +68,12 @@ body {
 }
 
 #hero-img {
-    width: 1400px;
-    justify-items: center;
-    align-items: center;
+    width: 100%;
+    max-width: auto;
+}
 
+#hero-image {
+    width: 100%;
 }
 
 .header-left {
@@ -70,7 +111,6 @@ body {
 .menu a {
     text-decoration: none;
     color: black;
-    padding: 10px;
 
 }
 
@@ -84,7 +124,6 @@ body {
     right: 40px;
     display: flex;
     align-items: center;
-    z-index: 10;
 }
 
 .social-right li {

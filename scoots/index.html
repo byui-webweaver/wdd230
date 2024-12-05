@@ -18,18 +18,20 @@
     <meta property="og:url" content="https://byui-webweaver.github.io/wdd230/scoots/index.html">
 </head>
 <body>
-    <div id="weather-banner">
-        <div class="banner-content">
-            <p>[Weather Information]</p>
-            <button id="close-banner" aria-label="Close banner">❌</button>
-        </div>
-    </div>
+   
     <header>
         <div id="content">
+            <div id="weather-banner">
+                <div class="banner-content">
+                    <p>The high temperature in Cozumel today is <span id="high-temp"></span></p>
+                    <button id="close-banner" aria-label="Close banner">X</button>
+                </div>
+            </div>
+
              <div id="hero-box">
                 <div id="hero-img">
                     
-                     <img src="images/scoots-hero-image.webp" alt="Scooters riding on the beach">   
+                     <img id="hero-image" src="images/scoots-hero-image.webp" alt="Scooters riding on the beach">   
                     
                 </div>
 
@@ -76,97 +78,9 @@
 
     
 
-    <main>
-    
-        <div class="resources">
-            <img class="resource-img" src="images/working-together.webp" alt="All hands together showing unity">
-            <div class="resource-msg">
-                <h1>Alpine Chamber of Commerce</h1>
-                <h2>Our Mission</h2>
-                <p>To be the trusted resource for relationship building, education, and advocacy; and the key driver of business and community prosperity.</p>
-                <h2>Our Vision</h2>
-                <p>To promote, support, connect, and advocate for our members both within and beyond our communities.</p>
-                
-                
-                
-            </div>
-        </div>
+ 
 
-        <div class="middle">
-            <div class="events">
-                <h1>Upcoming Events</h1>
-                <h2>October Utah County Women in Business</h2>
-                <p> October 24, 2024</p>
-                <p>American Fork Hospital, Education Room</p>
-                <h2>Alpine Main Street Trick or Treat</h2>
-                <p>October 28, 2024</p>
-                <p>Alpine Main Street</p>
-               
-            </div>
-
-            <div class="line"></div>
-
-            <div class="weather">
-                <h1>Weather</h1>
-
-                <div>
-                    <h2>Current temperature: </h2>
-                    <div id="temperature"></div>   
-                </div>
-                
-                <div id="conditions">
-                    <div id="cur-conditions"></div> 
-                </div>        
-
-                <div>
-                    <h2>Three Day Forecast: </h2>
-                    <span id="forecast"></span>
-                </div>
-            </div>
-        </div>
-        <div id="bottom">
-            <div class="highlight-header">
-                <h1>Chamber Business Member Highlights</h1>
-                <div class="business-highlights">
-                
-                </div>
-        
-            </div>
-        </div>
-
-       
-
-
-   
-    </main>
-
-    <footer>
-        <div class="left-footer">
-            <p>Contact Us</p>
-            <p>801-555-5555</p>
-            <p>alpine-commerce@alpinecity.org</p>
-        </div>
-            
-        <div class="footer-middle">
-            <img class="footer-logo" src="images/ALPINE.webp" width="80" alt="Alpine Chamber of Commerce Logo">
-            <h3>Alpine Chamber of Commerce</h3>
-            <p>&copy; <span id="currentYear"></span></p>
-        </div>
-
-        <div class="right-footer">
-            <p>Julie Eakins | WDD230 Project</p>
-            <p id="lastModified"></p>
-        </div>
-    
-    </footer>
-
-    <script src="scripts/getdates.js"></script>
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/darkmode.js"></script>
-    <script src="scripts/herodynamic.js"></script>
-    <script src="scripts/weather.js"></script>
-    <script src="scripts/banner.js"></script>
-    <script src="scripts/business-highlight.js"></script>
+   <script src="scripts/weather.js"></script>
     
     </div>
 </body>
