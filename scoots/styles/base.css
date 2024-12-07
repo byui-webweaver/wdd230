@@ -8,7 +8,9 @@ body {
     padding: 20px;
     background-color: #f4f4f4;
     font-family: 'Quicksand', sans-serif;
+    color: #0c0f09;
 }
+
 header {
     width: 100%;
 }
@@ -19,9 +21,7 @@ header {
     background-color: #00c3d8;
     width: 100%;
     justify-content: center;
-    align-items: center;
-   
-    
+    align-items: center;   
 }
 
 .banner-content {
@@ -53,7 +53,6 @@ header {
 
 #content {
     width: 100%;
-    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -63,8 +62,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 #hero-img {
@@ -143,14 +140,14 @@ header {
     transform: translateX(-50%);
     background: #00c3d8;
     z-index: 10;
-    padding: 20px 40px;
+    padding: 15px 30px;
     border-radius: 8px;
     border: solid 1px #0c0f09;
 }
 
 .button-box a {
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: white;
     padding 5px;
 }
@@ -162,7 +159,7 @@ header {
 
 #hero-msg {
     position: absolute;
-    top: 25%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -173,3 +170,123 @@ header {
 #hero-msg h1 {
     font-weight: 300;
 }
+
+.home-main {
+    width: 100%;
+
+    margin: 0 auto;
+
+}
+
+.about-us {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+    
+    padding: 40px 0 ;
+}
+
+#introduction {
+    font-family: 'Agbalumo', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 200;
+    margin-bottom: 20px;
+    color: #00c3d8;
+}
+
+.about-us p {
+    margin: 20px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.rental-options {
+    background-color: #afa297;
+    border-radius: 8px 8px 0 0;
+    opacity: .7;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 8px;
+   
+}
+
+#rental-head {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: #00c3d8;
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+    grid-column: 1 / 4;
+}
+
+.rental-card {
+    background-color: white;
+    border-radius: 8px;
+    
+    box-shadow: 0 3px 5px #0c0f09;
+}
+
+.rental-card h2 {
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    font-size: 2em;
+    color: #00c3d8;
+    
+}
+.rental-card ul {
+    padding: 10px 40px 20px;
+    color: #00c3d8;
+}
+.rental-card li {
+    padding-bottom: 5px;
+}
+
+.rental-card img {
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+#scooter-card {
+    grid-column: 1 / 2;
+    margin: 15px 15px 15px 30px;
+}
+
+#atv-card {
+    grid-column: 2 / 3;
+    margin: 15px;
+}
+
+#jeep-card {
+    grid-column: 3 / 4;
+    margin: 15px 30px 15px 15px;
+}
+
+.button-box-options {
+    background-color: #00c3d8;
+    padding: 20px;
+    color: white;
+    grid-column: 2 / 3;
+    margin: 20px 40px 40px 40px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px #0c0f09;
+    text-align: center;
+}
+
+.button-box-options a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.button-box-options a:hover {
+    color: #0c0f09;
+}
+
+
+
+
