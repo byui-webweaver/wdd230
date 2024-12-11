@@ -349,5 +349,76 @@ header {
     margin-bottom: 10px;
 }
 
+.weather {
+    margin-bottom: 50px;
+    text-align: center;
+}
 
+.weather h1, h2, h3 {
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+#cur-conditions  {
+   margin: 30px 0 20px 0;
+   position: relative;
+   font-size: 1.5em;
+   
+}
+
+#cur-conditions img {
+    position: absolute;
+    top: -25px;
+    background-color: #00c3d8;
+    margin: 15px;
+   
+}
+
+.weather-info {
+    margin-bottom: 10px;
+
+}
+
+.line {
+   border-top: 2px solid #00c3d8;
+   margin: 30px; 
+
+}
+
+footer {
+    background-color: #00c3d8;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#left-footer {
+    padding: 20px;
+    color: white;
+}
+
+#horizontal-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#horizontal-nav a:hover {
+    color: #0c0f09;
+}
+
+#left-footer img {
+    width: 80px;
+}
+
+#left-footer h2 {
+    padding: 0;
+    margin: -10px 0 5px 0;
+}
+
+#middle-footer img {
+    width: 25px;
+}
+
+#right-footer img {
+    width: 30px;
+}
 
