@@ -36,7 +36,7 @@ header {
 
 #close-banner {
     position: absolute;
-    top: autp;
+    top: auto;
     right: 10px;
     transform: translate(-50%);
     background-color: transparent;
@@ -54,6 +54,39 @@ header {
 #content {
     width: 100%;
     margin: 0 auto;
+    position: relative;
+}
+
+#header-navigation {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+
+#hamburger {
+    display: none;
+    font-size: 2em;
+    background: none;
+    border: none;
+    color: #0c0f09;
+}
+
+/* Show the navigation when active */
+#hamburger.active + .nav-container {
+    display: block; /* Show nav container */
+}
+
+#hamburger.active + .nav-container #close-menu {
+    display: block; /* Show close button when nav is active */
+}
+
+#close-menu {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+   
 }
 
 
@@ -66,7 +99,7 @@ header {
 
 #hero-img {
     width: 100%;
-    max-width: auto;
+    
 }
 
 #hero-image {
@@ -83,6 +116,10 @@ header {
     width: 60px;
 }
 
+.nav-container {
+    display: flex;
+}
+
 .navigation {
     position: absolute;
     display: flex;
@@ -93,6 +130,7 @@ header {
     font-size: 1.1rem;
     z-index: 10;
 }
+
 
 .menu {
     list-style: none;
@@ -483,4 +521,6 @@ footer {
     right: 50px;
     margin-top: 80px;
 }
+
+
 

@@ -1,0 +1,138 @@
+/* Media query for mobile version */
+@media (max-width: 798px) {
+    .banner-content p {
+        font-size: .9rem;
+        text-align: start;
+    }
+
+    .banner-content {
+        justify-content: left;
+    }
+
+    .header-left img {
+        display: none;
+    }
+
+    .nav-container {
+        display: none;
+        position: absolute;
+        background-color: aqua;
+        z-index: 10;
+        width: 100%;
+        
+    }
+
+    .navigation {
+       position: absolute;
+       left: -25px;
+       top: -15px;
+
+       
+    }
+
+    .menu {
+        display: block;
+        padding: 10px ;
+        background-color: #00c3d8; 
+        
+        
+    }
+
+    .menu li  {
+        padding: 3px;  
+    }
+
+    .menu a {
+        color: white;
+    }
+
+    .menu a:hover {
+        color: #0c0f09;
+    }
+
+    #close-menu {
+        display: none;
+        cursor: pointer;
+        margin: 0 0 5px 20px;
+        color: white;  
+    }
+
+    #hamburger {
+        display: block;
+        
+    }
+
+    #hamburger.active {
+        display: none;
+    }
+
+    #hamburger.active + .nav-container {
+        display: block;
+    }
+
+    .social-right {
+        display: block;
+        top: 15px;
+        right: 20px;
+    }
+
+    .button-box {
+        bottom: -25%;
+        left: auto;
+        transform: none;
+        padding: 10px 50px;
+        
+    }
+
+    #hero-msg {
+        font-size: 1rem;
+    }
+
+    .about-us {
+        padding: 10px 0;
+        margin-top: 60px;
+    }
+
+    .rental-options {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    #scooter-card,
+    #jeep-card  {
+        margin: 20px;
+    }
+
+
+
+    .button-box-options {
+        margin: 10px 20px;
+    }
+
+
+    .footer-location {
+        padding-left: 0;
+    }
+
+    #middle-footer {
+        padding: 0;
+    }
+
+    #right-footer {
+        margin: 0;
+    }
+
+    footer {
+        display: block;
+        padding-bottom: 70px;
+    }
+    #social-icons-footer {
+        left: 30px;
+    }
+
+    #social-icons-footer img {
+        margin: 0 0 0 7px;
+    }
+
+}
+    

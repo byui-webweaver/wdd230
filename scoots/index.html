@@ -7,6 +7,7 @@
     <meta name="description" content="Scoot scooter rental home page">
     <meta name="author" content="Julie Eakins">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/smaller.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -35,21 +36,29 @@
                     
                 </div>
 
-                 <div class="header-left">
-                     <img id="logo" src="images/scoots-logo-black.webp" alt="Scoots logo">    
-                </div>
+                <div id="header-navigation">
 
-                <div>
-                    <nav class="navigation"> 
-                        <ul class="menu">
-                            <li><a href="https://byui-webweaver.github.io/wdd230/scoots/index.html" class="nav-link active">Home</a></li>
-                            <li><a href="" class="nav-link">Rentals</a></li>
-                            <li><a href="" class="nav-link">Reservations</a></li>
-                            <li><a href="" class="nav-link">Contact Us</a></li>
-                        </ul> 
-                        
+                    <div class="header-left">
+                        <img id="logo" src="images/scoots-logo-black.webp" alt="Scoots logo"> 
+                        <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">≡</button>  
                        
-                     </nav>
+
+                        <div class="nav-container">
+                            <nav class="navigation"> 
+                                
+                                <ul class="menu">
+                                    <button id="close-menu" aria-label="Close menu" style="display: none;">X</button> 
+                                    <li><a href="https://byui-webweaver.github.io/wdd230/scoots/index.html" class="nav-link active">Home</a></li>
+                                    <li><a href="" class="nav-link">Rentals</a></li>
+                                    <li><a href="" class="nav-link">Reservations</a></li>
+                                    <li><a href="" class="nav-link">Contact</a></li>
+                                </ul> 
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+               
 
                      <div class="social-right">
                         <li>
@@ -63,7 +72,7 @@
                             </a>
                         </li>
                     </div>
-                </div>
+                
 
                 <div id= "hero-msg">
                      <h1 id="home-title" class="home-title">Scoots Rentals</h1>
@@ -163,7 +172,9 @@
 
                 <div>
                     <h2>Current Temperature:  <span id="temperature"></span> </h2> 
-                    <div id="cur-conditions"><span id="cur-conditions"></span></div>
+                    
+                        <div id="cur-conditions"></div>
+                    
                 </div>
                 
                 <div class="weather-info">
@@ -228,8 +239,12 @@
                </div>
 
                <div id="social-icons-footer">
-                    <img src="images/instagram-icon-white.png" alt="Instagram icon">
-                    <img src="images/facebook-icon-white.png" alt="Facebook icon">
+                    <a href="https://instagram.com" title="Instagram">
+                        <img src="images/instagram-icon-white.png" alt="Instagram icon">
+                    </a>
+                    <a href="https://facebook.com" title="Facebook">
+                        <img src="images/facebook-icon-white.png" alt="Facebook icon">
+                    </a>
                </div>
 
             </div>
@@ -246,6 +261,7 @@
 
    <script src="scripts/high-temp.js"></script>
    <script src="scripts/weather.js"></script>
+   <script src="scripts/hamburger.js"></script>
     
     </div>
 </body>
