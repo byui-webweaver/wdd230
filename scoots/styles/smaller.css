@@ -58,8 +58,7 @@
     }
 
     #hamburger {
-        display: block;
-        
+        display: block; 
     }
 
     #hamburger.active {
@@ -103,13 +102,11 @@
         margin: 20px;
     }
 
-
-
     .button-box-options {
         margin: 10px 20px;
     }
 
-
+/* Footer Styles smaller screen */
     .footer-location {
         padding-left: 0;
     }
