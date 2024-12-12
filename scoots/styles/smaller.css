@@ -120,6 +120,7 @@
 
     #right-footer {
         margin: 0;
+        display: block;
     }
 
     footer {
@@ -128,6 +129,7 @@
     }
     #social-icons-footer {
         left: 30px;
+        margin-top: 15px;
     }
 
     #social-icons-footer img {
