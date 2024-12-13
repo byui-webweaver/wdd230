@@ -212,7 +212,7 @@ header {
 /*Main area */
 
 .home-main,
-.rental-main {
+ .rental-main {
     width: 100%;
     margin: 0 auto;
 }
@@ -239,11 +239,8 @@ header {
     text-align: center;
 }
 
-
-/* Rental Options Home and Rentals Page */
-
 .rental-options,
-.rental-options-page-2 {
+.rental-options-2 {
     background-color: #d3cbc5;
     border-radius: 8px 8px 0 0;
     display: grid;
@@ -265,31 +262,28 @@ header {
 }
 
 .rental-card,
-.rental-card-page-2 {
+ {
     background-color: white;
     border-radius: 8px; 
     box-shadow: 0 3px 5px #0c0f09;
 }
 
-.rental-card,
-.rental-card-page-2 h2{
+.rental-card h2 {
     text-align: center;
     padding: 20px 20px 0 20px;
     font-size: 2em;
-    color: #00c3d8;  
+    color: #00c3d8;
+    
 }
-.rental-card,
-.rental-card-page-2 ul {
+.rental-card ul {
     padding: 10px 40px 20px;
     color: #00c3d8;
 }
-.rental-card,
-.rental-card-2 li {
+.rental-card li {
     padding-bottom: 5px;
 }
 
-.rental-card,
-.rental-card-page-2 img {
+.rental-card img {
     justify-items: center;
     align-items: center;
     width: 100%;
@@ -330,17 +324,6 @@ header {
 
 .button-box-options a:hover {
     color: #0c0f09;
-}
-
-/* Rental Options Styling */
-.rental-options-page-2 {
-    gap: 20px;
-}
-#scooter-card-1 {
-    grid-column: 1 / 2;
-}
-#scooter-card-2 {
-    grid-column: 2 / 3;
 }
 
 /* Map Styling */

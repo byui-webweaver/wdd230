@@ -9,8 +9,8 @@
             "full-day-res": "$30",
             "half-day-walkin": "$25",
             "full-day-walkin": "$35",
-            "image-url": "images/2019-Honda-Metropolitan2.webp",
-            "image-alt": "Honda Metropolitan gray and black two seater scooter"
+            "image_url": "images/2019-Honda-Metropolitan2.webp",
+            "image_alt": "Honda Metropolitan gray and black two seater scooter"
         },
         {
             "type": "Scooter",
@@ -21,8 +21,8 @@
             "full-day-res": "$40",
             "half-day-walkin": "$35",
             "full-day-walkin": "$45",
-            "image-url": "images/honda-dio.webp",
-            "image-alt": "Honda Dio black two seater scooter"
+            "image_url": "images/honda-dio.webp",
+            "image_alt": "Honda Dio black two seater scooter"
         },
         {
             "type": "Scooter",
@@ -33,8 +33,8 @@
             "full-day-res": "$50",
             "half-day-walkin": "$45",
             "full-day-walkin": "$55",
-            "image-url": "images/honda-pcx150.webp",
-            "image-alt": "Honda PCX150 small black motorbike"
+            "image_url": "images/honda-pcx150.webp",
+            "image_alt": "Honda PCX150 small black motorbike"
         },
         {
             "type": "Side By Side ATV",
@@ -45,8 +45,8 @@
             "full-day-res": "$70",
             "half-day-walkin": "$60",
             "full-day-walkin": "$80",
-            "image-url": "images/honda-pioneer-1000.webp",
-            "image-alt": "Honda Pioneer 1000 red and black 4 person atv"
+            "image_url": "images/honda-pioneer-1000.webp",
+            "image_alt": "Honda Pioneer 1000 red and black 4 person atv"
         },
         {
             "type": "Jeep",
@@ -57,8 +57,8 @@
             "full-day-res": "$85",
             "half-day-walkin": "$70",
             "full-day-walkin": "$90",
-            "image-url": "images/jeep-wrangler-2.webp",
-            "image-alt": "White 2 door Jeep Wrangler"
+            "image_url": "images/jeep-wrangler-2.webp",
+            "image_alt": "White 2 door Jeep Wrangler"
         },
         {
             "type": "Jeep",
@@ -69,8 +69,8 @@
             "full-day-res": "$100",
             "half-day-walkin": "$85",
             "full-day-walkin": "$125",
-            "image-url": "images/jeep-wrangler-4.webp",
-            "image-alt": "White 4 door Jees Wrangler"
+            "image_url": "images/jeep-wrangler-4.webp",
+            "image_alt": "White 4 door Jees Wrangler"
         }
     ]
 }
