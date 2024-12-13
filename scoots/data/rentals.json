@@ -1,6 +1,7 @@
 {
     "rentals": [
         {
+            "type": "Scooter",
             "make": "Honda",
             "model": "Metro Scooter",
             "max-persons": "1",
@@ -12,6 +13,7 @@
             "image-alt": "Honda Metropolitan gray and black two seater scooter"
         },
         {
+            "type": "Scooter",
             "make": "Honda",
             "model": "Dio Scooter",
             "max-persons": "2",
@@ -23,6 +25,7 @@
             "image-alt": "Honda Dio black two seater scooter"
         },
         {
+            "type": "Scooter",
             "make": "Honda",
             "model": "PCX150",
             "max-persons": "2",
@@ -34,6 +37,7 @@
             "image-alt": "Honda PCX150 small black motorbike"
         },
         {
+            "type": "Side By Side ATV",
             "make": "Honda",
             "model": "Pioneer ATV",
             "max-persons": "4",
@@ -45,6 +49,7 @@
             "image-alt": "Honda Pioneer 1000 red and black 4 person atv"
         },
         {
+            "type": "Jeep",
             "make": "Jeep",
             "model": "Wrangler-2 Door, Open-Air, Manual Transmission",
             "max-persons": "4",
@@ -56,6 +61,7 @@
             "image-alt": "White 2 door Jeep Wrangler"
         },
         {
+            "type": "Jeep",
             "make": "Jeep",
             "model": "Wrangler-4 Door Manual Transmission with A/C",
             "max-persons": "5",
