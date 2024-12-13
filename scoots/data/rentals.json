@@ -8,7 +8,8 @@
             "full-day-res": "$30",
             "half-day-walkin": "$25",
             "full-day-walkin": "$35",
-            "available": "true"
+            "image-url": "images/2019-Honda-Metropolitan2.webp",
+            "image-alt": "Honda Metropolitan gray and black two seater scooter"
         },
         {
             "make": "Honda",
@@ -18,7 +19,8 @@
             "full-day-res": "$40",
             "half-day-walkin": "$35",
             "full-day-walkin": "$45",
-            "available": "true"
+            "image-url": "images/honda-dio.webp",
+            "image-alt": "Honda Dio black two seater scooter"
         },
         {
             "make": "Honda",
@@ -28,7 +30,8 @@
             "full-day-res": "$50",
             "half-day-walkin": "$45",
             "full-day-walkin": "$55",
-            "available": "true"
+            "image-url": "images/honda-pcx150.webp",
+            "image-alt": "Honda PCX150 small black motorbike"
         },
         {
             "make": "Honda",
@@ -38,27 +41,30 @@
             "full-day-res": "$70",
             "half-day-walkin": "$60",
             "full-day-walkin": "$80",
-            "available": "true"
+            "image-url": "images/honda-pioneer-1000.webp",
+            "image-alt": "Honda Pioneer 1000 red and black 4 person atv"
         },
         {
             "make": "Jeep",
-            "model": "Wrangler-2 door",
+            "model": "Wrangler-2 Door, Open-Air, Manual Transmission",
             "max-persons": "4",
             "half-day-res": "$60",
             "full-day-res": "$85",
             "half-day-walkin": "$70",
             "full-day-walkin": "$90",
-            "available": "true"
+            "image-url": "images/jeep-wrangler-2.webp",
+            "image-alt": "White 2 door Jeep Wrangler"
         },
         {
             "make": "Jeep",
-            "model": "Wrangler-4 door with a/c",
+            "model": "Wrangler-4 Door Manual Transmission with A/C",
             "max-persons": "5",
             "half-day-res": "$70",
             "full-day-res": "$100",
             "half-day-walkin": "$85",
             "full-day-walkin": "$125",
-            "available": "true"
+            "image-url": "images/jeep-wrangler-4.webp",
+            "image-alt": "White 4 door Jees Wrangler"
         }
     ]
 }
