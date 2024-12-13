@@ -9,7 +9,6 @@ async function getRentalData () {
     
 }
 
-getRentalData();
 
 const displayRentals = (rentals) => {
     rentals.forEach ((rental) => {
