@@ -120,6 +120,10 @@ header {
     display: flex;
 }
 
+nav a.active {
+    color: #00c3d8;
+}
+
 .navigation {
     position: absolute;
     display: flex;
@@ -440,6 +444,23 @@ header {
     text-align: center;
 }
 
+.button-box2 {
+    text-align: center;
+    margin: 50px;
+}
+
+.button-box2 a {
+    background-color: #00c3d8;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 8px;  
+    box-shadow: 0 3px 5px #0c0f09;
+}
+
+.button-box2 a:hover {
+    color: #0c0f09;
+}
 
 /* Map Styling */
 
