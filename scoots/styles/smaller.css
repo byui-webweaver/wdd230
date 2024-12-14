@@ -115,6 +115,33 @@
     .rental-options-page-2 img {
         width: 100%;
     }
+
+    #agreements-list {
+        padding: 20px 0 30px 40px;
+    }
+
+    #service-pricing {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #res-walkin-head th {
+        padding: 10px 0;
+         
+    }
+
+    #rental-pricing-head {
+        font-size: 1.5rem;
+    }
+
+   #rental-type th {
+        padding: 5px;
+    }
+
+    .rental-pricing td {
+        padding: 15px 5px;
+    }
+
 /* Footer Styles smaller screen */
     .footer-location {
         padding-left: 0;

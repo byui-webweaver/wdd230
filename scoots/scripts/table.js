@@ -15,7 +15,6 @@ fetch(url)
 
             row. innerHTML = `
                 <td>${rental.make} ${rental.model}</td>
-                <td>${rental.max_persons}</td>
                 <td>${rental.half_day_res}</td>
                 <td>${rental.full_day_res}</td>
                 <td>${rental.half_day_walkin}</td>

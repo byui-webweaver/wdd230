@@ -22,7 +22,10 @@ const displayRentals = (rentals) => {
        rentalCard.innerHTML = `
        <h2>${rental.type}</h2>
        <img src="${rental.image_url}" alt="${rental.image_alt}" loading="lazy" width="500" height="auto" />
-        <ul><li>${rental.make}: ${rental.model}</li></ul>
+        <ul>
+            <li>${rental.make}: ${rental.model}</li>
+            <li> Max-Persons: ${rental.max_persons}</li>
+        </ul>
     `;
 
     //Append the card to the cards container
