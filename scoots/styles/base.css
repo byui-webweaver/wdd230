@@ -120,6 +120,10 @@ header {
     display: flex;
 }
 
+nav .active a {
+    color: #00c3d8;
+}
+
 
 
 .navigation {
