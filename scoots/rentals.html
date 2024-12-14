@@ -44,7 +44,7 @@
                                 <ul class="menu">
                                     <button id="close-menu" aria-label="Close menu" style="display: none;">X</button> 
                                     <li><a href="https://byui-webweaver.github.io/wdd230/scoots/index.html" class="nav-link active">Home</a></li>
-                                    <li><a href="" class="nav-link">Rentals</a></li>
+                                    <li><a href="https://byui-webweaver.github.io/wdd230/scoots/rentals.html" class="nav-link">Rentals</a></li>
                                     <li><a href="" class="nav-link">Reservations</a></li>
                                     <li><a href="" class="nav-link">Contact</a></li>
                                 </ul> 
@@ -75,64 +75,68 @@
         <main class="rental-main">
 
             <div class="rental-options-page-2">
-                <h1 id="rental-head-2">Rental Options</h1>
+                <h1 id="rental-head-2">Rental Options <span id="see-pricing-below">*(See pricing below)</span></h1>
                 <div id="cards-rentals"></div>
             </div>
 
-            <section id="services-agreements">
-                <div class="line2"></div>
-                <div id="services-agreements-header">
-                    <h1>Rental Services and Agreements</h1>
-                </div>
-                <ul id="agreements-list">
-                    <li>A $50 security deposit is required to confirm reservations.</li>
-                    <li>A valid driver's license is required in hand at the time of rental.</li>
-                    <li>No one under the age of 12 years is allowed to ride on the scooters.</li>
-                    <li>Fuel charge is not included.</li>
-                    <li>Unlimited mileage.</li> 
-                    <li>Liability insurance is included.</li>
-                    <li>Damage insurance is available for purchase.</li>
-                    <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
-                    <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo.</li>
-                    <li>Rentals may be returned to either physical location.</li>
-                </ul>
-                <div class="line2"></div>
-            </section>
+            <div id="service-pricing">
 
-            <div class="container">
-   
-                <table>
-            
-                    <thead>
-                        <tr>
-                            <th colspan="6" scope="colgroup">Rental Pricing</th>
-                        </tr>
-        
-                        <tr>
-                            <th colspan="2"  scope="col"></th>
-                            <th colspan="2" scope="col" class="price-list">Reservation</th>
-                            <th colspan="2" scope="col" class="price-list">Walk-In</th>
-                        </tr>
-
-                        <tr>
-                            <th scope="col" class="rental-type">Rental Type</th>
-                            <th scope="col" class="max-persons">Max. Persons</th>
-                            <th scope="col" class="price-amount">Half Day (3 hrs)</th>
-                            <th scope="col" class="price-amount">Full Day</th>
-                            <th scope="col" class="price-amount">Half Day (3 hrs)</th>
-                            <th scope="col" class="price-amount">Full Day</th>
-
-                        </tr>
-                        
-                    </thead>
-        
-                    <tbody id="rental-body">
+                <section id="services-agreements">
                     
-                    </tbody>
-                </table>
-               
-            </div>
+                    <div id="services-agreements-header">
+                        <h1>Rental Services and Agreements</h1>
+                    </div>
+                    <ul id="agreements-list">
+                        <li>A $50 security deposit is required to confirm reservations.</li>
+                        <li>A valid driver's license is required in hand at the time of rental.</li>
+                        <li>No one under the age of 12 years is allowed to ride on the scooters.</li>
+                        <li>Fuel charge is not included.</li>
+                        <li>Unlimited mileage.</li> 
+                        <li>Liability insurance is included.</li>
+                        <li>Damage insurance is available for purchase.</li>
+                        <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                        <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo.</li>
+                        <li>Rentals may be returned to either physical location.</li>
+                    </ul>
+                
+                </section>
+
+                <div class="container">
+    
+                    <table>
+                
+                        <thead>
+                            <tr>
+                                <th colspan="6" scope="colgroup" id="rental-pricing-head">Rental Pricing</th>
+                            </tr>
             
+                            <tr id="res-walkin-head">
+                                <th colspan="2" scope="col"></th>
+                                <th colspan="2" scope="col" class="price-list">Reservation</th>
+                                <th colspan="2" scope="col" class="price-list">Walk-In</th>
+                            </tr>
+
+                            <tr id="rental-type">
+                                <th scope="col" class="rental-type">Rental Type</th>
+                                <th scope="col" class="max-persons">Max. Persons</th>
+                                <th scope="col" class="price-amount">Half Day<br>(3 hrs)</th>
+                                <th scope="col" class="price-amount">Full Day</th>
+                                <th scope="col" class="price-amount">Half Day<br>(3 hrs)</th>
+                                <th scope="col" class="price-amount">Full Day</th>
+
+                            </tr>
+                            
+                        </thead>
+            
+                        <tbody id="rental-body">
+                        
+                        </tbody>
+                    </table>
+                
+                </div>
+
+            </div>
+                
                     
                     
 
@@ -146,7 +150,7 @@
                 <div class="nav-footer">
                     <div id="horizontal-nav">
                         <a href="">Home </a><span>|</span>
-                        <a href="">Rentals </a><span>|</span>
+                        <a href="https://byui-webweaver.github.io/wdd230/scoots/rentals.html">Rentals </a><span>|</span>
                         <a href="">Reservations </a><span>|</span>
                         <a href="">Contact Us </a>
                     </div>
@@ -209,6 +213,7 @@
 
    <script src="scripts/hamburger.js"></script>
    <script src="scripts/rentals.js"></script>
+   <script src="scripts/table.js"></script>
     
     </div>
 </body>

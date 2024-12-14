@@ -1,4 +1,4 @@
-const url = 'https://byui-webweaver.github.io/wdd230/scoots/data/rentals.json';
+
 
 //Fetch the JSON data
 fetch(url)
@@ -10,6 +10,8 @@ fetch(url)
         //Iterate through array and creat table rows
         rentals.forEach(rental => {
             const row = document.createElement('tr');
+            row.classList.add('rental-pricing');
+
 
             row. innerHTML = `
                 <td>${rental.make} ${rental.model}</td>
