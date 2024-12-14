@@ -239,8 +239,7 @@ header {
     text-align: center;
 }
 
-.rental-options,
-.rental-options-2 {
+.rental-options {
     background-color: #d3cbc5;
     border-radius: 8px 8px 0 0;
     display: grid;
@@ -249,10 +248,11 @@ header {
    
 }
 
-#rental-head {
+#rental-head,
+#rental-head-2 {
     text-align: center;
     font-size: 3em;
-    margin-bottom: 20px;
+    margin: 0 0 20px;
     padding: 30px;
     background-color: #00c3d8;
     color: white;
@@ -260,7 +260,8 @@ header {
     grid-column: 1 / 4;
 }
 
-.rental-card {
+.rental-card,
+.rental-card-page-2 {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 3px 5px #0c0f09;
@@ -324,6 +325,82 @@ header {
     color: #0c0f09;
 }
 
+/* Rentals Page Styling */
+.rental-options-page-2 {
+    background-color: #d3cbc5;
+    border-radius: 8px 8px 0 0;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    margin-top: 40px;   
+}
+
+.rental-card-page-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#cards-rentals {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+    column-gap: 20px;
+    row-gap: 20px;
+    margin: 30px 20px;
+}
+
+.rental-card-page-2 h2 {
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    font-size: 2em;
+    color: #00c3d8;
+}
+
+
+.rental-card-page-2 img {
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.rental-card-page-2 ul {
+    padding: 10px 40px 20px;
+    color: #00c3d8;
+}
+
+.rental-card-page-2 li {
+    padding-bottom: 5px;
+}
+
+.line2 {
+    width: 75%;             
+    height: 2px;            
+    background-color: #00c3d8; 
+    margin: 20px 0;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+#services-agreements-header {
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+#agreements-list {
+  margin: 0 auto;
+}
+
+#agreements-list li {
+    padding: 5px;
+}
+
+#services-agreements {
+    display: flex;
+    flex-direction: column;
+    
+}
 /* Map Styling */
 
 .map-containers {

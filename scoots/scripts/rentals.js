@@ -15,12 +15,13 @@ const displayRentals = (rentals) => {
         //Create elements to add to div.
         //Create card for each rental vehicle
         let rentalCard = document.createElement('div');
-        rentalCard.classList.add('rental-card-page-2')
+        rentalCard.classList.add('rental-card-page-2');
+        
 
        //Set the inner HTML with detail options
        rentalCard.innerHTML = `
        <h2>${rental.type}</h2>
-       <img src="${rental.image_url}" alt="${rental.image_alt}" />
+       <img src="${rental.image_url}" alt="${rental.image_alt}" loading="lazy" width="500" height="auto" />
         <ul><li>${rental.make}: ${rental.model}</li></ul>
     `;
 

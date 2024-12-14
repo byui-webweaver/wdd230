@@ -106,6 +106,15 @@
         margin: 10px 20px;
     }
 
+    /* Rental Page styling smaller sreen */
+    .rental-options-page-2 {
+        margin-top: 20px;
+    
+    }
+
+    .rental-options-page-2 img {
+        width: 100%;
+    }
 /* Footer Styles smaller screen */
     .footer-location {
         padding-left: 0;
