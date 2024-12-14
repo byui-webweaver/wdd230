@@ -107,6 +107,11 @@
     }
 
     /* Rental Page styling smaller sreen */
+    #rental-head,
+    #rental-head-2 {
+        font-size: 2em;
+    }
+    
     .rental-options-page-2 {
         margin-top: 20px;
     
