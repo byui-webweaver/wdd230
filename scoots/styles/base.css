@@ -669,25 +669,11 @@ footer {
     margin-top: 10px;
 }
 
-
-
 #services-agreements {
     background-color: #d3cbc5;
     border-radius: 8px 8px 0 0;
-}
+    padding: 0;
 
-#services-agreements-header {
-    background-color: #00c3d8;
-    color: white;
-    text-align: center;
-    padding: .7px;
-    border-radius: 8px 8px 0 0;
-}
-
-#services-agreements-header h1 {
-    font-size: 2em;
-    padding: 0 45px;
-    
 }
 
 #agreements-list {
@@ -702,9 +688,10 @@ footer {
 #service-pricing {
     display: flex;
     flex-direction: column;
-    margin: 30px 0; 
+    padding: 30px 0; 
     width: 100%;
     border-radius: 8px 8px 0 0;
+    background-color: white;
 }
 
 #reservation-header {
@@ -720,8 +707,7 @@ footer {
     background-color: #d3cbc5;
     margin-top: 20px;
     width: 100%;
-    max-width: 800px;
-    padding-bottom: 20px;  
+    max-width: 1000px;  
     border-radius: 8px 8px 0 0;
 }
 
@@ -760,7 +746,7 @@ footer {
     margin-left: 10px;
 }
 .rental-reserve-head {
-    padding: .5rem;
+    padding: .5rem 0;
     color: #0c0f09;
     font-size: 1.5rem;
     border-bottom: 1px solid #0c0f09;
@@ -828,11 +814,15 @@ footer {
 #reservation-submit {
     display: flex;
     flex-direction: column; 
+    background-color: #f4f4f4;
+    padding: 30px;
+    text-align: center;
 }
 
 .button-container {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 
