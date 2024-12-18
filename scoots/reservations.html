@@ -36,13 +36,14 @@
                     <div class="header-left">
                         <img id="logo" src="images/scoots-logo-black.webp" alt="Scoots logo"> 
                         <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">≡</button>  
-                       
+                        <button id="close-menu" aria-label="Close menu" style="display: none;">X</button>
 
                         <div class="nav-container">
                             <nav class="navigation"> 
                                 
+                                
                                 <ul class="menu">
-                                    <button id="close-menu" aria-label="Close menu" style="display: none;">X</button> 
+                                   
                                     <li><a href="https://byui-webweaver.github.io/wdd230/scoots/index.html" class="nav-link active">Home</a></li>
                                     <li><a href="https://byui-webweaver.github.io/wdd230/scoots/rentals.html" class="nav-link">Rentals</a></li>
                                     <li class="active"><a href="https://byui-webweaver.github.io/wdd230/scoots/reservations.html" class="nav-link">Reservations</a></li>
@@ -56,23 +57,24 @@
                
 
                      <div class="social-right">
-                        <li>
+                        <div>
                             <a href="https://facebook.com" class="soc-link"  title="Facebook">
                                 <img src="images/vectorwiki-facebook-icon-black-logo.webp" alt="Facebook" width="24" height="24">
                             </a>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <a href="https://instagram.com" class="soc-link" title="Instagram">
                                 <img src="images/instagram-icon.webp" alt="Instagram" width="24" height="24">
                             </a>
-                        </li>
+                        </div>
                     </div>
 
                     <div id= "hero-msg-3">
                         <h1 id="home-title" class="home-title">Reservations</h1>
                    </div>
                      
-            </div>  
+                </div>  
+        </div>
 
         </header>
 
@@ -83,13 +85,13 @@
                 <h1 id="reservation-header">Reservation Form</h1>
                 <fieldset>
                         <legend>Reservation Details</legend>
-                        <label class="res-details"><p>Name*</p><input type="text" name="name" required></label>
-                        <label class="res-details"><p>Phone*</p><input type="tel" name="phone" placeholder="1+ 2345678900"></label>
-                        <label class="res-details"><p>Email*</p><input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                        <label class="res-details"><p>Country</p><input type="text" name="countryName" ></label>
-                        <label class="res-details"><p>Start Date*</p><input type="date" name="start-date" placeholder="mm/dd/yy" required></label>
-                        <label class="res-details"><p>End Date*</p><input type="date" name="end-date" placeholder="mm/dd/yy" required></label>
-                        <label class="res-details"><p>Cruise Line (If Applicable)</p><input type="text" name="cruiseLine" placeholder="ex. Carnival"></label>
+                        <label class="res-details">Name*<input type="text" name="name" required></label>
+                        <label class="res-details">Phone*<input type="tel" name="phone" placeholder="1+ 2345678900"></label>
+                        <label class="res-details">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="res-details">Country<input type="text" name="countryName" ></label>
+                        <label class="res-details">Start Date*<input type="date" name="start-date"></label>
+                        <label class="res-details">End Date*<input type="date" name="end-date"></label>
+                        <label class="res-details">Cruise Line (If Applicable)<input type="text" name="cruiseLine" placeholder="ex. Carnival"></label>
                 </fieldset>
     
                 <fieldset>
@@ -226,15 +228,10 @@
                     <legend>Special Requests</legend>
                     <textarea id="comments" name="comments" placeholder="  *Include any special requests for drop-off locations here."></textarea>
                 </fieldset> 
-    
-            
-           
-            
-
 
                 <fieldset>
                     <legend>Rental Terms</legend>
-                    <section id="services-agreements">
+                    <div id="services-agreements">
                         <ul id="agreements-list">
                             <li>A $50 security deposit is required to confirm reservations.</li>
                             <li>A valid driver's license is required in hand at the time of rental.</li>
@@ -249,8 +246,8 @@
                         </ul>
 
                     
-                    </section>
-                 </div>
+                    </div>
+                
                 </fieldset>
                 <div id="reservation-submit">
                     <div>
@@ -336,7 +333,7 @@
    <script src="scripts/rentals.js"></script>
    <script src="scripts/table.js"></script>
     
-    </div>
+    
 </body>
 
 </html>

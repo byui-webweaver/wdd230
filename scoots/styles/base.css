@@ -664,11 +664,6 @@ footer {
     
 }
 
-.res-details p {
-    padding: 3px 0;
-    margin-top: 10px;
-}
-
 #services-agreements {
     background-color: #d3cbc5;
     border-radius: 8px 8px 0 0;
@@ -729,7 +724,15 @@ footer {
 
 .rental-form label {
     color: #0c0f09;
+}
 
+.res-details {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.res-details input {
+    margin: 5px 0;
 }
 .multi-rental {
     display: grid;
