@@ -137,7 +137,6 @@ nav .active a {
     z-index: 10;
 }
 
-
 .menu {
     list-style: none;
     padding: 0;
@@ -176,10 +175,9 @@ nav .active a {
     opacity: .6;
 }
 
-
 .button-box {
     position: absolute;
-    bottom: 57%;
+    bottom: 40%;
     left: 50%;
     transform: translateX(-50%);
     background: #00c3d8;
@@ -201,18 +199,35 @@ nav .active a {
     
 }
 
-#hero-msg {
+#hero-msg,
+#hero-msg-2,
+#hero-msg-3 {
     position: absolute;
-    top: 28%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
     font-size: 1.6rem;
+    font-weight: 600;
+    background-color: #00c3d8;
+    opacity: .9;
+    padding: 0 40px;
+    border-radius: 10px;
+    
 }
 
-#hero-msg h1 {
-    font-weight: 300;
+#hero-msg-2 {
+    top: 35%;
+}
+
+#hero-msg-3 {
+    top: 50%;
+}
+
+#hero-msg-3 h1 {
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 /*Main area */
@@ -235,7 +250,7 @@ nav .active a {
     text-align: center;
     font-size: 3em;
     font-weight: 200;
-    margin-bottom: 20px;
+    margin: 0 0 20px;
     color: #00c3d8;
 }
 
@@ -382,33 +397,6 @@ nav .active a {
 
 .rental-card-page-2 li {
     padding-bottom: 5px;
-}
-
-#services-agreements {
-    background-color: #d3cbc5;
-}
-
-#services-agreements-header {
-    background-color: #00c3d8;
-    color: white;
-    text-align: center;
-    padding: .7px;
-}
-
-#agreements-list {
-  padding: 20px 0 0 60px;
-}
-
-#agreements-list li {
-    padding: 10px;
-    font-size: 1.2em;
-}
-
-#service-pricing {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px 0;
-    gap: 30px;
 }
 
 /* table styling */
@@ -560,6 +548,7 @@ nav .active a {
 
 }
 
+
 /*Footer Styles*/
 footer {
     background-color: #00c3d8;
@@ -660,6 +649,162 @@ footer {
     right: 50px;
     margin-top: 80px;
 }
+
+/* Forms/Reservations Styling */
+.reservations-main {
+  
+    padding: 30px;
+    
+}
+#services-agreements {
+    background-color: #d3cbc5;
+}
+
+#services-agreements-header {
+    background-color: #00c3d8;
+    color: white;
+    text-align: center;
+    padding: .7px;
+}
+
+#services-agreements-header h1 {
+    font-size: 2em;
+    padding: 0 45px
+}
+
+#agreements-list {
+  padding: 20px 0 30px 60px;
+}
+
+#agreements-list li {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+#service-pricing {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0; 
+}
+
+#reservation-header {
+    background-color: #00c3d8;
+    color: white;
+    text-align: center;
+    padding: 23px;
+    margin-top: 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.rental-form {
+    grid-column: 1 / 2;
+    background-color: #d3cbc5;
+    margin-top: 30px;
+    width: 100%;
+    
+    
+}
+.rental-form fieldset {
+    margin: 2rem 2rem;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 1rem 2% 2rem;
+   
+}
+
+.rental-form legend {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0 .5rem;
+  
+}
+
+.rental-form label {
+    padding: 1rem;
+    color: #0c0f09;
+    padding-bottom: 10px;
+}
+
+.multi-rental {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rental-form div {
+    padding: .5rem;
+    color: #0c0f09;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #0c0f09;
+    margin: 10px;
+}
+
+.rental-form input[type="text"],
+.rental-form input[type="tel"],
+.rental-form input[type="email"],
+.rental-form input[type="date"],
+.rental-form select {
+    background-color: white ;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #0c0f09;
+    width: 100%;
+    appearance: none;
+}
+
+.rental-form select {
+    width: 55px;
+    font-size: 1em;
+}
+
+.rental-form input[type="checkbox"]{
+    margin-right: 8px;
+}
+
+.rental-form input[type="submit"]{
+    border: solid 1px;
+    background-color: rgb(175, 3, 3);
+    padding: 10px;
+    color: #ddd;
+    border-radius: 6px;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%; 
+    box-shadow: 1px 1px 4px #999;
+
+}
+
+.rental-form input:required {
+    border-left: solid 8px red;
+}
+
+.rental-form input:required:valid {
+    border-left: solid 8px rgb(108, 185, 108);
+}
+
+.rental-form section {
+    padding: .8em 0;
+    font-size: .9em;
+
+}
+.rental-form span {
+    padding-right: .9em;
+}
+
+#comments {
+    width: 100%;
+    height: 8rem;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#reservation-submit {
+    grid-column: 1 / 3;
+    justify-self: center;
+    display: block;
+}
+
 
 
 

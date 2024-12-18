@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots scooter reservations page</title>
+    <meta name="description" content="Scoot scooter reservations page">
+    <meta name="author" content="Julie Eakins">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/smaller.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+   
+    <link rel="icon" type="image/png" sizes="16x16" href="scoots-fav-16x16.png">
+    <meta property="og:title" content="Scoots scooter reservations page">
+    <meta property="og:type" content="Website">
+    <meta property="og:image" content="https://www.shutterstock.com/image-photo/cozumel-sign-city-600nw-2381823919.jpg">
+    <meta property="og:url" content="https://byui-webweaver.github.io/wdd230/scoots/reservations.html">
+</head>
+<body>
+   
+    <header>
+        <div id="content">
+
+             <div id="hero-box">
+                <div id="hero-img">
+                    
+                     <img id="hero-image" src="images/beach-sign-cozumel.webp" alt="Wooden sign on beach pointing to cozumel">   
+                    
+                </div>
+
+                <div id="header-navigation">
+
+                    <div class="header-left">
+                        <img id="logo" src="images/scoots-logo-black.webp" alt="Scoots logo"> 
+                        <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">≡</button>  
+                       
+
+                        <div class="nav-container">
+                            <nav class="navigation"> 
+                                
+                                <ul class="menu">
+                                    <button id="close-menu" aria-label="Close menu" style="display: none;">X</button> 
+                                    <li><a href="https://byui-webweaver.github.io/wdd230/scoots/index.html" class="nav-link active">Home</a></li>
+                                    <li><a href="https://byui-webweaver.github.io/wdd230/scoots/rentals.html" class="nav-link">Rentals</a></li>
+                                    <li class="active"><a href="" class="nav-link">Reservations</a></li>
+                                    <li><a href="" class="nav-link">Contact</a></li>
+                                </ul> 
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+               
+
+                     <div class="social-right">
+                        <li>
+                            <a href="https://facebook.com" class="soc-link"  title="Facebook">
+                                <img src="images/vectorwiki-facebook-icon-black-logo.webp" alt="Facebook" width="24" height="24">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com" class="soc-link" title="Instagram">
+                                <img src="images/instagram-icon.webp" alt="Instagram" width="24" height="24">
+                            </a>
+                        </li>
+                    </div>
+
+                    <div id= "hero-msg-3">
+                        <h1 id="home-title" class="home-title">Reservations</h1>
+                   </div>
+                     
+            </div>  
+
+        </header>
+
+        <main class="reservations-main">
+            
+           
+            <form method="get" action="thanks.html" class="rental-form">
+                <h1 id="reservation-header">Reservation Form</h1>
+                <fieldset>
+                        <legend>Reservation Details</legend>
+                        <label>Name*<input type="text" name="name" required></label>
+                        <label>Phone*<input type="tel" name="phone" placeholder="1+ 2345678900"></label>
+                        <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label>Country<input type="text" name="countryName" ></label>
+                        <label>Start Date*<input type="date" name="start-date" placeholder="mm/dd/yy" required></label>
+                        <label>End Date*<input type="date" name="end-date" placeholder="mm/dd/yy" required></label>
+                        <label>Cruise Line (If Applicable)<input type="text" name="cruiseLine" placeholder="ex. Carnival"></label>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Rental Vehicles</legend>
+                    <div><h3>Scooters</h3></div>
+
+                        <div class="multi-rental">
+
+                            <label><h4>Honda Metro Scooter</h4>
+                                
+                                    <label><input type="radio" name="honda-metro" value="yes">Full Day ($30)</label>
+                                    <label><input type="radio" name="honda-metro" value="yes">Half Day ($20)</label>
+                                
+                                <select name="quantity-honda-metro">
+                                    <option value="0">Qty</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </label>
+                        
+
+                            <label><h4>Honda Dio Scooter</h4>
+                                
+                                    <label><input type="radio" name="honda-dio" value="yes">Full Day ($40)</label>
+                                    <label><input type="radio" name="honda-dio" value="yes">Half Day ($30)</label>
+                                
+                                <select name="quantity-honda-dio">
+                                    <option value="0">Qty</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </label>
+
+                            <label><h4>PCX150 Scooter</h4>
+                                
+                                    <label><input type="radio" name="honda-pcx150" value="yes">Full Day ($50)</label>
+                                    <label><input type="radio" name="honda-pcx150" value="yes">Half Day ($40)</label>
+                                
+                                <select name="quantity-honda-pcx150">
+                                    <option value="0">Qty</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </label>
+                        </div>
+            
+                    <div><h3>ATV Side-by-Side</h3></div>
+
+                        <div class="multi-rental">
+                            <label><h4>Honda Pioneer ATV</h4>
+                                
+                                    <label><input type="radio" name="honda-pioneer" value="yes">Full Day ($70)</label>
+                                    <label><input type="radio" name="honda-pioneer" value="yes">Half Day ($50)</label>
+                            
+                                <select name="quantity-honda-pioneer">
+                                    <option value="0">Qty</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </label>
+                        </div>
+
+                    <div><h3>Jeeps</h3></div>
+
+                    <div class="multi-rental">
+                        <label>
+                            <h4>Jeep Wrangler-2 Door</h4>
+                            
+                                <label><input type="radio" name="jeep-wrangler-2-door" value="yes">Full Day ($85)</label>
+                                <label><input type="radio" name="jeep-wrangler-2-door" value="yes">Half Day ($60)</label>
+                            
+                            <select name="quantity-jeep-wrangler-2-door">
+                                <option value="0">Qty</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                    
+
+                    <label><h4>Jeep Wrangler-4 Door</h4>
+                        
+                        <label><input type="radio" name="jeep-wrangler-4-door" value="yes">Full Day ($100)</label>
+                        <label><input type="radio" name="jeep-wrangler-4-door" value="yes">Half Day ($70)</label>
+                    
+                        <select name="quantity-jeep-wrangler-4-door">
+                            <option value="0">Qty</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </label>
+                    </div>
+    
+    
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Special Requests</legend>
+                    <textarea id="comments" name="comments" placeholder="  *Include any special requests for drop-off locations here."></textarea>
+                </fieldset> 
+    
+            </form>
+           
+            
+
+
+            <div id="service-pricing">
+
+                <section id="services-agreements">
+                    
+                    <div id="services-agreements-header">
+                        <h1>Rental Terms</h1>
+                    </div>
+                    <ul id="agreements-list">
+                        <li>A $50 security deposit is required to confirm reservations.</li>
+                        <li>A valid driver's license is required in hand at the time of rental.</li>
+                        <li>No one under the age of 12 years is allowed to ride on the scooters.</li>
+                        <li>Fuel charge is not included.</li>
+                        <li>Unlimited mileage.</li> 
+                        <li>Liability insurance is included.</li>
+                        <li>Damage insurance is available for purchase.</li>
+                        <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                        <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo.</li>
+                        <li>Rentals may be returned to either physical location.</li>
+                    </ul>
+
+                
+                </section>
+            </div>
+                <div id="reservation-submit">
+                    <div>
+                        <label><input type="checkbox" name="agree-terms" value="yes" required>  I have read and agree to rental terms and conditions.</label>
+                    </div>
+                    <input type="submit" value="Submit Reservation Request">
+                </div>
+                
+        </main>
+
+        <footer>
+            <div id="left-footer">
+                <img src="images/scoots-white-scooter.png" alt="Scoots logo image in white">
+                <h2>Scoots Rentals</h2>
+                <div class="nav-footer">
+                    <div id="horizontal-nav">
+                        <a href="https://byui-webweaver.github.io/wdd230/scoots/index.html">Home </a><span>|</span>
+                        <a href="https://byui-webweaver.github.io/wdd230/scoots/rentals.html">Rentals </a><span>|</span>
+                        <a href="">Reservations </a><span>|</span>
+                        <a href="">Contact Us </a>
+                    </div>
+                    
+                <p>Scoots Rentals ©2024</p>
+                
+                </div>
+            </div>
+
+            <div id="middle-footer">
+                    <div class="footer-location">
+                        <div><img src="images/location-pin-white.png" alt="White Location Pin"></div>
+                        <div class="footer-contact">
+                            <p>Playa del Carmen-Cozumel Ferry Dock Location</p>
+                            <p>5a Av. Nte., Quintana Roo</p>
+                        </div>
+                    </div>
+                    <div class="footer-location">
+                        <div><img src="images/location-pin-white.png" alt="White Location Pin"></div>
+                        <div class="footer-contact">
+                            <p>Terminal Puerta Maya Location</p>
+                            <p>5a Av. Nte., Quintana Roo</p>
+                        </div>
+                    </div>
+                    <div class="footer-location">
+                        <div><img src="images/phone-icon-white.png" alt="Phone icon white"></div>
+                        <div class="footer-contact">
+                            <p>+52 987 872 9605</p>
+                        </div>
+                    </div>
+            </div>
+
+            <div id="right-footer">
+               <div id="about-footer"> 
+                    <h4>About Scoots...</h4>
+                    <p>We offer rentals of scooters, jeeps, or ATVs to let you embrace the fun, carefree spirit of Cozumel.</p>
+               </div>
+
+               <div id="social-icons-footer">
+                    <a href="https://instagram.com" title="Instagram">
+                        <img src="images/instagram-icon-white.png" alt="Instagram icon">
+                    </a>
+                    <a href="https://facebook.com" title="Facebook">
+                        <img src="images/facebook-icon-white.png" alt="Facebook icon">
+                    </a>
+               </div>
+
+            </div>
+
+
+                
+
+
+        </footer>
+
+    
+
+ 
+
+
+   <script src="scripts/hamburger.js"></script>
+   <script src="scripts/rentals.js"></script>
+   <script src="scripts/table.js"></script>
+    
+    </div>
+</body>
+
+</html>
