@@ -844,11 +844,13 @@ footer {
     justify-content: center;
     margin: 10px;
     border: none;
+    
 }
 
 .button-container input[type="submit"]:hover {
     color: #0c0f09;
     cursor: pointer; 
+    box-shadow: 0 3px 5px #0c0f09;
    
     
 }
