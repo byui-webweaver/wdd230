@@ -400,6 +400,10 @@ nav .active a {
 }
 
 /* table styling */
+.container {
+    display: flex;
+    justify-content: center;
+}
  #rental-pricing-head {
     background-color: #00c3d8;
     color: white;
