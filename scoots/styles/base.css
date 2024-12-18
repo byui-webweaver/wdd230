@@ -155,7 +155,7 @@ nav .active a {
 }
 
 .menu a:hover {
-    color: white;
+    color: #d3cbc5;
 }
 
 .social-right {
@@ -166,7 +166,7 @@ nav .active a {
     align-items: center;
 }
 
-.social-right li {
+.social-right div {
     list-style: none;
     margin-left: 10px;
 }
@@ -834,18 +834,38 @@ footer {
     color: white;
     padding: 30px;
     border-radius: 8px;
-    justify-content: center;
     margin: 10px;
-    border: none;
-    
+    border: none;  
 }
 
 .button-container input[type="submit"]:hover {
     color: #0c0f09;
     cursor: pointer; 
-    box-shadow: 0 3px 5px #0c0f09;
-   
-    
+    box-shadow: 0 3px 5px #0c0f09;   
+}
+
+ /* Thank you page styling */
+ #header-thank-you {
+    background-color: #00c3d8;
+ }
+
+#content-thank-you {
+    display: block;
+    background-color: #f4f4f4;
+}
+
+#main-thank-you {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    padding: 100px 0;
+}
+
+#main-thank-you p{
+    margin-top: 10px;
 }
 
 
