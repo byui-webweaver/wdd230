@@ -652,12 +652,24 @@ footer {
 
 /* Forms/Reservations Styling */
 .reservations-main {
-  
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
+
+.res-details p {
+    padding: 3px 0;
+    margin-top: 10px;
+}
+
+
+
 #services-agreements {
     background-color: #d3cbc5;
+    border-radius: 8px 8px 0 0;
 }
 
 #services-agreements-header {
@@ -665,11 +677,13 @@ footer {
     color: white;
     text-align: center;
     padding: .7px;
+    border-radius: 8px 8px 0 0;
 }
 
 #services-agreements-header h1 {
     font-size: 2em;
-    padding: 0 45px
+    padding: 0 45px;
+    
 }
 
 #agreements-list {
@@ -685,6 +699,8 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 30px 0; 
+    width: 100%;
+    border-radius: 8px 8px 0 0;
 }
 
 #reservation-header {
@@ -697,13 +713,14 @@ footer {
 }
 
 .rental-form {
-    grid-column: 1 / 2;
     background-color: #d3cbc5;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%;
-    
-    
+    max-width: 800px;
+    padding-bottom: 20px;  
+    border-radius: 8px 8px 0 0;
 }
+
 .rental-form fieldset {
     margin: 2rem 2rem;
     border: 2px solid white;
@@ -721,16 +738,24 @@ footer {
 }
 
 .rental-form label {
-    padding: 1rem;
     color: #0c0f09;
-    padding-bottom: 10px;
-}
 
+}
 .multi-rental {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
 }
-.rental-form div {
+
+.multi-rental h5 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.inner-label {
+    margin-left: 10px;
+}
+.rental-reserve-head {
     padding: .5rem;
     color: #0c0f09;
     font-size: 1.5rem;
@@ -754,8 +779,9 @@ footer {
 }
 
 .rental-form select {
-    width: 55px;
+    width: 70px;
     font-size: 1em;
+    margin-top: 10px;
 }
 
 .rental-form input[type="checkbox"]{
@@ -786,10 +812,6 @@ footer {
 .rental-form section {
     padding: .8em 0;
     font-size: .9em;
-
-}
-.rental-form span {
-    padding-right: .9em;
 }
 
 #comments {
@@ -800,11 +822,31 @@ footer {
 }
 
 #reservation-submit {
-    grid-column: 1 / 3;
-    justify-self: center;
-    display: block;
+    display: flex;
+    flex-direction: column; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
 }
 
 
+.button-container input[type="submit"] {
+    background-color: #00c3d8;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    justify-content: center;
+    margin: 10px;
+    border: none;
+}
+
+.button-container input[type="submit"]:hover {
+    color: #0c0f09;
+    cursor: pointer; 
+   
+    
+}
 
 

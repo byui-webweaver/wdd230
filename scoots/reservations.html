@@ -45,7 +45,7 @@
                                     <button id="close-menu" aria-label="Close menu" style="display: none;">X</button> 
                                     <li><a href="https://byui-webweaver.github.io/wdd230/scoots/index.html" class="nav-link active">Home</a></li>
                                     <li><a href="https://byui-webweaver.github.io/wdd230/scoots/rentals.html" class="nav-link">Rentals</a></li>
-                                    <li class="active"><a href="" class="nav-link">Reservations</a></li>
+                                    <li class="active"><a href="https://byui-webweaver.github.io/wdd230/scoots/reservations.html" class="nav-link">Reservations</a></li>
                                     <li><a href="" class="nav-link">Contact</a></li>
                                 </ul> 
                             </nav>
@@ -83,25 +83,24 @@
                 <h1 id="reservation-header">Reservation Form</h1>
                 <fieldset>
                         <legend>Reservation Details</legend>
-                        <label>Name*<input type="text" name="name" required></label>
-                        <label>Phone*<input type="tel" name="phone" placeholder="1+ 2345678900"></label>
-                        <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                        <label>Country<input type="text" name="countryName" ></label>
-                        <label>Start Date*<input type="date" name="start-date" placeholder="mm/dd/yy" required></label>
-                        <label>End Date*<input type="date" name="end-date" placeholder="mm/dd/yy" required></label>
-                        <label>Cruise Line (If Applicable)<input type="text" name="cruiseLine" placeholder="ex. Carnival"></label>
+                        <label class="res-details"><p>Name*</p><input type="text" name="name" required></label>
+                        <label class="res-details"><p>Phone*</p><input type="tel" name="phone" placeholder="1+ 2345678900"></label>
+                        <label class="res-details"><p>Email*</p><input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="res-details"><p>Country</p><input type="text" name="countryName" ></label>
+                        <label class="res-details"><p>Start Date*</p><input type="date" name="start-date" placeholder="mm/dd/yy" required></label>
+                        <label class="res-details"><p>End Date*</p><input type="date" name="end-date" placeholder="mm/dd/yy" required></label>
+                        <label class="res-details"><p>Cruise Line (If Applicable)</p><input type="text" name="cruiseLine" placeholder="ex. Carnival"></label>
                 </fieldset>
     
                 <fieldset>
                     <legend>Rental Vehicles</legend>
-                    <div><h3>Scooters</h3></div>
+                    <div class="rental-reserve-head"><h3>Scooters</h3></div>
 
                         <div class="multi-rental">
-
-                            <label><h4>Honda Metro Scooter</h4>
-                                
-                                    <label><input type="radio" name="honda-metro" value="yes">Full Day ($30)</label>
-                                    <label><input type="radio" name="honda-metro" value="yes">Half Day ($20)</label>
+                            <div id="honda=metro">
+                            <h5>Honda Metro Scooter</h5>
+                                <label><input type="radio" name="honda-metro" value="yes">  Full Day ($30)</label>
+                                <label class="inner-label"><input type="radio" name="honda-metro" value="yes">  Half Day ($20)</label>
                                 
                                 <select name="quantity-honda-metro">
                                     <option value="0">Qty</option>
@@ -111,49 +110,84 @@
                                     <option value="4">4</option>
                                     <option value="5">5</option>
                                 </select>
-                            </label>
+                                </div>
+                          
                         
 
-                            <label><h4>Honda Dio Scooter</h4>
-                                
-                                    <label><input type="radio" name="honda-dio" value="yes">Full Day ($40)</label>
-                                    <label><input type="radio" name="honda-dio" value="yes">Half Day ($30)</label>
-                                
-                                <select name="quantity-honda-dio">
-                                    <option value="0">Qty</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                </select>
-                            </label>
+                            <div>
+                                <div id="honda-dio">
+                                    <h5>Honda Dio Scooter</h5>
+                                    
+                                    <label><input type="radio" name="honda-dio" value="yes">  Full Day ($40)</label>
+                                    <label class="inner-label"><input type="radio" name="honda-dio" value="yes">  Half Day ($30)</label>
+                                    
+                                    <select name="quantity-honda-dio">
+                                        <option value="0">Qty</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
 
-                            <label><h4>PCX150 Scooter</h4>
-                                
-                                    <label><input type="radio" name="honda-pcx150" value="yes">Full Day ($50)</label>
-                                    <label><input type="radio" name="honda-pcx150" value="yes">Half Day ($40)</label>
-                                
-                                <select name="quantity-honda-pcx150">
-                                    <option value="0">Qty</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                </select>
-                            </label>
+                            <div>
+                                <div id="honda-pcx150">
+                                    <h5>Honda PCX150 Scooter</h5>
+                                    
+                                    <label><input type="radio" name="honda-pcx150" value="yes">  Full Day ($50)</label>
+                                    <label class="inner-label"><input type="radio" name="honda-pcx150" value="yes">  Half Day ($40)</label>
+                                    
+                                    <select name="quantity-honda-pcx150">
+                                        <option value="0">Qty</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            
+                            </div>
+
                         </div>
             
-                    <div><h3>ATV Side-by-Side</h3></div>
+                            <div class="rental-reserve-head">
+                                <h3>ATV Side-by-Side</h3>
+                            </div>
+
+                        
+                            <div class="multi-rental">
+                                <div id="honda-pioneer">
+                                    <h5>Honda Pioneer ATV</h5>
+                                    
+                                        <label><input type="radio" name="honda-pioneer" value="yes">  Full Day ($70)</label>
+                                        <label class="inner-label"><input type="radio" name="honda-pioneer" value="yes">  Half Day ($50)</label>
+                                
+                                    <select name="quantity-honda-pioneer">
+                                        <option value="0">Qty</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            
+                            </div>
+
+                        <div class="rental-reserve-head"><h3>Jeeps</h3></div>
 
                         <div class="multi-rental">
-                            <label><h4>Honda Pioneer ATV</h4>
+                            <div id="jeep-wrangler-2">
+                        
+                                <h5>Jeep Wrangler-2 Door</h5>
                                 
-                                    <label><input type="radio" name="honda-pioneer" value="yes">Full Day ($70)</label>
-                                    <label><input type="radio" name="honda-pioneer" value="yes">Half Day ($50)</label>
-                            
-                                <select name="quantity-honda-pioneer">
+                                    <label><input type="radio" name="jeep-wrangler-2-door" value="yes">  Full Day ($85)</label>
+                                    <label class="inner-label"><input type="radio" name="jeep-wrangler-2-door" value="yes">  Half Day ($60)</label>
+                                
+                                <select name="quantity-jeep-wrangler-2-door">
                                     <option value="0">Qty</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -161,44 +195,29 @@
                                     <option value="4">4</option>
                                     <option value="5">5</option>
                                 </select>
-                            </label>
-                        </div>
-
-                    <div><h3>Jeeps</h3></div>
-
-                    <div class="multi-rental">
-                        <label>
-                            <h4>Jeep Wrangler-2 Door</h4>
-                            
-                                <label><input type="radio" name="jeep-wrangler-2-door" value="yes">Full Day ($85)</label>
-                                <label><input type="radio" name="jeep-wrangler-2-door" value="yes">Half Day ($60)</label>
-                            
-                            <select name="quantity-jeep-wrangler-2-door">
-                                <option value="0">Qty</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                            </select>
-                        </label>
-                    
-
-                    <label><h4>Jeep Wrangler-4 Door</h4>
+                            </div>
                         
-                        <label><input type="radio" name="jeep-wrangler-4-door" value="yes">Full Day ($100)</label>
-                        <label><input type="radio" name="jeep-wrangler-4-door" value="yes">Half Day ($70)</label>
                     
-                        <select name="quantity-jeep-wrangler-4-door">
-                            <option value="0">Qty</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </label>
-                    </div>
+
+                        <div>
+                            <div id="jeep-wrangler-4">
+                                <h5>Jeep Wrangler-4 Door</h5>
+                        
+                                <label><input type="radio" name="jeep-wrangler-4-door" value="yes">  Full Day ($100)</label>
+                                <label class="inner-label"><input type="radio" name="jeep-wrangler-4-door" value="yes">  Half Day ($70)</label>
+                            
+                                <select name="quantity-jeep-wrangler-4-door">
+                                    <option value="0">Qty</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                        </div>
+                    
+                     </div>
     
     
                 </fieldset>
@@ -240,7 +259,9 @@
                     <div>
                         <label><input type="checkbox" name="agree-terms" value="yes" required>  I have read and agree to rental terms and conditions.</label>
                     </div>
-                    <input type="submit" value="Submit Reservation Request">
+                    <div class="button-container"> 
+                        <input type="submit" value="Submit Reservation Request" id="res-request">
+                    </div>
                 </div>
                 
         </main>
@@ -253,7 +274,7 @@
                     <div id="horizontal-nav">
                         <a href="https://byui-webweaver.github.io/wdd230/scoots/index.html">Home </a><span>|</span>
                         <a href="https://byui-webweaver.github.io/wdd230/scoots/rentals.html">Rentals </a><span>|</span>
-                        <a href="">Reservations </a><span>|</span>
+                        <a href="https://byui-webweaver.github.io/wdd230/scoots/reservations.html">Reservations </a><span>|</span>
                         <a href="">Contact Us </a>
                     </div>
                     
