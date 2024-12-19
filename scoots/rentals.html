@@ -1,201 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scoots scooter rental options page</title>
-    <meta name="description" content="Scoot scooter rental options page">
+    <meta name="description" content="Scoots scooter rental options page">
     <meta name="author" content="Julie Eakins">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/smaller.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-   
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+
     <link rel="icon" type="image/png" sizes="16x16" href="scoots-fav-16x16.png">
     <meta property="og:title" content="Scoots scooter rental options page">
     <meta property="og:type" content="Website">
     <meta property="og:image" content="https://www.shutterstock.com/image-photo/cozumel-sign-city-600nw-2381823919.jpg">
     <meta property="og:url" content="https://byui-webweaver.github.io/wdd230/scoots/rentals.html">
 </head>
+
 <body>
-   
+
     <header>
         <div id="content">
 
-             <div id="hero-box">
+            <div id="hero-box">
                 <div id="hero-img">
-                    
-                     <img id="hero-image" src="images/jeep-beach-hero.webp" alt="Two men in a Jeep by the beach">   
-                    
+
+                    <img id="hero-image" src="images/jeep-beach-hero.webp" alt="Two men in a Jeep by the beach">
+
                 </div>
 
                 <div id="header-navigation">
 
                     <div class="header-left">
-                        <img id="logo" src="images/scoots-logo-black.webp" alt="Scoots logo"> 
-                        <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">≡</button>  
-                        <button id="close-menu" aria-label="Close menu" style="display: none;">X</button> 
+                        <img id="logo" src="images/scoots-logo-black.webp" alt="Scoots logo">
+                        <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">≡</button>
+                        <button id="close-menu" aria-label="Close menu" style="display: none;">X</button>
 
                         <div class="nav-container">
-                            <nav class="navigation"> 
-                                
+                            <nav class="navigation">
+
                                 <ul class="menu">
-                                    
-                                    <li><a href="https://byui-webweaver.github.io/wdd230/scoots/index.html" class="nav-link active">Home</a></li>
-                                    <li class="active"><a href="https://byui-webweaver.github.io/wdd230/scoots/rentals.html" class="nav-link">Rentals</a></li>
-                                    <li><a href="https://byui-webweaver.github.io/wdd230/scoots/reservations.html" class="nav-link">Reservations</a></li>
+
+                                    <li><a href="https://byui-webweaver.github.io/wdd230/scoots/index.html"
+                                            class="nav-link active">Home</a></li>
+                                    <li class="active"><a
+                                            href="https://byui-webweaver.github.io/wdd230/scoots/rentals.html"
+                                            class="nav-link">Rentals</a></li>
+                                    <li><a href="https://byui-webweaver.github.io/wdd230/scoots/reservations.html"
+                                            class="nav-link">Reservations</a></li>
                                     <li><a href="/scoots/contact.html" class="nav-link">Contact</a></li>
-                                </ul> 
+                                </ul>
                             </nav>
                         </div>
 
                     </div>
                 </div>
-               
 
-                     <div class="social-right">
-                        <div>
-                            <a href="https://facebook.com" class="soc-link"  title="Facebook">
-                                <img src="images/vectorwiki-facebook-icon-black-logo.webp" alt="Facebook" width="24" height="24">
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://instagram.com" class="soc-link" title="Instagram">
-                                <img src="images/instagram-icon.webp" alt="Instagram" width="24" height="24">
-                            </a>
-                        </div>
+
+                <div class="social-right">
+                    <div>
+                        <a href="https://facebook.com" class="soc-link" title="Facebook">
+                            <img src="images/vectorwiki-facebook-icon-black-logo.webp" alt="Facebook" width="24"
+                                height="24">
+                        </a>
                     </div>
-
-                    <div id= "hero-msg-2">
-                        <h1 id="home-title" class="home-title">Rentals</h1>
-                   </div>
-             </div>    
-            </div>  
-
-        </header>
-
-        <main class="rental-main">
-
-            <div class="rental-options-page-2">
-                <h1 id="rental-head-2">Rental Options <span id="see-pricing-below">*(See pricing below)</span></h1>
-                <div id="cards-rentals"></div>
-            </div>
-
-            <div id="service-pricing">
-
-              
-
-                <div class="container">
-    
-                    <table>
-                
-                        <thead>
-                            <tr>
-                                <th colspan="5" scope="colgroup" id="rental-pricing-head">Rental Pricing</th>
-                            </tr>
-            
-                            <tr id="res-walkin-head">
-                                <th colspan="1" scope="col"></th>
-                                <th colspan="2" scope="col" class="price-list">Reservation</th>
-                                <th colspan="2" scope="col" class="price-list">Walk-In</th>
-                            </tr>
-
-                            <tr id="rental-type">
-                                <th scope="col" class="rental-type">Rental Type</th>
-                                <th scope="col" class="price-amount">Half Day<br>(3 hrs)</th>
-                                <th scope="col" class="price-amount">Full Day</th>
-                                <th scope="col" class="price-amount">Half Day<br>(3 hrs)</th>
-                                <th scope="col" class="price-amount">Full Day</th>
-
-                            </tr>
-                            
-                        </thead>
-            
-                        <tbody id="rental-body">
-                        
-                        </tbody>
-                    </table>
-                
+                    <div>
+                        <a href="https://instagram.com" class="soc-link" title="Instagram">
+                            <img src="images/instagram-icon.webp" alt="Instagram" width="24" height="24">
+                        </a>
+                    </div>
                 </div>
 
+                <div id="hero-msg-2">
+                    <h1 id="home-title" class="home-title">Rentals</h1>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="rental-main">
+
+        <div class="rental-options-page-2">
+            <h1 id="rental-head-2">Rental Options <span id="see-pricing-below">*(See pricing below)</span></h1>
+            <div id="cards-rentals"></div>
+        </div>
+
+        <div id="service-pricing">
+
+            <div class="container">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th colspan="5" scope="colgroup" id="rental-pricing-head">Rental Pricing</th>
+                        </tr>
+
+                        <tr id="res-walkin-head">
+                            <th colspan="1" scope="col"></th>
+                            <th colspan="2" scope="col" class="price-list">Reservation</th>
+                            <th colspan="2" scope="col" class="price-list">Walk-In</th>
+                        </tr>
+
+                        <tr id="rental-type">
+                            <th scope="col" class="rental-type">Rental Type</th>
+                            <th scope="col" class="price-amount">Half Day<br>(3 hrs)</th>
+                            <th scope="col" class="price-amount">Full Day</th>
+                            <th scope="col" class="price-amount">Half Day<br>(3 hrs)</th>
+                            <th scope="col" class="price-amount">Full Day</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="rental-body">
+
+                    </tbody>
+                </table>
+
             </div>
 
-            <div class="button-box2">
-                <a href="https://byui-webweaver.github.io/wdd230/scoots/reservations.html">Reserve Your Vehicle Today</a>
-            </div>
-                
-                    
-                    
+        </div>
+
+        <div class="button-box2">
+            <a href="https://byui-webweaver.github.io/wdd230/scoots/reservations.html">Reserve Your Vehicle Today</a>
+        </div>
 
 
-        </main>
 
-        <footer>
-            <div id="left-footer">
-                <img src="images/scoots-white-scooter.png" alt="Scoots logo image in white">
-                <h2>Scoots Rentals</h2>
-                <div class="nav-footer">
-                    <div id="horizontal-nav">
-                        <a href="https://byui-webweaver.github.io/wdd230/scoots/index.html">Home </a><span>|</span>
-                        <a href="https://byui-webweaver.github.io/wdd230/scoots/rentals.html">Rentals </a><span>|</span>
-                        <a href="https://byui-webweaver.github.io/wdd230/scoots/reservations.html">Reservations </a><span>|</span>
-                        <a href="/scoots/contact.html">Contact Us </a>
-                    </div>
-                    
+
+
+    </main>
+
+    <footer>
+        <div id="left-footer">
+            <img src="images/scoots-white-scooter.png" alt="Scoots logo image in white">
+            <h2>Scoots Rentals</h2>
+            <div class="nav-footer">
+                <nav id="horizontal-nav">
+                    <a href="https://byui-webweaver.github.io/wdd230/scoots/index.html">Home </a><span>|</span>
+                    <a href="https://byui-webweaver.github.io/wdd230/scoots/rentals.html">Rentals </a><span>|</span>
+                    <a href="https://byui-webweaver.github.io/wdd230/scoots/reservations.html">Reservations
+                    </a><span>|</span>
+                    <a href="https://byui-webweaver.github.io/wdd230/scoots/contact.html">Contact Us </a>
+                </nav>
+
                 <p>Scoots Rentals ©2024</p>
-                
+
+            </div>
+        </div>
+
+        <div id="middle-footer">
+            <div class="footer-location">
+                <div><img src="images/location-pin-white.png" alt="White Location Pin"></div>
+                <div class="footer-contact">
+                    <p>Playa del Carmen-Cozumel Ferry Dock Location</p>
+                    <p>5a Av. Nte., Quintana Roo</p>
                 </div>
             </div>
+            <div class="footer-location">
+                <div><img src="images/location-pin-white.png" alt="White Location Pin"></div>
+                <div class="footer-contact">
+                    <p>Terminal Puerta Maya Location</p>
+                    <p>5a Av. Nte., Quintana Roo</p>
+                </div>
+            </div>
+            <div class="footer-location">
+                <div><img src="images/phone-icon-white.png" alt="Phone icon white"></div>
+                <div class="footer-contact">
+                    <p>+52 987 872 9605</p>
+                </div>
+            </div>
+        </div>
 
-            <div id="middle-footer">
-                    <div class="footer-location">
-                        <div><img src="images/location-pin-white.png" alt="White Location Pin"></div>
-                        <div class="footer-contact">
-                            <p>Playa del Carmen-Cozumel Ferry Dock Location</p>
-                            <p>5a Av. Nte., Quintana Roo</p>
-                        </div>
-                    </div>
-                    <div class="footer-location">
-                        <div><img src="images/location-pin-white.png" alt="White Location Pin"></div>
-                        <div class="footer-contact">
-                            <p>Terminal Puerta Maya Location</p>
-                            <p>5a Av. Nte., Quintana Roo</p>
-                        </div>
-                    </div>
-                    <div class="footer-location">
-                        <div><img src="images/phone-icon-white.png" alt="Phone icon white"></div>
-                        <div class="footer-contact">
-                            <p>+52 987 872 9605</p>
-                        </div>
-                    </div>
+        <div id="right-footer">
+            <div id="about-footer">
+                <h4>About Scoots...</h4>
+                <p>We offer rentals of scooters, jeeps, or ATVs to let you embrace the fun, carefree spirit of Cozumel.
+                </p>
             </div>
 
-            <div id="right-footer">
-               <div id="about-footer"> 
-                    <h4>About Scoots...</h4>
-                    <p>We offer rentals of scooters, jeeps, or ATVs to let you embrace the fun, carefree spirit of Cozumel.</p>
-               </div>
-
-               <div id="social-icons-footer">
-                    <a href="https://instagram.com" title="Instagram">
-                        <img src="images/instagram-icon-white.png" alt="Instagram icon">
-                    </a>
-                    <a href="https://facebook.com" title="Facebook">
-                        <img src="images/facebook-icon-white.png" alt="Facebook icon">
-                    </a>
-               </div>
-
+            <div id="social-icons-footer">
+                <a href="https://instagram.com" title="Instagram">
+                    <img src="images/instagram-icon-white.png" alt="Instagram icon">
+                </a>
+                <a href="https://facebook.com" title="Facebook">
+                    <img src="images/facebook-icon-white.png" alt="Facebook icon">
+                </a>
             </div>
 
-        </footer>
+        </div>
 
-   <script src="scripts/hamburger.js"></script>
-   <script src="scripts/rentals.js"></script>
-   <script src="scripts/table.js"></script>
-    
-    
+    </footer>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/rentals.js"></script>
+    <script src="scripts/table.js"></script>
+
+
 </body>
 
 </html>
