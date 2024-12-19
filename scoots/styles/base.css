@@ -769,9 +769,10 @@ footer {
 }
 
 .rental-form select {
-    width: 70px;
-    font-size: 1em;
+    display: block;
+    width: 60px;
     margin-top: 10px;
+    padding: 5px 0;
 }
 
 .rental-form input[type="checkbox"]{
