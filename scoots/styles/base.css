@@ -18,7 +18,7 @@ header {
 #weather-banner {
     position: relative;
     display: flex;
-    background-color: #00c3d8;
+    background-color: #037a87;
     width: 100%;
     justify-content: center;
     align-items: center;   
@@ -121,7 +121,8 @@ header {
 }
 
 nav .active a {
-    color: #028e9e;
+    color: #e1a715;
+    font-weight: 600;
 }
 
 .navigation {
@@ -153,7 +154,8 @@ nav .active a {
 }
 
 .menu a:hover {
-    color: #d3cbc5;
+    color: white;
+    font-weight: 600;
 }
 
 .social-right {
@@ -180,7 +182,7 @@ nav .active a {
 }
 
 .reserve-today  {
-    background-color: #00c3d8;
+    background-color: #037a87;
     color: white;
     padding: 20px 40px;
     border-radius: 8px;
@@ -189,7 +191,8 @@ nav .active a {
 }
 
 .reserve-today:hover {
-    color: #0c0f09;
+    color: #037a87;
+    background-color: #d3cbc5;
     box-shadow: 5px 5px 10px rgb(12, 15, 9, .8);
 }
 
@@ -209,7 +212,7 @@ nav .active a {
     color: white;
     font-size: 1.6rem;
     font-weight: 600;
-    background-color: #00c3d8;
+    background-color: #037a87;
     opacity: .9;
     padding: 0 40px;
     border-radius: 10px;
@@ -250,7 +253,7 @@ nav .active a {
     font-size: 3em;
     font-weight: 200;
     margin: 0 0 20px;
-    color: #00c3d8;
+    color: #037a87;
 }
 
 .about-us p {
@@ -274,7 +277,7 @@ nav .active a {
     font-size: 3em;
     margin: 0 0 20px;
     padding: 30px;
-    background-color: #00c3d8;
+    background-color: #037a87;
     color: white;
     border-radius: 8px 8px 0px 0px;
     grid-column: 1 / 4;
@@ -291,12 +294,12 @@ nav .active a {
     text-align: center;
     padding: 20px 20px 0 20px;
     font-size: 2em;
-    color: #00c3d8;
+    color: #037a87;
     
 }
 .rental-card ul {
     padding: 10px 40px 20px;
-    color: #00c3d8;
+    color: #037a87;
 }
 .rental-card li {
     padding-bottom: 5px;
@@ -325,7 +328,7 @@ nav .active a {
 }
 
 .button-box-options {
-    background-color: #00c3d8;
+    background-color: #037a87;
     padding: 20px;
     color: white;
     grid-column: 2 / 3;
@@ -342,7 +345,7 @@ nav .active a {
 }
 
 .button-box-options a:hover {
-    color: #0c0f09;
+    color: #f3e7cb;
 }
 
 /* Rentals Page Styling */
@@ -378,7 +381,7 @@ nav .active a {
     text-align: center;
     padding: 20px 20px 0 20px;
     font-size: 2em;
-    color: #00c3d8;
+    color: #037a87;
 }
 
 
@@ -391,7 +394,7 @@ nav .active a {
 
 .rental-card-page-2 ul {
     padding: 10px 40px 20px;
-    color: #00c3d8;
+    color: #037a87;
 }
 
 .rental-card-page-2 li {
@@ -404,7 +407,7 @@ nav .active a {
     justify-content: center;
 }
  #rental-pricing-head {
-    background-color: #00c3d8;
+    background-color: #037a87;
     color: white;
     padding: 20px;
     font-size: 2em;
@@ -442,7 +445,7 @@ nav .active a {
 }
 
 .button-box2 a {
-    background-color: #00c3d8;
+    background-color: #037a87;
     color: white;
     text-decoration: none;
     padding: 20px;
@@ -470,7 +473,7 @@ nav .active a {
 .map-containers h1 {
     grid-column: 1 / 3;
     text-align: center;
-    color: #00c3d8;
+    color: #037a87;
     padding-top: 30px;
  
 }
@@ -536,7 +539,7 @@ nav .active a {
 #cur-conditions img {
     position: absolute;
     top: -25px;
-    background-color: #00c3d8;
+    background-color: #037a87;
     margin: 15px;
    
 }
@@ -547,7 +550,7 @@ nav .active a {
 }
 
 .line {
-   border-top: 2px solid #00c3d8;
+   border-top: 2px solid #037a87;
    margin: 30px; 
 
 }
@@ -555,7 +558,7 @@ nav .active a {
 
 /*Footer Styles*/
 footer {
-    background-color: #00c3d8;
+    background-color: #037a87;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
@@ -690,7 +693,7 @@ footer {
 }
 
 #reservation-header {
-    background-color: #00c3d8;
+    background-color: #037a87;
     color: white;
     text-align: center;
     padding: 23px;
@@ -829,7 +832,7 @@ footer {
 
 
 .button-container input[type="submit"] {
-    background-color: #00c3d8;
+    background-color: #037a87;
     color: white;
     padding: 30px;
     border-radius: 8px;
@@ -845,7 +848,7 @@ footer {
 
  /* Thank you page styling */
  #header-thank-you {
-    background-color: #00c3d8;
+    background-color: #037a87;
  }
 
 #content-thank-you {
@@ -882,14 +885,14 @@ footer {
 }
 
 #contact-info h1 {
-    border-bottom: 1.5px solid #028e9e;
+    border-bottom: 1.5px solid #037a87;
 }
 
 #contact-info {
     grid-column: 1 / 2;
     align-self: center;
     margin: 30px;
-    color: #028e9e;
+    color: #037a87;
 }
 
 #contact-info p {
@@ -911,7 +914,7 @@ footer {
 
  #contact-request {
     padding: 1.2rem 3rem;
-    background-color: #00c3d8;
+    background-color: #037a87;
     border: none;
     color: white;
     border-radius: 8px;
