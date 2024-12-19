@@ -106,7 +106,9 @@
 
 
     /* Rental Page styling smaller sreen */
-    #hero-msg-2 {
+    #hero-msg-2,
+    #hero-msg-3,
+    #hero-msg-4 {
         display: none;
     }
     #rental-head,
@@ -177,9 +179,6 @@
     }
 
     /* Reservations Page Styling for Mobile */
-    #hero-msg-3 {
-        display: none;
-    }
 
     .reservations-main {
         padding: 0;

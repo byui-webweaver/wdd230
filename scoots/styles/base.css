@@ -87,14 +87,16 @@ header {
     font-size: 1.5em;
    
 }
-
-
+#hero-img {
+    width: 100%;
+}
 #hero-box{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 #hero-image {
     width: 100%;
@@ -148,7 +150,7 @@ nav .active a {
 }
 
 .menu a:hover {
-    color: white;
+    color: #06c1d6;
     font-weight: 600;
 }
 
@@ -197,7 +199,8 @@ nav .active a {
 
 #hero-msg,
 #hero-msg-2,
-#hero-msg-3 {
+#hero-msg-3,
+#hero-msg-4 {
     position: absolute;
     top: 35%;
     left: 50%;
@@ -449,6 +452,7 @@ nav .active a {
 }
 
 .button-box2 a:hover {
+    background-color: #d3cbc5;
     color: #0c0f09;
     box-shadow: 0 3px 5px #0c0f09;
 }
@@ -709,7 +713,7 @@ footer {
 }
 
 .rental-form legend {
-    color: white;
+    color: #0c0f09;
     font-size: 2rem;
     font-weight: 600;
     padding: 0 .5rem;
@@ -833,6 +837,7 @@ footer {
 
 .button-container input[type="submit"]:hover {
     color: #0c0f09;
+    background-color: #d3cbc5;
     cursor: pointer; 
     box-shadow: 0 3px 5px #0c0f09;   
 }
@@ -914,6 +919,7 @@ footer {
 
 #contact-request:hover {
     color: #0c0f09;
+    background-color: white;
     box-shadow: 5px 5px 10px 0 rgb(12, 15, 9, .9);
 }
 
