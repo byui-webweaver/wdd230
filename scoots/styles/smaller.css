@@ -90,7 +90,7 @@
 
     .about-us {
         padding: 10px 0;
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
     .rental-options {
@@ -108,6 +108,9 @@
     }
 
     /* Rental Page styling smaller sreen */
+    #hero-msg-2 {
+        display: none;
+    }
     #rental-head,
     #rental-head-2 {
         font-size: 2em;
@@ -124,11 +127,6 @@
 
     #agreements-list {
         padding: 20px 0 30px 40px;
-    }
-
-    #service-pricing {
-        display: flex;
-        flex-direction: column;
     }
 
     #res-walkin-head th {
@@ -165,9 +163,10 @@
     footer {
         display: block;
         padding-bottom: 70px;
+        margin: 20px;
     }
     #social-icons-footer {
-        left: 30px;
+        left: 50px;
         margin-top: 15px;
     }
 
@@ -178,6 +177,54 @@
     nav .active a {
         color: #0c0f09;
     }
+
+    /* Reservations Page Styling for Mobile */
+    #hero-msg-3 {
+        display: none;
+    }
+
+    .reservations-main {
+        padding: 0;
+    }
+
+    .res-details {
+        padding: 10px;
+    }
+
+    /* contact us styling for mobile */
+    .contact-main {
+        margin: 20px 20px;
+    }
+
+    #contact-us {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+     
+    #contact-info {
+        margin-top: 0;
+        text-align: center;
+    }
+    .button-container-contact {
+        display: flex;
+        justify-content: center;
+    }
+
+    .map-containers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #location-1,
+    #location-2 {
+        margin: 20px;
+    }
+
+    .iframe-container {
+        height: 300px;
+    }
+
 
 }
     

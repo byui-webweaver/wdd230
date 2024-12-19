@@ -174,22 +174,23 @@ nav .active a {
 }
 
 .button-box {
-    position: absolute;
-    bottom: 40%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #00c3d8;
-    z-index: 10;
-    padding: 15px 30px;
-    border-radius: 8px;
-    border: solid 1px #0c0f09;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.button-box a {
-    text-decoration: none;
-    font-size: 1rem;
+.reserve-today  {
+    background-color: #00c3d8;
     color: white;
-    padding: 5px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.reserve-today:hover {
+    color: #0c0f09;
+    box-shadow: 5px 5px 10px rgb(12, 15, 9, .8);
 }
 
 .button-box a:hover {
@@ -240,7 +241,7 @@ nav .active a {
     margin: 0 auto;
     width: 80%;
     max-width: 1000px;
-    padding: 40px 0 ;
+    padding: 40px 0 10px;
 }
 
 #introduction {
@@ -437,7 +438,7 @@ nav .active a {
 
 .button-box2 {
     text-align: center;
-    margin: 50px;
+    margin: 20px 0 50px;
 }
 
 .button-box2 a {
@@ -446,11 +447,12 @@ nav .active a {
     text-decoration: none;
     padding: 20px;
     border-radius: 8px;  
-    box-shadow: 0 3px 5px #0c0f09;
+   
 }
 
 .button-box2 a:hover {
     color: #0c0f09;
+    box-shadow: 0 3px 5px #0c0f09;
 }
 
 /* Map Styling */
@@ -684,7 +686,7 @@ footer {
     padding: 30px 0; 
     width: 100%;
     border-radius: 8px 8px 0 0;
-    background-color: white;
+    
 }
 
 #reservation-header {
