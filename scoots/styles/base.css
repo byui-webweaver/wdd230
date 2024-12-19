@@ -224,10 +224,6 @@ nav .active a {
     top: 50%;
 }
 
-#hero-msg-3 h1 {
-    font-size: 1.5em;
-    font-weight: 600;
-}
 
 /*Main area */
 
@@ -355,7 +351,6 @@ nav .active a {
 .rental-options-page-2 {
     background-color: #d3cbc5;
     border-radius: 8px 8px 0 0;
-    border-radius: 8px;
     padding-bottom: 20px;
     margin-top: 40px;   
 }
@@ -934,7 +929,7 @@ footer {
     padding: 8px 0;
 }
 
-.contact-input input[type="text"],
+.contact-input input[type="text"]
 .contact-input input[type="email"],
 #comment-contact {
 background-color: white ;
