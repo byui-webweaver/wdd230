@@ -344,8 +344,13 @@ nav .active a {
     font-size: 1.2em;
 }
 
+.button-box-options:hover {
+    background-color: white;
+    color: #037a87;
+}
+
 .button-box-options a:hover {
-    color: #f3e7cb;
+    color: #037a87;
 }
 
 /* Rentals Page Styling */
