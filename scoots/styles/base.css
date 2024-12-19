@@ -943,5 +943,13 @@ appearance: none;
     margin-top: 10px;
 }
 
+.attribution-link {
+    text-decoration: none;
+    color: white;
+}
+
+.attribution-link:hover {
+    color: #e1a715;
+}
 
 
