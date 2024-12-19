@@ -268,7 +268,7 @@ nav .active a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 8px;
-   
+    padding-bottom: 50px;
 }
 
 #rental-head,
@@ -328,28 +328,24 @@ nav .active a {
 }
 
 .button-box-options {
+    grid-column: 1 / 4;
+    margin-top: 30px;
+    justify-self: center;
+}
+
+.see-all-options  {
     background-color: #037a87;
     padding: 20px;
-    color: white;
-    grid-column: 2 / 3;
-    margin: 20px 40px 40px 40px;
     border-radius: 8px;
     box-shadow: 0 1px 3px #0c0f09;
     text-align: center;
-}
-
-.button-box-options a {
     color: white;
     text-decoration: none;
     font-size: 1.2em;
 }
 
-.button-box-options:hover {
+.see-all-options:hover {
     background-color: white;
-    color: #037a87;
-}
-
-.button-box-options a:hover {
     color: #037a87;
 }
 

@@ -92,7 +92,11 @@
 
     .rental-options {
         display: block;
-        padding-bottom: 20px;
+        padding-bottom: 60px;
+    }
+
+    .button-box-options  {
+        margin-top: 50px;
     }
 
     #scooter-card,
@@ -100,9 +104,6 @@
         margin: 20px;
     }
 
-    .button-box-options {
-        margin: 10px 20px;
-    }
 
     /* Rental Page styling smaller sreen */
     #hero-msg-2 {
