@@ -19,15 +19,11 @@ header {
     position: relative;
     display: flex;
     background-color: #037a87;
-    width: 100%;
-    justify-content: center;
-    align-items: center;   
+    width: 100%;  
 }
 
 .banner-content {
     display: flex;
-    align-items: center;
-    text-align: center;
     padding: 10px;
     color: white;
     flex-grow: 1;
@@ -256,8 +252,7 @@ nav .active a {
 }
 
 .rental-options {
-    background-color: #d3cbc5;
-    
+    background-color: #d3cbc5;  
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 8px;
@@ -929,7 +924,7 @@ footer {
     padding: 8px 0;
 }
 
-.contact-input input[type="text"]
+.contact-input input[type="text"],
 .contact-input input[type="email"],
 #comment-contact {
 background-color: white ;
