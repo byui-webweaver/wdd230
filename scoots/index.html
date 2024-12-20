@@ -36,8 +36,13 @@
 
             <div id="hero-box">
                 <div id="hero-img">
+                    <picture>
+                        <source srcset="images/scoots-hero-home-small.webp" media="(max-width: 400px)">
+                        <source srcset="images/scoots-hero-home-medium.webp" media="(max-width: 800px)">
+                        <img id="hero-image" src="images/scoots-hero-home-large.webp" alt="People riding scooters on the beach" width="1200" height="600">   
+                    </picture>
 
-                    <img id="hero-image" src="images/scoots-hero-image.webp" alt="People riding scooters on the beach">
+                    
 
                 </div>
 
@@ -128,7 +133,7 @@
             <div class="rental-card" id="scooter-card">
                 <h2>Scooters</h2>
                 <img src="images/2019-Honda-Metropolitan2.webp"
-                    alt="Honda Metropolitan gray and black two seater scooter">
+                    alt="Honda Metropolitan gray and black two seater scooter" loading="lazy">
                 <ul>
                     <li>Honda Metropolitan: 1 person</li>
                     <li>Honda Dio: 2 person</li>
@@ -138,7 +143,7 @@
 
             <div class="rental-card" id="atv-card">
                 <h2>Side-by-Side ATVs</h2>
-                <img src="images/honda-pioneer-1000.webp" alt="Honda Pioneer red and black 4 person side by side atv">
+                <img src="images/honda-pioneer-1000.webp" alt="Honda Pioneer red and black 4 person side by side atv" loading="lazy">
                 <ul>
                     <li>Honda Pioneer 100: 4 person</li>
 
@@ -147,7 +152,7 @@
 
             <div class="rental-card" id="jeep-card">
                 <h2>Jeeps</h2>
-                <img src="images/jeep-wrangler-2.webp" alt="White 2 door Jeep Wrangler">
+                <img src="images/jeep-wrangler-2.webp" alt="White 2 door Jeep Wrangler" loading="lazy">
                 <ul>
                     <li>Jeep Wrangler 2-door: 4 person</li>
                     <li>Jeep Wrangler 4-door: 5 person</li>

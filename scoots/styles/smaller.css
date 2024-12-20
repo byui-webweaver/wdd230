@@ -1,8 +1,8 @@
 /* Media query for mobile version */
 @media (max-width: 798px) {
-    .banner-content p {
-        font-size: .9rem;
-        text-align: start;
+    .banner-content {
+        justify-self: flex-start;
+        font-size: .9rem
     }
 
     .header-left img {
@@ -28,11 +28,11 @@
     .menu {
         display: block;
         padding: 50px 10px 20px ;
-        background-color: #00c3d8;  
+        background-color: #037a87;  
     }
 
     .menu li  {
-        padding: 3px;  
+        padding: 5px 0;
     }
 
     .menu a {
