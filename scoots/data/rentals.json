@@ -12,7 +12,7 @@
             "image_url": "images/2019-Honda-Metropolitan2.webp",
             "image_alt": "Honda Metropolitan gray and black two seater scooter",
             "image_width": "500",
-            "image_height": "400"
+            "image_height": "auto"
         },
         {
             "type": "Scooter",

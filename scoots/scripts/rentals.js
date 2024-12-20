@@ -21,7 +21,7 @@ const displayRentals = (rentals) => {
        //Set the inner HTML with detail options
        rentalCard.innerHTML = `
        <h2>${rental.type}</h2>
-       <img src="${rental.image_url}" alt="${rental.image_alt}" loading="lazy" width="${rental.image_width}" height="${rental.image_height}"/>
+       <img src="${rental.image_url}" alt="${rental.image_alt}" width="${rental.image_width}" height="${rental.image_height}"/>
         <ul>
             <li>${rental.make}: ${rental.model}</li>
             <li> Max-Persons: ${rental.max_persons}</li>
