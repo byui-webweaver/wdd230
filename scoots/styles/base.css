@@ -175,6 +175,11 @@ nav .active a {
     opacity: .6;
 }
 
+.soc-link img {
+    width: 25px;
+    height: 25px;
+}
+
 .button-box {
     display: flex;
     justify-content: center;
