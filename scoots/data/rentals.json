@@ -11,8 +11,8 @@
             "full_day_walkin": "$35",
             "image_url": "images/2019-Honda-Metropolitan2.webp",
             "image_alt": "Honda Metropolitan gray and black two seater scooter",
-            "image-width": "500",
-            "image-height": "400"
+            "image_width": "500",
+            "image_height": "400"
         },
         {
             "type": "Scooter",
@@ -25,8 +25,8 @@
             "full_day_walkin": "$45",
             "image_url": "images/honda-dio.webp",
             "image_alt": "Honda Dio black two seater scooter",
-            "image-width": "500",
-            "image-height": "352"
+            "image_width": "500",
+            "image_height": "352"
         },
         {
             "type": "Scooter",
@@ -39,8 +39,8 @@
             "full_day_walkin": "$55",
             "image_url": "images/honda-pcx150.webp",
             "image_alt": "Honda PCX150 small black motorbike",
-            "image-width": "500",
-            "image-height": "348"
+            "image_width": "500",
+            "image_height": "348"
         },
         {
             "type": "Side By Side ATV",
@@ -53,8 +53,8 @@
             "full_day_walkin": "$80",
             "image_url": "images/honda-pioneer-1000.webp",
             "image_alt": "Honda Pioneer 1000 red and black 4 person atv",
-            "image-width": "500",
-            "image-height": "400"
+            "image_width": "500",
+            "image_height": "400"
         },
         {
             "type": "Jeep",
@@ -67,8 +67,8 @@
             "full_day_walkin": "$90",
             "image_url": "images/jeep-wrangler-2.webp",
             "image_alt": "White 2 door Jeep Wrangler",
-            "image-width": "500",
-            "image-height": "400"
+            "image_width": "500",
+            "image_height": "400"
         },
         {
             "type": "Jeep",
@@ -81,8 +81,8 @@
             "full_day_walkin": "$125",
             "image_url": "images/jeep-wrangler-4.webp",
             "image_alt": "White 4 door Jees Wrangler",
-            "image-width": "500",
-            "image-height": "325" 
+            "image_width": "500",
+            "image_height": "325" 
         }
     ]
 }
