@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="styles/base.css" as="style">
+    
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Quicksand:wght@300..700&display=swap"
         rel="stylesheet">
 
@@ -29,8 +31,13 @@
 
             <div id="hero-box">
                 <div id="hero-img">
+                    <picture>
+                        <source srcset="images/scoots-hero-rentals-small.webp" media="(max-width: 400px)">
+                        <source srcset="images/scoots-hero-rentals-medium.webp" media="(max-width: 800px)">
+                        <img id="hero-image" src="images/scoots-hero-rentals-large.webp" alt="Two men on a jeep at the beach" width="1200" height="600">   
+                    </picture>
 
-                    <img id="hero-image" src="images/jeep-beach-hero.webp" alt="Two men in a Jeep by the beach">
+                    
 
                 </div>
 
@@ -200,8 +207,8 @@
     </footer>
 
     <script src="scripts/hamburger.js" defer></script>
-    <script src="scripts/rentals.js"></script>
-    <script src="scripts/table.js"></script>
+    <script src="scripts/rentals.js" defer></script>
+    
 
 
 </body>
