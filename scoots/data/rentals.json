@@ -26,7 +26,7 @@
             "image_url": "images/honda-dio.webp",
             "image_alt": "Honda Dio black two seater scooter",
             "image_width": "500",
-            "image_height": "352"
+            "image_height": "auto"
         },
         {
             "type": "Scooter",
@@ -40,7 +40,7 @@
             "image_url": "images/honda-pcx150.webp",
             "image_alt": "Honda PCX150 small black motorbike",
             "image_width": "500",
-            "image_height": "348"
+            "image_height": "auto"
         },
         {
             "type": "Side By Side ATV",
@@ -82,7 +82,7 @@
             "image_url": "images/jeep-wrangler-4.webp",
             "image_alt": "White 4 door Jees Wrangler",
             "image_width": "500",
-            "image_height": "325" 
+            "image_height": "auto" 
         }
     ]
 }
